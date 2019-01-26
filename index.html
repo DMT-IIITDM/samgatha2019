@@ -1,29 +1,73 @@
 <!DOCTYPE html>
-<!-- saved from url=(0050)https://yogavicky.github.io/Resume-Yoga.github.io/ -->
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
 
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
 
-    <!-- Bootstrap core CSS -->
+  <!-- Bootstrap core CSS -->
 
-    <!-- Custom fonts for this template -->
-    <!-- <link href="./css" rel="stylesheet"> -->
-    <!-- <link href="./font-awesome.min(1).css" rel="stylesheet"> -->
-    <!-- <link href="./devicons.min.css" rel="stylesheet"> -->
-    <!-- <link href="./simple-line-icons.css" rel="stylesheet"> -->
-    <!-- <link rel="stylesheet" href="./font-awesome.min(2).css"> -->
+  <!-- Custom fonts for this template -->
+  <!-- <link href="./css" rel="stylesheet"> -->
+  <!-- <link href="./font-awesome.min(1).css" rel="stylesheet"> -->
+  <!-- <link href="./devicons.min.css" rel="stylesheet"> -->
+  <!-- <link href="./simple-line-icons.css" rel="stylesheet"> -->
+  <!-- <link rel="stylesheet" href="./font-awesome.min(2).css"> -->
 
-    <!-- Custom styles for this template -->
-    <link href="./styles.css" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="./styles.css" rel="stylesheet">
 
-  </head>
+</head>
 
 
 
 <body>
-<div class="circle-ripple"></div>
-<div class="logo"><img src="Samgatha Logo.png"></div>
+  <div class="circle-ripple"></div>
+  <div class="logo"><img src="Samgatha Logo.png"></div>
+  <nav class="top-right open">
+    <a class="disc l1">
+      <div>Messages</div>
+    </a>
+    <a class="disc l2">
+      <div>Photos</div>
+    </a>
+    <a class="disc l3">
+      <div>Profile</div>
+    </a>
+    <a class="disc l4">
+      <div>Likes</div>
+    </a>
+    <a class="disc l5 toggle">
+      Menu
+    </a>
+  </nav>
+  <script type="text/javascript">
+    toggle = document.querySelectorAll(".toggle")[0];
+    nav = document.querySelectorAll("nav")[0];
+    toggle_open_text = "Menu";
+    toggle_close_text = "Close";
+
+    toggle.addEventListener(
+      "click",
+      function () {
+        nav.classList.toggle("open");
+
+        if (nav.classList.contains("open")) {
+          toggle.innerHTML = toggle_close_text;
+        } else {
+          toggle.innerHTML = toggle_open_text;
+        }
+      },
+      false
+    );
+
+    setTimeout(function () {
+      nav.classList.toggle("open");
+    }, 800);
+  </script>
 </body>
+
+</html>
