@@ -193,3 +193,48 @@ h2{
     font-family: mynav;
     font-size: 6em;
 }
+.m1 img{
+    width: 80%;
+    margin-left: 95px;
+    margin-top: 100px;
+  
+}
+.m2 img{
+  width:85%;
+}
+.li1 img{
+  width: 100%;
+
+}
+.li2{
+
+}
+.li3{
+
+}
+.q1{
+  height: 600px;
+}
+.q1 img{
+  width: 60%;
+  height: auto;
+  margin-top: 1rem;
+  position: absolute;
+  right: 5px;
+  top:20%;
+  
+}
+.q2 img{
+  width: 60%;
+  position: absolute;
+  bottom: 4%;
+  left:5%;
+
+}
+.q3 img{
+  width: 60%;
+  position: absolute;
+  right: 50%;
+  left: -30%;
+  top:20%;
+}
