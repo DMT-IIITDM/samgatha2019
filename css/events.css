@@ -1,3 +1,7 @@
+@font-face {
+    font-family: mynav;
+    src: url(../fonts/nav.ttf);
+  }
 #homepage,#photography,#dance,#art,#music,#gaming,#literature,#drama,#quiz,#design{
     position: absolute;
 }
@@ -178,4 +182,14 @@
   #onepage .github:hover {
     background: rgba(0, 0, 0, 0.8);
   }
-  
+  .heading{
+    top:3%;
+}
+.heading{
+    position: absolute;
+    top: 6%;
+}
+h2{
+    font-family: mynav;
+    font-size: 6em;
+}
