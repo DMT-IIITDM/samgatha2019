@@ -193,3 +193,67 @@ h2{
     font-family: mynav;
     font-size: 6em;
 }
+.p1 img,.p2 img,.p3 img{
+    position: absolute;
+}
+.a1 img,.a2 img,.a3 img{
+    position: absolute;
+}
+.p1 img{
+    width: 70%;
+    height: auto;
+    margin-top: -10rem;
+    margin-left: -6rem;
+}
+.p2 img{
+    width: 70%;
+    height: auto;
+    margin-left: -8rem;
+    /* margin-top: 10rem; */
+}
+.p3 img{
+    width: 70%;
+    height: auto;
+    margin-left: -10rem;
+    margin-top:-10rem;
+}
+.a1 img{
+    width: 60%;
+    height: auto;
+    margin-left:-5rem;
+    margin-top:-18rem;
+}
+.a2 img{
+    width: 60%;
+    height: auto;
+    margin-left: -7rem;
+    margin-top: -4rem;
+}
+.a3 img{
+    width: 60%;
+    height: auto;
+    margin-left:-10rem;
+    margin-top:-20rem;
+}
+@media (max-width: 575.98px) { 
+    
+    .p1 img,.p2 img,.p3 img{
+        position: absolute;
+    }
+    .p1 img{
+        width: 40%;
+        height: auto;
+        margin-top: -12rem;
+        margin-left: -10rem;
+    }
+    .p2 img{
+        width: 40%;
+        height: auto;
+        margin-left: 1rem;
+    }
+    .p3 img{
+        width: 40%;
+        height: auto;
+        margin-top:8rem;
+    }
+}
