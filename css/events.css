@@ -278,3 +278,103 @@ h2{
   top:20%;
   left:-10%;
 }
+.p1 img,.p2 img,.p3 img{
+    position: absolute;
+}
+.a1 img,.a2 img,.a3 img{
+    position: absolute;
+}
+.p1 img{
+    width: 70%;
+    height: auto;
+    margin-top: -10rem;
+    margin-left: -6rem;
+}
+.p2 img{
+    width: 70%;
+    height: auto;
+    margin-left: -8rem;
+    /* margin-top: 10rem; */
+}
+.p3 img{
+    width: 70%;
+    height: auto;
+    margin-left: -10rem;
+    margin-top:-10rem;
+}
+.a1 img{
+    width: 60%;
+    height: auto;
+    margin-left:-5rem;
+    margin-top:-18rem;
+}
+.a2 img{
+    width: 60%;
+    height: auto;
+    margin-left: -7rem;
+    margin-top: -4rem;
+}
+.a3 img{
+    width: 60%;
+    height: auto;
+    margin-left:-10rem;
+    margin-top:-20rem;
+}
+@media (max-width: 575.98px) { 
+    
+    .p1 img,.p2 img,.p3 img{
+        position: absolute;
+    }
+    .p1 img{
+        width: 40%;
+        height: auto;
+        margin-top: -12rem;
+        margin-left: -10rem;
+    }
+    .p2 img{
+        width: 40%;
+        height: auto;
+        margin-left: 1rem;
+    }
+    .p3 img{
+        width: 40%;
+        height: auto;
+        margin-top:8rem;
+    }
+}
+.m1 img{
+    width: 80%;
+    margin-left: 95px;
+    margin-top: 100px;
+  
+}
+.m2 img{
+  width:85%;
+}
+
+.q1{
+  height: 600px;
+}
+.q1 img{
+  width: 60%;
+  height: auto;
+  margin-top: 1rem;
+  position: absolute;
+  right: 5px;
+  top:20%;
+  
+}
+.q2 img{
+  width: 60%;
+  position: absolute;
+  bottom: 4%;
+  left:5%;
+
+}
+.q3 img{
+  width: 60%;
+  position: absolute;
+  right: 50%;
+  left: -30%;
+  top:20%;
+}
