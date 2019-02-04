@@ -193,3 +193,88 @@ h2{
     font-family: mynav;
     font-size: 6em;
 }
+
+.dance1{
+  height:600px;
+}
+
+.dance1 img{
+  position:absolute;
+  width:115%;
+  height:auto;
+  bottom:-5%;
+  left:5%;
+}
+
+
+.dance2 img{
+  position:absolute;
+  width:115%;
+  height:auto;
+  left:-40%;
+  top:14%;
+}
+
+
+.dance3 img{
+  position:absolute;
+  width:115%;
+  height:auto;
+  bottom:-5%;
+  left:-70%;
+}
+
+.drama1{
+  height:600px;
+}
+
+.drama1 img{
+  position:absolute;
+  width:110%;
+  height:auto;
+  top:20%;
+}
+
+.drama2 img{
+  position:absolute;
+  width:110%;
+  height:auto;
+  left:10%;
+  bottom:0%;
+}
+
+.drama3 img{
+  position:absolute;
+  width:110%;
+  height:auto;
+  left:-10%;
+  top:20%;
+}
+
+.g1{
+  height:600px;
+}
+
+.g1 img{
+  position:absolute;
+  width:70%;
+  height:auto;
+  top:20%;
+  left:40%;
+}
+
+.g2 img{
+  position:absolute;
+  width:70%;
+  height:auto;
+  bottom:5%;
+  left:15%;
+}
+
+.g3 img{
+  position:absolute;
+  width:70%;
+  height:auto;
+  top:20%;
+  left:-10%;
+}
