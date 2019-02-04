@@ -4,43 +4,43 @@
 
 #homepage{
     background-image: url("../img/events/events.png");
-    background-size: contain;
+    background-size: cover;
 }
 #photography{
     background-image: url("../img/events/photography.png");
-    background-size: contain;
+    background-size: cover;
 }
 #dance{
     background-image: url("../img/events/dance.png");
-    background-size: contain;
+    background-size: cover;
 }
 #art{
     background-image: url("../img/events/art.png");
-    background-size: contain;
+    background-size: cover;
 }
 #music{
     background-image: url("../img/events/music.png");
-    background-size: contain;
+    background-size: cover;
 }
 #gaming{
     background-image: url("../img/events/gaming.png");
-    background-size: contain;
+    background-size: cover;
 }
 #literature{
     background-image: url("../img/events/literature.png");
-    background-size: contain;
+    background-size: cover;
 }
 #drama{
     background-image: url("../img/events/drama.png");
-    background-size: contain;
+    background-size: cover;
 }
 #quiz{
     background-image: url("../img/events/quiz.png");
-    background-size: contain;
+    background-size: cover;
 }
 #design{
     background-image: url("../img/events/drama.png");
-    background-size: contain;
+    background-size: cover;
 }
 
 .onepage-container {
