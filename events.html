@@ -30,7 +30,7 @@
                     <a class="nav-link js-scroll-trigger " id="home2" href="#homepage">HOME</a>
                 </li>
                 <li class="nav-item ml-5 ">
-                    <a class="nav-link js-scroll-trigger " id="photo1" href="#homepage">PHOTOGRAPHY</a>
+                    <a class="nav-link js-scroll-trigger " id="photo2" href="#homepage">PHOTOGRAPHY</a>
                 </li>
                 <li class="nav-item ml-5">
                     <a class="nav-link js-scroll-trigger " id="dance2" href="#about">DANCE</a>
@@ -150,89 +150,88 @@
                     <img src="img/UpArrow.png" />
                 </a>
             </div>
-            <div class="arrowdown" id="d5">
+            <div class="arrowdown" id="d6">
                 <a href="#">
                     <img src="img/DownArrow.png" />
                 </a>
             </div>
         </div>
         <div id="literature" style="background-color:red">
-            <div class="arrowup" id="u5">
+            <div class="arrowup" id="u6">
                 <a href="#">
                     <img src="img/UpArrow.png" />
                 </a>
             </div>
-            <div class="arrowdown" id="d5">
+            <div class="arrowdown" id="d7">
                 <a href="#">
                     <img src="img/DownArrow.png" />
                 </a>
             </div>
         </div>
         <div id="drama" style="background-color:red">
-            <div class="arrowup" id="u5">
+            <div class="arrowup" id="u7">
                 <a href="#">
                     <img src="img/UpArrow.png" />
                 </a>
             </div>
-            <div class="arrowdown" id="d5">
+            <div class="arrowdown" id="d8">
                 <a href="#">
                     <img src="img/DownArrow.png" />
                 </a>
             </div>
         </div>
         <div id="quiz" style="background-color:red">
-            <div class="arrowup" id="u5">
+            <div class="arrowup" id="u8">
                 <a href="#">
                     <img src="img/UpArrow.png" />
                 </a>
             </div>
-            <div class="arrowdown" id="d5">
+            <div class="arrowdown" id="d9">
                 <a href="#">
                     <img src="img/DownArrow.png" />
                 </a>
             </div>
         </div>
         <div id="design" style="background-color:red">
-            <div class="arrowup" id="u5">
+            <div class="arrowup" id="u9">
                 <a href="#">
                     <img src="img/UpArrow.png" />
                 </a>
             </div>
-            <div class="arrowdown" id="d5">
-                <a href="#">
-                    <img src="img/DownArrow.png" />
-                </a>
-            </div>
         </div>
     </div>
-    <!-- <script>
-        let list = [
-            ['homepage1', 1],
-            ['about1', 0],
-            ['theme1', 0],
-            ['cause1', 0],
-            ['sponsors1', 0],
-            ['team1', 0]
+    <script>
+        let list1 = [
+            ['home2', 1],
+            ['photo2', 0],
+            ['dance2', 0],
+            ['art2', 0],
+            ['music2', 0],
+            ['gaming2', 0],
+            ['lit2',0],
+            ['drama2',0],
+            ['quiz2',0],
+            ['design2',0],
         ];
-        let list2 = ['d1', 'd2', 'd3', 'd4', 'd5'];
-        let list3 = ['u1', 'u2', 'u3', 'u4', 'u5'];
-    </script> -->
+        let list2 = ['d1', 'd2', 'd3', 'd4', 'd5','d6', 'd7', 'd8', 'd9'];
+        let list3 = ['u1', 'u2', 'u3', 'u4', 'u5', 'u6', 'u7', 'u8', 'u9'];
+    </script>
     <script src="js/index.js"></script>
     <script src="js/script.js"></script>
     <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
         crossorigin="anonymous"></script>
-    <!-- <script src="js/active.js"></script>
+    <script src="js/active-events.js"></script>
     <script>
         $("a").hover(function () {
-            if (list[pos][0] != $(this).attr('id')) {
+            if (list1[pos1][0] != $(this).attr('id')) {
                 $(this).css("color", "#F38445");
             }
         }, function () {
-            if (list[pos][0] != $(this).attr('id')) {
+            if (list1[pos1][0] != $(this).attr('id')) {
                 $(this).css("color", "white");
             }
         });
-    </script> -->
+    </script>
 </body>
 
 </html>
