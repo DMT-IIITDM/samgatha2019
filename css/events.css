@@ -320,28 +320,6 @@ h2{
     margin-left:-12rem;
     margin-top:-15rem;
 }
-@media (max-width: 575.98px) { 
-    
-    .p1 img,.p2 img,.p3 img{
-        position: absolute;
-    }
-    .p1 img{
-        width: 40%;
-        height: auto;
-        margin-top: -12rem;
-        margin-left: -10rem;
-    }
-    .p2 img{
-        width: 40%;
-        height: auto;
-        margin-left: 1rem;
-    }
-    .p3 img{
-        width: 40%;
-        height: auto;
-        margin-top:8rem;
-    }
-}
 .m1 img{
     width: 80%;
     margin-left: 95px;
@@ -377,4 +355,28 @@ h2{
   right: 50%;
   left: -30%;
   top:20%;
+}
+@media (max-width: 575.98px) { 
+    
+    .p1 img,.p2 img,.p3 img,{
+        position: absolute;
+    }
+    .p1 img{
+        width: 40%;
+        height: auto;
+        margin-top: -12rem;
+        margin-left: -10rem;
+    }
+    .p2 img{
+        width: 40%;
+        height: auto;
+        margin-left: 1rem;
+    }
+    .p3 img{
+        width: 40%;
+        height: auto;
+        margin-top:8rem;
+    }
+}
+
 }
