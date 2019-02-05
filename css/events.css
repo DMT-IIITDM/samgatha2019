@@ -448,3 +448,7 @@ h2{
   font-family:mynav;
   top:10px;
 }
+
+.p1:hover,.p2:hover,.p3:hover{
+  transform:scale(1.2);
+}
