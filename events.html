@@ -105,13 +105,13 @@
             </div>
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-4 p1" id="click1">
+                    <div class="col-sm-4 p1" id="photo1">
                         <img src="img/hoverevents/Photography/Group 168.png" />
                     </div>
-                    <div class="col-sm-4 p2">
+                    <div class="col-sm-4 p2" id="photo3">
                         <img src="img/hoverevents/Photography/Group 167.png" />
                     </div>
-                    <div class="col-sm-4 p3">
+                    <div class="col-sm-4 p3" id="photo4">
                         <img src="img/hoverevents/Photography/Group 169.png" />
                     </div>
                 </div>
@@ -128,6 +128,28 @@
                 <div id="overlay-content">
                 </div>
             </div>
+            <div id="overlay1">
+                <div class="cross">
+                    <button class="register">REGISTER</button>
+                    <div class="event-play">
+                        <h2>PHOTON</h2>
+                    </div>
+                    <i id="close1" class="material-icons" style="font-size:48px;color:white">close</i>
+                </div>
+                <div id="overlay-content1">
+                </div>
+            </div>
+            <div id="overlay2">
+                    <div class="cross">
+                        <button class="register">REGISTER</button>
+                        <div class="event-play">
+                            <h2>HOCUSFOCUS</h2>
+                        </div>
+                        <i id="close2" class="material-icons" style="font-size:48px;color:white">close</i>
+                    </div>
+                    <div id="overlay-content2">
+                    </div>
+                </div>
             <div class="arrowdown" id="d2">
                 <a href="#">
                     <img src="img/DownArrow.png" />
@@ -359,19 +381,8 @@
     <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
         crossorigin="anonymous"></script>
     <script src="js/active-events.js"></script>
+    <script src="js/overlay.js"></script>
     <script>
-        $(document).ready(menu);
-
-        function menu() {
-            $('#click1').on('click', function () {
-                $('#overlay').toggleClass('active');
-                $('#close').toggleClass('active');
-            });
-            $('#close').on('click', function () {
-                $('#overlay').toggleClass('active');
-                $('#close').toggleClass('active');
-            });
-        }
         $("a").hover(function () {
             if (list1[pos1][0] != $(this).attr('id')) {
                 $(this).css("color", "#F38445");
