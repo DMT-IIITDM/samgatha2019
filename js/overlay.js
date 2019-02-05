@@ -31,4 +31,35 @@ function menu() {
         $('#close2').toggleClass('active');
         $('.nav-item').toggleClass('active');
     });
+    //Gaming
+    $('#game1').on('click', function () {
+        $('#overlay11').toggleClass('active');
+        $('#close11').toggleClass('active');
+        $('.nav-item').toggleClass('active');
+    });
+    $('#game2').on('click', function () {
+        $('#overlay12').toggleClass('active');
+        $('#close12').toggleClass('active');
+        $('.nav-item').toggleClass('active');
+    });
+    $('#game3').on('click', function () {
+        $('#overlay13').toggleClass('active');
+        $('#close13').toggleClass('active');
+        $('.nav-item').toggleClass('active');
+    });
+    $('#close11').on('click', function () {
+        $('#overlay11').toggleClass('active');
+        $('#close11').toggleClass('active');
+        $('.nav-item').toggleClass('active');
+    });
+    $('#close12').on('click', function () {
+        $('#overlay12').toggleClass('active');
+        $('#close12').toggleClass('active');
+        $('.nav-item').toggleClass('active');
+    });
+    $('#close13').on('click', function () {
+        $('#overlay13').toggleClass('active');
+        $('#close13').toggleClass('active');
+        $('.nav-item').toggleClass('active');
+    });
 }
