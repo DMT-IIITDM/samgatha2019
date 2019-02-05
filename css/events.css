@@ -385,8 +385,8 @@ h2{
   position:fixed;
   bottom:0;
   left:0;
-  z-index:15;
-  background: black;
+  z-index:1500;
+  background: #09111B;
   opacity:0px;
   visibility:hidden;
 }
@@ -414,7 +414,7 @@ h2{
 .cross i{
   position:absolute;
   top:5px;
-  right:5px;
+  right:25px;
 }
 
 #close{
@@ -432,4 +432,19 @@ h2{
   100%{
     transform:translateY(0%);
   }
+}
+
+.register{
+  position:absolute;
+  top:30px;
+  left:50px;
+  background-color: rgba(0,0,0,0);
+  border-color: #E65C9D;
+  border-radius:50px;
+  color:#F38445;
+}
+
+.event-play{
+  font-family:mynav;
+  top:10px;
 }
