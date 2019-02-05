@@ -357,7 +357,7 @@ h2{
   top:20%;
 }
 
-#overlay,#overlay1,#overlay2{
+.stream{
   width:100%;
   height:auto;
   position:absolute;
@@ -371,7 +371,7 @@ h2{
 
 /* Hover up */
 
-#overlay.active,#overlay1.active,#overlay2.active{
+.stream.active{
   position:absolute;
   left:2.5%;
   width:95%;
@@ -383,7 +383,7 @@ h2{
   animation :pull 1s;
 }
 
-#overlay-content,#overlay1-content,#overlay2-content{
+.overlay-content{
   position:relative;
   z-index:15;
   top:50%;
@@ -402,11 +402,11 @@ h2{
   right:25px;
 }
 
-#close,#close1,#close2{
+.material-icons{
   visibility: hidden;
 }
 
-#close.active,#close1.active,#close2.active{
+.material-icons.active{
   visibility: visible;
 }
 
@@ -434,13 +434,14 @@ h2{
   top:10px;
 }
 
-.p1:hover,.p2:hover,.p3:hover{
+.col-sm-4 img:hover{
   transform:scale(1.1);
 }
 
-.dance1:hover,.dance2:hover,.dance3:hover{
-  transform:scale(1.1); 
+.col-sm-6 img:hover{
+  transform:scale(1.1);
 }
+
 @media (max-width: 575.98px) { 
     
     .p1 img,.p2 img,.p3 img,{
@@ -464,4 +465,4 @@ h2{
     }
 }
 
-}
+
