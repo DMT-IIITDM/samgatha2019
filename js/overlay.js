@@ -114,7 +114,7 @@ function menu() {
         $('#close10').toggleClass('active');
         $('.nav-item').toggleClass('active');
     });
-}
+
     //Gaming
     $('#game1').on('click', function () {
         $('#overlay11').toggleClass('active');
@@ -146,8 +146,6 @@ function menu() {
         $('#close13').toggleClass('active');
         $('.nav-item').toggleClass('active');
     });
-}
-
     //Drama-Spur of the moment
     $('#drama17').on('click', function () {
         $('#overlay17').toggleClass('active');
@@ -210,5 +208,4 @@ function menu() {
         $('#close22').toggleClass('active');
         $('.nav-item').toggleClass('active');
     });
-
 }
