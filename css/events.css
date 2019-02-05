@@ -200,28 +200,28 @@ h2{
 
 .dance1 img{
   position:absolute;
-  width:115%;
+  width:100%;
   height:auto;
-  bottom:-5%;
-  left:5%;
+  bottom:1%;
+  left:12%;
 }
 
 
 .dance2 img{
   position:absolute;
-  width:115%;
+  width:100%;
   height:auto;
   left:-40%;
-  top:14%;
+  top:19%;
 }
 
 
 .dance3 img{
   position:absolute;
-  width:115%;
+  width:100%;
   height:auto;
-  bottom:-5%;
-  left:-70%;
+  bottom:1%;
+  left:-75%;
 }
 
 .drama1{
@@ -230,25 +230,25 @@ h2{
 
 .drama1 img{
   position:absolute;
-  width:110%;
+  width:100%;
   height:auto;
-  top:20%;
+  top:25%;
 }
 
 .drama2 img{
   position:absolute;
-  width:110%;
+  width:100%;
   height:auto;
   left:10%;
-  bottom:0%;
+  bottom:2%;
 }
 
 .drama3 img{
   position:absolute;
-  width:110%;
+  width:100%;
   height:auto;
-  left:-10%;
-  top:20%;
+  left:-25%;
+  top:25%;
 }
 
 .g1{
@@ -285,62 +285,40 @@ h2{
     position: absolute;
 }
 .p1 img{
-    width: 70%;
+    width: 65%;
     height: auto;
     margin-top: -10rem;
-    margin-left: -6rem;
+    margin-left: -3rem;
 }
 .p2 img{
-    width: 70%;
+    width: 65%;
     height: auto;
-    margin-left: -8rem;
+    margin-left: -10rem;
     /* margin-top: 10rem; */
 }
 .p3 img{
-    width: 70%;
+    width: 65%;
     height: auto;
-    margin-left: -10rem;
+    margin-left: -16rem;
     margin-top:-10rem;
 }
 .a1 img{
-    width: 60%;
+    width: 55%;
     height: auto;
-    margin-left:-5rem;
-    margin-top:-18rem;
+    margin-left:-1rem;
+    margin-top:-15rem;
 }
 .a2 img{
-    width: 60%;
+    width: 55%;
     height: auto;
     margin-left: -7rem;
-    margin-top: -4rem;
+    margin-top: -5rem;
 }
 .a3 img{
-    width: 60%;
+    width: 55%;
     height: auto;
-    margin-left:-10rem;
-    margin-top:-20rem;
-}
-@media (max-width: 575.98px) { 
-    
-    .p1 img,.p2 img,.p3 img{
-        position: absolute;
-    }
-    .p1 img{
-        width: 40%;
-        height: auto;
-        margin-top: -12rem;
-        margin-left: -10rem;
-    }
-    .p2 img{
-        width: 40%;
-        height: auto;
-        margin-left: 1rem;
-    }
-    .p3 img{
-        width: 40%;
-        height: auto;
-        margin-top:8rem;
-    }
+    margin-left:-12rem;
+    margin-top:-15rem;
 }
 .m1 img{
     width: 80%;
@@ -378,6 +356,7 @@ h2{
   left: -30%;
   top:20%;
 }
+<<<<<<< HEAD
 
 #overlay,#overlay1,#overlay2{
   width:100%;
@@ -463,3 +442,29 @@ h2{
 .dance1:hover,.dance2:hover,.dance3:hover{
   transform:scale(1.1); 
 }
+=======
+@media (max-width: 575.98px) { 
+    
+    .p1 img,.p2 img,.p3 img,{
+        position: absolute;
+    }
+    .p1 img{
+        width: 40%;
+        height: auto;
+        margin-top: -12rem;
+        margin-left: -10rem;
+    }
+    .p2 img{
+        width: 40%;
+        height: auto;
+        margin-left: 1rem;
+    }
+    .p3 img{
+        width: 40%;
+        height: auto;
+        margin-top:8rem;
+    }
+}
+
+}
+>>>>>>> 681f5ca6bfc0c20ce93d9d791e44cc354aa25413
