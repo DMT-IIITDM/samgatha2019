@@ -356,7 +356,6 @@ h2{
   left: -30%;
   top:20%;
 }
-<<<<<<< HEAD
 
 #overlay,#overlay1,#overlay2{
   width:100%;
@@ -442,7 +441,6 @@ h2{
 .dance1:hover,.dance2:hover,.dance3:hover{
   transform:scale(1.1); 
 }
-=======
 @media (max-width: 575.98px) { 
     
     .p1 img,.p2 img,.p3 img,{
@@ -467,4 +465,3 @@ h2{
 }
 
 }
->>>>>>> 681f5ca6bfc0c20ce93d9d791e44cc354aa25413
