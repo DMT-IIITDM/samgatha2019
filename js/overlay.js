@@ -63,3 +63,68 @@ function menu() {
         $('.nav-item').toggleClass('active');
     });
 }
+
+    //Drama-Spur of the moment
+    $('#drama17').on('click', function () {
+        $('#overlay17').toggleClass('active');
+        $('#close17').toggleClass('active');
+        $('.nav-item').toggleClass('active');
+    });
+    $('#drama18').on('click', function () {
+        $('#overlay18').toggleClass('active');
+        $('#close18').toggleClass('active');
+        $('.nav-item').toggleClass('active');
+    });
+    $('#drama19').on('click', function () {
+        $('#overlay19').toggleClass('active');
+        $('#close19').toggleClass('active');
+        $('.nav-item').toggleClass('active');
+    });
+    $('#close17').on('click', function () {
+        $('#overlay17').toggleClass('active');
+        $('#close17').toggleClass('active');
+        $('.nav-item').toggleClass('active');
+    });
+    $('#close18').on('click', function () {
+        $('#overlay18').toggleClass('active');
+        $('#close18').toggleClass('active');
+        $('.nav-item').toggleClass('active');
+    });
+    $('#close19').on('click', function () {
+        $('#overlay19').toggleClass('active');
+        $('#close19').toggleClass('active');
+        $('.nav-item').toggleClass('active');
+    });
+    //Quiz
+    $('#quiz20').on('click', function () {
+        $('#overlay20').toggleClass('active');
+        $('#close20').toggleClass('active');
+        $('.nav-item').toggleClass('active');
+    });
+    $('#quiz21').on('click', function () {
+        $('#overlay21').toggleClass('active');
+        $('#close21').toggleClass('active');
+        $('.nav-item').toggleClass('active');
+    });
+    $('#quiz22').on('click', function () {
+        $('#overlay22').toggleClass('active');
+        $('#close22').toggleClass('active');
+        $('.nav-item').toggleClass('active');
+    });
+    $('#close20').on('click', function () {
+        $('#overlay20').toggleClass('active');
+        $('#close20').toggleClass('active');
+        $('.nav-item').toggleClass('active');
+    });
+    $('#close21').on('click', function () {
+        $('#overlay21').toggleClass('active');
+        $('#close21').toggleClass('active');
+        $('.nav-item').toggleClass('active');
+    });
+    $('#close22').on('click', function () {
+        $('#overlay22').toggleClass('active');
+        $('#close22').toggleClass('active');
+        $('.nav-item').toggleClass('active');
+    });
+
+}
