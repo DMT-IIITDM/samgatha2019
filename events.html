@@ -13,8 +13,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap-grid.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/events.css">
-
-
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body>
@@ -106,7 +105,7 @@
             </div>
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-4 p1">
+                    <div class="col-sm-4 p1" id="click1">
                         <img src="img/hoverevents/Photography/Group 168.png" />
                     </div>
                     <div class="col-sm-4 p2">
@@ -115,6 +114,14 @@
                     <div class="col-sm-4 p3">
                         <img src="img/hoverevents/Photography/Group 169.png" />
                     </div>
+                </div>
+            </div>
+            <!-- Overlay Display -->
+            <div id="overlay">
+                <div class="cross">
+                    <i id="close" class="material-icons" style="font-size:48px;color:white">close</i>
+                </div>
+                <div id="overlay-content">
                 </div>
             </div>
             <div class="arrowdown" id="d2">
@@ -349,6 +356,18 @@
         crossorigin="anonymous"></script>
     <script src="js/active-events.js"></script>
     <script>
+        $(document).ready(menu);
+
+        function menu() {
+            $('#click1').on('click', function () {
+                $('#overlay').toggleClass('active');
+                $('#close').toggleClass('active');
+            });
+            $('#close').on('click', function () {
+                $('#overlay').toggleClass('active');
+                $('#close').toggleClass('active');
+            });
+        }
         $("a").hover(function () {
             if (list1[pos1][0] != $(this).attr('id')) {
                 $(this).css("color", "#F38445");
