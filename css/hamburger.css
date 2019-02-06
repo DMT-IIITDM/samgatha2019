@@ -1,5 +1,5 @@
 @font-face {
-    font-family: mynav;
+    font-family: mynavmenu;
     src: url(../fonts/register.ttf);
   }
   
@@ -116,7 +116,7 @@
 a.ham-menu{
   /* padding-left: 10%; */
   font-size: 30px;
-  font-family: mynav;
+  font-family: mynavmenu;
   color: #020202 !important; 
   text-transform: uppercase;
 }
