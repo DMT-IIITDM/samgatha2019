@@ -46,6 +46,13 @@
     background-image: url("../img/events/design.png");
     background-size: cover;
 }
+#pacman {
+  height: 470px;
+  width: 382px;
+  border-radius: 5px;
+  margin: 20px auto;
+}
+
 
 .onepage-container {
     position: fixed;
