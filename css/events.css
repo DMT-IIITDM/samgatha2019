@@ -445,27 +445,250 @@ i {
   cursor: pointer;
 }
 
-@media (max-width: 575.98px) { 
-    
-    .p1 img,.p2 img,.p3 img,{
-        position: absolute;
-    }
-    .p1 img{
-        width: 40%;
-        height: auto;
-        margin-top: -12rem;
-        margin-left: -10rem;
-    }
-    .p2 img{
-        width: 40%;
-        height: auto;
-        margin-left: 1rem;
-    }
-    .p3 img{
-        width: 40%;
-        height: auto;
-        margin-top:8rem;
-    }
+
+@media (max-width: 575.98px){
+
+ #homepage,#photography,#dance,#art,#music,#gaming,#literature,#drama,#quiz,#design{
+    position: absolute;
 }
+  #homepage{
+    background-image: url("../img/Samgatha Mobile BG/Dance Mobile.png");
+    background-size: cover;
+}
+#photography{
+    background-image: url("../img/Samgatha Mobile BG/Photography Mobile.png");
+    background-size: cover;
+}
+#dance{
+    background-image: url("../img/Samgatha Mobile BG/Dance Mobile.png");
+    background-size: cover;
+}
+#art{
+    background-image: url("../img/Samgatha Mobile BG/Art Mobile.png");
+    background-size: cover;
+}
+#music{
+    background-image: url("../img/Samgatha Mobile BG/music phone1.png");
+    background-size: cover;
+}
+#gaming{
+    background-image: url("../img/Samgatha Mobile BG/Gaming Mobile.png");
+    background-size: cover;
+}
+#literature{
+    background-image: url("../img/Samgatha Mobile BG/Literature Mobile.png");
+    background-size: cover;
+}
+#drama{
+    background-image: url("../img/Samgatha Mobile BG/Dance Mobile.png");
+    background-size: cover;
+}
+#quiz{
+    background-image: url("../img/Samgatha Mobile BG/Dance Mobile.png");
+    background-size: cover;
+}
+#design{
+    background-image: url("../img/Samgatha Mobile BG/Dance Mobile.png");
+    background-size: cover;
+}
+.dance1{
+  height:600px;
+}
+
+.dance1 img{
+  position:absolute;
+  width:80%;
+  height:200px;
+  bottom:58%;
+  left:10%;
+  margin-top: 0px;
+}
+
+
+.dance2 img{
+  position:absolute;
+  width:80%;
+  height:200px;
+  left:15%;
+  top:0px;
+  margin-top:-200px;
+}
+
+
+.dance3 img{
+  position:absolute;
+  width:80%;
+  height:200px;
+  bottom:175px;
+  left:13%;
+  margin-top: 0px;
+}
+
+.drama1{
+  height:600px;
+}
+
+.drama1 img{
+  position:absolute;
+  width:100%;
+  height:auto;
+  top:25%;
+}
+
+.drama2 img{
+  position:absolute;
+  width:100%;
+  height:auto;
+  left:10%;
+  bottom:2%;
+}
+
+.drama3 img{
+  position:absolute;
+  width:100%;
+  height:auto;
+  left:-25%;
+  top:25%;
+}
+
+.g1{
+  height:600px;
+}
+
+.g1 img{
+  position:absolute;
+  width:70%;
+  height:auto;
+  top:20%;
+  left:40%;
+}
+
+.g2 img{
+  position:absolute;
+  width:70%;
+  height:auto;
+  bottom:5%;
+  left:15%;
+}
+
+.g3 img{
+  position:absolute;
+  width:70%;
+  height:auto;
+  top:20%;
+  left:-10%;
+}
+.p1 img,.p2 img,.p3 img{
+    position: absolute;
+}
+.a1 img,.a2 img,.a3 img{
+    position: absolute;
+}
+
+.p1 img{
+      width: 50%;
+      height: auto;
+      margin-top: -15rem;
+      margin-left: -13rem;
+}
+.p2 img{
+        width: 50%;
+        height: auto;
+        margin-top:-5rem;
+        margin-left: 1rem;
+}
+.p3 img{
+        width: 50%;
+        height: auto;
+        margin-top:6rem;
+        margin-left: -14rem;
+}
+.a1 img{
+    width: 55%;
+    height: auto;
+    margin-left:-1rem;
+    margin-top:-15rem;
+}
+.a2 img{
+    width: 55%;
+    height: auto;
+    margin-left: -7rem;
+    margin-top: -5rem;
+}
+.a3 img{
+    width: 55%;
+    height: auto;
+    margin-left:-12rem;
+    margin-top:-15rem;
+}
+.m1 img{
+    width: 80%;
+    margin-left: 10px;
+    margin-top: 100px;
+  
+}
+.m2 img{
+  width:80%;
+}
+
+.q1{
+  height: 600px;
+}
+.q1 img{
+  width: 60%;
+  height: auto;
+  margin-top: 1rem;
+  position: absolute;
+  right: 5px;
+  top:20%;
+  
+}
+.q2 img{
+  width: 60%;
+  position: absolute;
+  bottom: 4%;
+  left:5%;
+
+}
+.q3 img{
+  width: 60%;
+  position: absolute;
+  right: 50%;
+  left: -30%;
+  top:20%;
+}
+
+.li1 img{
+  position: absolute;
+  width: 50%;
+  bottom:-5rem;
+  left: 0%
+}
+
+.li2 img{
+  position: absolute;
+  left:1rem;
+  bottom:-20rem;
+  width: 50%;
+}
+
+.li3 img{
+  position: absolute;
+  width: 50%;
+  bottom:-10rem;
+}
+
+#photography .font{
+  font-size: 60px;
+}
+
+}
+
+.font{
+  font-size: 70px;
+}
+
+
+
 
 
