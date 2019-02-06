@@ -71,7 +71,7 @@
 #nav {
   background-image: url("../img/Background Ham.png");
   background-repeat: no-repeat;
-  /* background-size: contain; */
+  background-size: 52%;
   position: absolute;
   overflow-x: hidden;
   top: 0;
@@ -172,8 +172,8 @@ a.ham-menu:hover{
   }
   .ham-div{
     width: 45%;
-    margin-top: 25%;
-    margin-left: 6%;
+    margin-top: 10%;
+    margin-left: 5%;
     height: 60%;
     /* padding: 10px 0px 0px 15px; */
   }
@@ -191,7 +191,9 @@ a.ham-menu:hover{
     margin-left: 5%;
     padding: 20px 5px 0px 5px;
   }
-
+  #nav{
+    background-size: 70%;
+  }
 }
 
 @media screen and (max-width:768px)
@@ -229,8 +231,12 @@ a.ham-menu:hover{
     padding: 10px 0px 0px 15px;
   }
   #nav.show{
-    width:79%;
+    width:80%;
   }
+  #nav{
+    background-size: 80%;
+  }
+
 }
 
 @media only screen and (orientation:landscape) and (max-width:600px)
