@@ -441,6 +441,9 @@ h2{
 .col-sm-6 img:hover{
   transform:scale(1.1);
 }
+i {
+  cursor: pointer;
+}
 
 @media (max-width: 575.98px) { 
     
