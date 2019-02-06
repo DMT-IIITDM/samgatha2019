@@ -505,6 +505,14 @@ require.register("onepage/index.js", function (exports, require, module) {
     }
     emitter(Onepage.prototype);
 
+
+
+
+    //Page scroll up
+
+
+
+
     Onepage.prototype.pageUp = function () {
         var me = this;
         var loop = me.options.loop;
@@ -533,6 +541,18 @@ require.register("onepage/index.js", function (exports, require, module) {
                 document.getElementById(list1[i][0]).style.color = "#F38445";
             }
         }
+
+        for(let i=0;i<list4.length;i++)
+        {
+            if(list4[i][1]==1)
+            {
+                $(list4[i][2]).toggleClass('active');
+                $(list4[i][3]).toggleClass('active');
+                $('.nav-item').toggleClass('active');
+                list4[i][1]=0;
+            }
+        }
+
         for (let i = 0; i < 10; i++) {
             document.getElementById(list1[i][0]).onclick = function () {
                 for (let j = 0; j < 10; j++) {
@@ -551,6 +571,14 @@ require.register("onepage/index.js", function (exports, require, module) {
         }
 
     };
+
+
+
+
+    //Page scroll down
+
+
+
 
     Onepage.prototype.pageDown = function () {
         var me = this;
@@ -573,6 +601,17 @@ require.register("onepage/index.js", function (exports, require, module) {
                 document.getElementById(list1[i][0]).style.color = "#F38445";
             } else {
                 document.getElementById(list1[i][0]).style.color = "white";
+            }
+        }
+
+        for(let i=0;i<list4.length;i++)
+        {
+            if(list4[i][1]==1)
+            {
+                $(list4[i][2]).toggleClass('active');
+                $(list4[i][3]).toggleClass('active');
+                $('.nav-item').toggleClass('active');
+                list4[i][1]=0;
             }
         }
 

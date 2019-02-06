@@ -506,6 +506,14 @@ function Onepage(element, options) {
 }
 emitter(Onepage.prototype);
 
+
+
+
+// Scroll UP
+
+
+
+
 Onepage.prototype.pageUp = function() {
   var me = this;
   var loop = me.options.loop;
@@ -539,6 +547,7 @@ Onepage.prototype.pageUp = function() {
         document.getElementById(list1[i][0]).style.color = "#F38445";
     }
 }
+
 for (let i = 0; i < 10; i++) {
     document.getElementById(list1[i][0]).onclick = function () {
         for (let j = 0; j < 10; j++) {
@@ -556,8 +565,15 @@ for (let i = 0; i < 10; i++) {
     };
 }
 
-
 };
+
+
+
+
+//Scroll Down
+
+
+
 
 Onepage.prototype.pageDown = function() {
   var me = this;

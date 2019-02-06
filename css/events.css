@@ -357,19 +357,20 @@ h2{
   top:20%;
 }
 
+/* Hover up */
+
+
 .stream{
   width:100%;
   height:auto;
   position:absolute;
   bottom:0;
   left:0;
-  z-index:15;
+  z-index:2;
   background: #09111B;
   opacity:0px;
   visibility:hidden;
 }
-
-/* Hover up */
 
 .stream.active{
   position:absolute;
@@ -377,7 +378,7 @@ h2{
   width:95%;
   height:80%;
   opacity:1;
-  z-index:15;
+  /* z-index:15; */
   visibility:visible;
   border-radius:30px 30px 0px 0px;
   animation :pull 1s;
