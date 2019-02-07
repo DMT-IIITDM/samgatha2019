@@ -429,7 +429,7 @@ require.register("onepage/index.js", function (exports, require, module) {
             timingFunction: 'ease',
             period: 300,
             wheelDelta: 100,
-            pagination: true,
+            pagination: false,
             keyboard: true,
             loop: 'down'
         });
