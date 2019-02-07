@@ -2,6 +2,11 @@ $(document).ready(menu);
 
 function menu() {
     
+    $('#bottom-ham').on('click',function(){
+        $('#overlay-bot').toggleClass('active');
+        $('#close-bot').toggleClass('active');
+    });
+
     $('#photo1').on('click', function () {
         $('#overlay').toggleClass('active');
         $('#close').toggleClass('active');
