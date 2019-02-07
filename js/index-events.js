@@ -549,6 +549,7 @@ require.register("onepage/index.js", function (exports, require, module) {
                 $(list4[i][2]).toggleClass('active');
                 $(list4[i][3]).toggleClass('active');
                 $('.nav-item').toggleClass('active');
+                $('#social').toggleClass('active');
                 list4[i][1]=0;
             }
         }
@@ -611,6 +612,7 @@ require.register("onepage/index.js", function (exports, require, module) {
                 $(list4[i][2]).toggleClass('active');
                 $(list4[i][3]).toggleClass('active');
                 $('.nav-item').toggleClass('active');
+                $('#social').toggleClass('active');
                 list4[i][1]=0;
             }
         }
