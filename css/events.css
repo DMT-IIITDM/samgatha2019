@@ -518,7 +518,9 @@ h2 {
   font-family: mynav;
   top: 10px;
 }
-
+.col-sm-4 img{
+  transition: transform 0.5s;
+}
 .col-sm-4 img:hover {
   transform: scale(1.1);
 }
