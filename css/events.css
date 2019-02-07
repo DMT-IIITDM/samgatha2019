@@ -230,34 +230,7 @@ body {
 #onepage .github:hover {
   background: rgba(0, 0, 0, 0.8);
 }
-@media (min-width: 320px) and (max-width:375.98px)
-{
 
-  .g1 img{
-    position:absolute;
-    width:45%;
-    height:auto;
-    top:9rem;
-    left:45%;
-  }
-
-  .g2 img{
-    position:absolute;
-    width:45%;
-    height:auto;
-    top:-11rem;
-    left:25%;
-  }
-
-  .g3 img{
-    position:absolute;
-    width:45%;
-    height:auto;
-    top:-20rem;
-    left:10%;
-
-  }
-}
 .p1 img,.p2 img,.p3 img{
     position: absolute;
 }
@@ -309,27 +282,7 @@ h2 {
 .drama1 {
   height: 600px;
 }
-@media (min-width: 320px) and (max-width:375.98px)
-{
-.a1 img{
-    width: 35%;
-    height: auto;
-    margin-left: 1rem;
-    margin-top:-9rem;
-}
-.a2 img{
-    width: 35%;
-    height: auto;
-    margin-left: -3rem;
-    margin-top: 4rem;
-}
-.a3 img{
-    width: 35%;
-    height: auto;
-    margin-left: -8rem;
-    margin-top:-9rem;
-}
-}
+
 .m1 img{
     width: 80%;
     margin-left: 95px;
@@ -656,7 +609,55 @@ i {
     background-size: cover;
   }
 }
+@media (min-width: 320px) and (max-width:375.98px)
+{
 
+  .g1 img{
+    position:absolute;
+    width:45%;
+    height:auto;
+    top:9rem;
+    left:45%;
+  }
+
+  .g2 img{
+    position:absolute;
+    width:45%;
+    height:auto;
+    top:-11rem;
+    left:25%;
+  }
+
+  .g3 img{
+    position:absolute;
+    width:45%;
+    height:auto;
+    top:-20rem;
+    left:10%;
+
+  }
+}
+@media (min-width: 320px) and (max-width:375.98px)
+{
+.a1 img{
+    width: 35%;
+    height: auto;
+    margin-left: 1rem;
+    margin-top:-9rem;
+}
+.a2 img{
+    width: 35%;
+    height: auto;
+    margin-left: -3rem;
+    margin-top: 4rem;
+}
+.a3 img{
+    width: 35%;
+    height: auto;
+    margin-left: -8rem;
+    margin-top:-9rem;
+}
+}
 @media (min-width: 320px) and (max-width: 374.98px) {
 
   #homepage,
