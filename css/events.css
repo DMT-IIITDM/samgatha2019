@@ -454,49 +454,189 @@ i {
 }
 
 
-@media (max-width: 575.98px){
+/* @media (max-width: 575.98px){
 
- #homepage,#photography,#dance,#art,#music,#gaming,#literature,#drama,#quiz,#design{
+ 
+} */
+}
+@media (max-width: 319.98px){
+  #homepage,#photography,#dance,#art,#music,#gaming,#literature,#drama,#quiz,#design{
     position: absolute;
 }
   #homepage{
-    background-image: url("../img/Samgatha Mobile BG/Events Mobile.png");
+    background-image: url("../img/mobile/events.png");
     background-size: cover;
 }
 #photography{
-    background-image: url("../img/Samgatha Mobile BG/Photography Mobile.png");
+    background-image: url("../img/mobile/photography.png");
     background-size: cover;
 }
 #dance{
-    background-image: url("../img/Samgatha Mobile BG/Dance Mobile.png");
+    background-image: url("../img/mobile/dance.png");
     background-size: cover;
 }
 #art{
-    background-image: url("../img/Samgatha Mobile BG/Art Mobile.png");
+    background-image: url("../img/mobile/art.png");
     background-size: cover;
 }
 #music{
-    background-image: url("../img/Samgatha Mobile BG/music phone1.png");
+    background-image: url("../img/mobile/music.png");
     background-size: cover;
 }
 #gaming{
-    background-image: url("../img/Samgatha Mobile BG/Gaming Mobile.png");
+    background-image: url("../img/mobile/gaming.png");
     background-size: cover;
 }
 #literature{
-    background-image: url("../img/Samgatha Mobile BG/Literature Mobile.png");
+    background-image: url("../img/mobile/literature.png");
     background-size: cover;
 }
 #drama{
-    background-image: url("../img/Samgatha Mobile BG/Drama mob.png");
+    background-image: url("../img/mobile/drama.png");
     background-size: cover;
 }
 #quiz{
-    background-image: url("../img/Samgatha Mobile BG/Quiz Phone1.png");
+    background-image: url("../img/mobile/quiz.png");
     background-size: cover;
 }
 #design{
-    background-image: url("../img/Samgatha Mobile BG/Dance Mobile.png");
+    background-image: url("../img/mobile/dance.png");
+    background-size: cover;
+}
+}
+@media (min-width: 320px) and (max-width: 374.98px){
+  #homepage,#photography,#dance,#art,#music,#gaming,#literature,#drama,#quiz,#design{
+    position: absolute;
+}
+  #homepage{
+    background-image: url("../img/mobile/events.png");
+    background-size: cover;
+}
+#photography{
+    background-image: url("../img/mobile/photography.png");
+    background-size: cover;
+}
+#dance{
+    background-image: url("../img/mobile/dance.png");
+    background-size: cover;
+}
+#art{
+    background-image: url("../img/mobile/art.png");
+    background-size: cover;
+}
+#music{
+    background-image: url("../img/mobile/music.png");
+    background-size: cover;
+}
+#gaming{
+    background-image: url("../img/mobile/gaming.png");
+    background-size: cover;
+}
+#literature{
+    background-image: url("../img/mobile/literature.png");
+    background-size: cover;
+}
+#drama{
+    background-image: url("../img/mobile/drama.png");
+    background-size: cover;
+}
+#quiz{
+    background-image: url("../img/mobile/quiz.png");
+    background-size: cover;
+}
+#design{
+    background-image: url("../img/mobile/dance.png");
+    background-size: cover;
+}
+}
+
+@media (min-width: 375px) and (max-width:424.98px){
+  #homepage,#photography,#dance,#art,#music,#gaming,#literature,#drama,#quiz,#design{
+    position: absolute;
+}
+  #homepage{
+    background-image: url("../img/mobile/events.png");
+    background-size: cover;
+}
+#photography{
+    background-image: url("../img/mobile/photography.png");
+    background-size: cover;
+}
+#dance{
+    background-image: url("../img/mobile/dance.png");
+    background-size: cover;
+}
+#art{
+    background-image: url("../img/mobile/art.png");
+    background-size: cover;
+}
+#music{
+    background-image: url("../img/mobile/music.png");
+    background-size: cover;
+}
+#gaming{
+    background-image: url("../img/mobile/gaming.png");
+    background-size: cover;
+}
+#literature{
+    background-image: url("../img/mobile/literature.png");
+    background-size: cover;
+}
+#drama{
+    background-image: url("../img/mobile/drama.png");
+    background-size: cover;
+}
+#quiz{
+    background-image: url("../img/mobile/quiz.png");
+    background-size: cover;
+}
+#design{
+    background-image: url("../img/mobile/dance.png");
+    background-size: cover;
+}
+}
+@media (min-width: 425px) and (max-width:575.98px){
+  #homepage,#photography,#dance,#art,#music,#gaming,#literature,#drama,#quiz,#design{
+    position: absolute;
+}
+  #homepage{
+    background-image: url("../img/mobile/events.png");
+    background-size: cover;
+}
+#photography{
+    background-image: url("../img/mobile/photography.png");
+    background-size: cover;
+}
+#dance{
+    background-image: url("../img/mobile/dance.png");
+    background-size: cover;
+}
+#art{
+    background-image: url("../img/mobile/art.png");
+    background-size: cover;
+}
+#music{
+    background-image: url("../img/mobile/music.png");
+    background-size: cover;
+}
+#gaming{
+    background-image: url("../img/mobile/gaming.png");
+    background-size: cover;
+}
+#literature{
+    background-image: url("../img/mobile/literature.png");
+    background-size: cover;
+}
+#drama{
+    background-image: url("../img/mobile/drama.png");
+    background-size: cover;
+}
+#quiz{
+    background-image: url("../img/mobile/quiz.png");
+    background-size: cover;
+}
+#design{
+    background-image: url("../img/mobile/dance.png");
     background-size: cover;
 }
 .dance1{
@@ -706,19 +846,6 @@ i {
 }
 .font{
   font-size: 70px;
-}
-}
-@media (max-width: 319.98px){
-
-}
-@media (min-width: 320px) and (max-width: 374.98px){
-
-}
-@media (min-width: 375px) and (max-width:424.98px){
-
-}
-@media (min-width: 425px) and (max-width:575.98px){
-  
 }
 @media (min-width: 576px) and (max-width: 767.98px){
 
