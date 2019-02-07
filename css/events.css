@@ -609,55 +609,7 @@ i {
     background-size: cover;
   }
 }
-@media (min-width: 320px) and (max-width:375.98px)
-{
 
-  .g1 img{
-    position:absolute;
-    width:45%;
-    height:auto;
-    top:9rem;
-    left:45%;
-  }
-
-  .g2 img{
-    position:absolute;
-    width:45%;
-    height:auto;
-    top:-11rem;
-    left:25%;
-  }
-
-  .g3 img{
-    position:absolute;
-    width:45%;
-    height:auto;
-    top:-20rem;
-    left:10%;
-
-  }
-}
-@media (min-width: 320px) and (max-width:375.98px)
-{
-.a1 img{
-    width: 35%;
-    height: auto;
-    margin-left: 1rem;
-    margin-top:-9rem;
-}
-.a2 img{
-    width: 35%;
-    height: auto;
-    margin-left: -3rem;
-    margin-top: 4rem;
-}
-.a3 img{
-    width: 35%;
-    height: auto;
-    margin-left: -8rem;
-    margin-top:-9rem;
-}
-}
 @media (min-width: 320px) and (max-width: 374.98px) {
 
   #homepage,
@@ -848,7 +800,71 @@ i {
   left:4rem;
   top:-12rem;
 }
+ .m1 img {
+    width: 95%;
+    margin-left: 9px;
+    margin-top: 100px;
+  }
 
+  .m2 img {
+    width: 95%;
+  }
+  
+  .g1 img{
+    position:absolute;
+    width:45%;
+    height:auto;
+    top:9rem;
+    left:45%;
+  }
+
+  .g2 img{
+    position:absolute;
+    width:45%;
+    height:auto;
+    top:-11rem;
+    left:25%;
+  }
+
+  .g3 img{
+    position:absolute;
+    width:45%;
+    height:auto;
+    top:-20rem;
+    left:10%;
+
+  }
+  
+  .a1 img{
+    width: 35%;
+    height: auto;
+    margin-left: 1rem;
+    margin-top:-9rem;
+}
+.a2 img{
+    width: 35%;
+    height: auto;
+    margin-left: -3rem;
+    margin-top: 4rem;
+}
+.a3 img{
+    width: 35%;
+    height: auto;
+    margin-left: -8rem;
+    margin-top:-9rem;
+}
+  
+  .sam-logo img {
+    position: absolute;
+    width: 100px;
+    top: 5%;
+    left: 3%;
+    z-index: 1000;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+  
+  
 .font{
   font-size: 2.5rem;
   margin-top:3rem;
@@ -1213,6 +1229,7 @@ i {
   .font {
     font-size: 70px;
   }
+}
 
   @media (min-width: 576px) and (max-width: 767.98px) {}
 
