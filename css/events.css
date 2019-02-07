@@ -456,7 +456,16 @@ h2{
 i {
   cursor: pointer;
 }
-
+.event-play{
+  margin-top: 2rem;
+}
+.event-play h2{
+  font-size: 3rem;
+}
+.material-icons.active{
+  font-size:48px;
+  color:white
+}
 
 /* @media (max-width: 575.98px){
 
@@ -555,6 +564,21 @@ i {
 .font{
   margin-top: 3rem;
   font-size: 2.5rem;
+}
+.event-play{
+  margin-top: 1rem;
+}
+.event-play h2{
+  font-size: 1.3rem;
+}
+.material-icons.active{
+  font-size:30px;
+  color:white;
+  margin-top: 1rem;
+}
+.register{
+  top:90%;
+  left:35%;
 }
 .p1 img{
   width: 9rem;
