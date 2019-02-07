@@ -83,6 +83,7 @@
   transition: all 600ms cubic-bezier(.62,.04,.3,1.56);
   transition-delay: 100ms;
 }
+
 #nav.show {
     width: 50%;
     right: -15%;
@@ -210,6 +211,9 @@ a.ham-menu:hover{
   .ham-div{
     height: 55%;
   }
+  .bottom-nav{
+    background-image: url("../img/")
+  }
 }
 
 @media screen and (max-width:425px)
@@ -319,3 +323,4 @@ a.ham-menu:hover{
     background-size: 90%;
   }
 }
+
