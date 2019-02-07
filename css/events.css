@@ -612,7 +612,7 @@ i {
   }
 }
 
-@media (min-width: 320px) and (max-width: 374.98px) {
+@media (min-width: 320px) and (max-width: 424.98px) {
 
   #homepage,
   #photography,
@@ -742,7 +742,7 @@ i {
   }
 
 .dance1{
-  height:600px;
+  height:470px;
 }
 
 .dance1 img{
@@ -867,7 +867,7 @@ i {
   }
   
   
-.font{
+/* .font{
   font-size: 2.5rem;
   margin-top:3rem;
 }
@@ -939,7 +939,7 @@ i {
     background-image: url("../img/mobile/dance.png");
     background-size: cover;
   }
-}
+} */
 
 @media (min-width: 425px) and (max-width:575.98px) {
 
