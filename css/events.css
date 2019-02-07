@@ -459,7 +459,7 @@ i {
     position: absolute;
 }
   #homepage{
-    background-image: url("../img/Samgatha Mobile BG/Dance Mobile.png");
+    background-image: url("../img/Samgatha Mobile BG/Events Mobile.png");
     background-size: cover;
 }
 #photography{
@@ -491,7 +491,7 @@ i {
     background-size: cover;
 }
 #quiz{
-    background-image: url("../img/Samgatha Mobile BG/Dance Mobile.png");
+    background-image: url("../img/Samgatha Mobile BG/Quiz Phone1.png");
     background-size: cover;
 }
 #design{
@@ -564,26 +564,24 @@ i {
 
 .g1 img{
   position:absolute;
-  width:70%;
-  height:auto;
-  top:20%;
-  left:40%;
+  width:47%;
+  top:43vh;
+  left:30vh;
 }
 
 .g2 img{
   position:absolute;
-  width:70%;
+  width:47%;
   height:auto;
-  bottom:5%;
-  left:15%;
+  bottom:-13vh;
+  left:5vh;
 }
 
 .g3 img{
   position:absolute;
-  width:70%;
-  height:auto;
-  top:20%;
-  left:-10%;
+  width:47%;
+  top:16vh;
+  left:30vh;
 }
 .p1 img,.p2 img,.p3 img{
     position: absolute;
@@ -611,21 +609,21 @@ i {
         margin-left: -14rem;
 }
 .a1 img{
-    width: 55%;
+    width: 35%;
     height: auto;
-    margin-left:-1rem;
+    margin-left:-25vh;
     margin-top:-15rem;
 }
 .a2 img{
-    width: 55%;
+    width: 35%;
     height: auto;
-    margin-left: -7rem;
-    margin-top: -5rem;
+    margin-left: -12vh;
+    margin-top: 5vh;
 }
 .a3 img{
-    width: 55%;
+    width: 35%;
     height: auto;
-    margin-left:-12rem;
+    margin-left:1vh;
     margin-top:-15rem;
 }
 .m1 img{
@@ -642,27 +640,23 @@ i {
   height: 600px;
 }
 .q1 img{
-  width: 60%;
-  height: auto;
-  margin-top: 1rem;
+  width: 40%;
   position: absolute;
-  right: 5px;
-  top:20%;
-  
+  right: 5vh;
+  top:5vh;
 }
 .q2 img{
-  width: 60%;
+  width: 45%;
   position: absolute;
-  bottom: 4%;
-  left:5%;
+  bottom: 26vh;
+  left:5vh;
 
 }
 .q3 img{
-  width: 60%;
+  width: 40%;
   position: absolute;
-  right: 50%;
-  left: -30%;
-  top:20%;
+  left:33vh;
+  top: -30vh;
 }
 
 .li1 img{
