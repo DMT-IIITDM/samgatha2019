@@ -430,7 +430,7 @@ function Onepage(element, options) {
     timingFunction: 'ease',
     period: 300,
     wheelDelta: 100,
-    pagination: true,
+    pagination: false,
     keyboard: true,
     loop: 'down'
   });
