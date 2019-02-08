@@ -752,21 +752,21 @@ i {
   .q1 img {
     width: 9rem;
     height: auto;
-    margin-top: 2rem;
+    margin-top: -2rem;
     margin-right: 3rem;
   }
 
   .q2 img {
     height: auto;
     width: 9rem;
-    margin-bottom: 10rem;
+    margin-bottom: 4rem;
     margin-right: 5rem;
   }
 
   .q3 img {
     width: 9rem;
     height: auto;
-    margin-bottom: 2rem;
+    margin-bottom: -4rem;
     margin-right: -10.5rem;
   }
 
@@ -806,7 +806,9 @@ i {
 .drama1{
   height:600px;
 }
-
+.q1{
+  height: 400px;
+}
 .drama1 img{
   position:absolute;
   width:65%;
@@ -897,7 +899,7 @@ i {
 }
 @media (min-width: 375px) and (max-width: 424.98px){
  .q3 img{
-   margin-bottom: 0rem;
+  margin-bottom: -6rem;
  }
 }
 @media (min-width: 425px) and (max-width:575.98px) {
@@ -918,6 +920,25 @@ i {
     margin-top: 3rem;
     font-size: 2.5rem;
   }
+  .event-play {
+    margin-top: 1rem;
+  }
+
+  .event-play h2 {
+    font-size: 2rem;
+  }
+
+  .material-icons.active {
+    font-size: 30px;
+    color: white;
+    margin-top: 1rem;
+  }
+
+  .register {
+    top: 90%;
+    left: 37.5%;
+  }
+
   #homepage {
     background-image: url("../img/mobile/events.png");
     background-size: cover;
