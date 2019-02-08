@@ -88,7 +88,7 @@ span.gradient-left{
   left:40px;
   z-index:3;
   background-color: #FFF8EE;
-  background-image:linear-gradient(to left,black,#FFF8EE);
+  background-image:linear-gradient(to left,#807C77,#FFF8EE);
 }
 
 span.gradient-right{
@@ -99,7 +99,7 @@ span.gradient-right{
   left:-30px;
   z-index:3;
   background-color:#FFF8EE;
-  background-image:linear-gradient(to right,black,#FFF8EE);
+  background-image:linear-gradient(to right,#807C77,#FFF8EE);
 }
 
 .ribbon i:nth-child(4) {
