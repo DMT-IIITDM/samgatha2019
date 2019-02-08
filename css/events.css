@@ -914,7 +914,10 @@ i {
   #design {
     position: absolute;
   }
-
+  .font {
+    margin-top: 3rem;
+    font-size: 2.5rem;
+  }
   #homepage {
     background-image: url("../img/mobile/events.png");
     background-size: cover;
@@ -922,7 +925,7 @@ i {
 
   #photography {
     background-image: url("../img/mobile/photography.png");
-    background-size: cover;
+    background-position: bottom right;
   }
 
   #dance {
@@ -957,7 +960,7 @@ i {
 
   #quiz {
     background-image: url("../img/mobile/quiz.png");
-    background-position-x: right;
+    background-position:right;
   }
 
   #design {
@@ -1064,24 +1067,24 @@ i {
   } 
 
   .p1 img {
-    width: 50%;
+    width: 12rem;
     height: auto;
-    margin-top: -15rem;
-    margin-left: -13rem;
+    margin-top: -11rem;
+    margin-left: -12rem;
   }
 
   .p2 img {
-    width: 50%;
+    width: 12rem;
     height: auto;
-    margin-top: -5rem;
-    margin-left: 1rem;
+    margin-top: -4rem;
+    margin-left: 0.5rem;
   }
 
   .p3 img {
-    width: 50%;
+    width: 12rem;
     height: auto;
-    margin-top: 6rem;
-    margin-left: -14rem;
+    margin-top: 5rem;
+    margin-left: -12rem;
   }
 
   .a1 img {
@@ -1121,25 +1124,25 @@ i {
   }
 
   .q1 img {
-    width: 40%;
+    width: 11rem;
     position: absolute;
-    right: 5vh;
-    top: 5vh;
+    margin-right: 2rem;
+    margin-top: 1rem;
   }
 
   .q2 img {
-    width: 45%;
+    width: 11rem;
     position: absolute;
-    bottom: 26vh;
-    left: 5vh;
+    margin-bottom: 8rem;
+    margin-right: 6rem;
 
   }
 
   .q3 img {
-    width: 40%;
+    width: 11rem;
     position: absolute;
-    left: 33vh;
-    top: -30vh;
+    margin-right: -13rem;
+    margin-bottom: -3rem;
   }
 
   .li1 img {
