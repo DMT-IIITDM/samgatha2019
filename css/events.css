@@ -231,10 +231,6 @@ body {
   background: rgba(0, 0, 0, 0.8);
 }
 
-.p1 img,.p2 img,.p3 img{
-    position: absolute;
-}
-
 .heading {
   top: 3%;
 }
@@ -430,7 +426,7 @@ h2 {
   width: 60%;
   position: absolute;
   right: 55%;
-  top: 20%;
+  bottom: 40%;
 }
 
 /* Hover up */
@@ -553,7 +549,9 @@ h2 {
 .col-sm-4 img:hover {
   transform: scale(1.1);
 }
-
+.col-sm-6 img{
+  transition: transform 0.5s;
+}
 .col-sm-6 img:hover {
   transform: scale(1.1);
 }
@@ -755,19 +753,21 @@ i {
     width: 9rem;
     height: auto;
     margin-top: 2rem;
+    margin-right: 3rem;
   }
 
   .q2 img {
     height: auto;
     width: 9rem;
     margin-bottom: 10rem;
+    margin-right: 5rem;
   }
 
   .q3 img {
     width: 9rem;
     height: auto;
-    margin-top: -11rem;
-    margin-right: -10rem;
+    margin-bottom: 2rem;
+    margin-right: -10.5rem;
   }
 
 .dance1{
@@ -893,83 +893,12 @@ i {
     z-index: 1000;
     cursor: pointer;
     border-radius: 50%;
-  }
-  
-  
-/* .font{
-  font-size: 2.5rem;
-  margin-top:3rem;
 }
-
-
+@media (min-width: 375px) and (max-width: 424.98px){
+ .q3 img{
+   margin-bottom: 0rem;
+ }
 }
-
-@media (min-width: 375px) and (max-width:424.98px) {
-
-  #homepage,
-  #photography,
-  #dance,
-  #art,
-  #music,
-  #gaming,
-  #literature,
-  #drama,
-  #quiz,
-  #design {
-    position: absolute;
-  }
-
-  #homepage {
-    background-image: url("../img/mobile/events.png");
-    background-size: cover;
-  }
-
-  #photography {
-    background-image: url("../img/mobile/photography.png");
-    background-size: cover;
-  }
-
-  #dance {
-    background-image: url("../img/mobile/dance.png");
-    background-size: cover;
-  }
-
-  #art {
-    background-image: url("../img/mobile/art.png");
-    background-size: cover;
-  }
-
-  #music {
-    background-image: url("../img/mobile/music.png");
-    background-size: cover;
-  }
-
-  #gaming {
-    background-image: url("../img/mobile/gaming.png");
-    background-size: cover;
-  }
-
-  #literature {
-    background-image: url("../img/mobile/literature.png");
-    background-size: cover;
-  }
-
-  #drama {
-    background-image: url("../img/mobile/drama.png");
-    background-size: cover;
-  }
-
-  #quiz {
-    background-image: url("../img/mobile/quiz.png");
-    background-size: cover;
-  }
-
-  #design {
-    background-image: url("../img/mobile/dance.png");
-    background-size: cover;
-  }
-} */
-
 @media (min-width: 425px) and (max-width:575.98px) {
 
   #homepage,
@@ -1014,8 +943,8 @@ i {
     background-image: url("../img/mobile/gaming.png");
     background-size: cover;
     background-position: bottom right;
-}
-#literature{
+  }
+  #literature{
     background-image: url("../img/mobile/literature.png");
     background-size: cover;
   }
@@ -1027,7 +956,7 @@ i {
 
   #quiz {
     background-image: url("../img/mobile/quiz.png");
-    background-size: cover;
+    background-position-x: right;
   }
 
   #design {
