@@ -394,8 +394,8 @@ h2{
 
 .stream1.active{
   position:absolute;
-  left:0;
-  width:55%;
+  left:2.5%;
+  width:95%;
   height:90%;
   opacity:1;
   visibility:visible;
@@ -438,6 +438,12 @@ h2{
   position:absolute;
   top:5px;
   right:25px;
+}
+
+.cross1 {
+  position:absolute;
+  top:55px;
+  left:25px;
 }
 
 .material-icons{
