@@ -146,7 +146,7 @@ a.ham-menu:hover{
     } 
 
 
-@keyframes shotup {
+@keyframes shotup{
   0% {
     transform: translateY(300%) ;
     opacity: 0;
@@ -199,10 +199,10 @@ a.ham-menu:hover{
 @media screen and (max-width:768px)
 {
   a.ham-menu{
-    font-size: 20px;
+    font-size: 25px;
   }
   span.ham-num{
-    font-size: 15px !important;
+    font-size: 18px !important;
   }
   span.ham-side{
     font-size: 8px !important;
@@ -215,17 +215,17 @@ a.ham-menu:hover{
 @media screen and (max-width:425px)
 {
   a.ham-menu{
-    font-size: 18px;
+    font-size: 25px;
   }
   span.ham-num{
-    font-size: 10px !important;
+    font-size: 15px !important;
   }
   span.ham-side{
     font-size: 8px !important;
   }
   .ham-div{
     width: 70%;
-    margin-top: 35%;
+    margin-top: 25%;
     margin-left: 6%;
     height: 50%;
     padding: 10px 0px 0px 15px;
@@ -296,10 +296,10 @@ a.ham-menu:hover{
 @media screen and (max-width:320px)
 {
   a.ham-menu{
-    font-size: 18px;
+    font-size: 22px;
   }
   span.ham-num{
-    font-size: 12px !important;
+    font-size: 15px !important;
   }
   span.ham-side{
     font-size: 9px !important;
