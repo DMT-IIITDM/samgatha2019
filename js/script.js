@@ -6,6 +6,7 @@ var icon3 = document.getElementById("c");
 var nav = document.getElementById('nav');
 var blue = document.getElementById("blue");
 
+
 icon.addEventListener('click', function () {
   icon1.classList.toggle('a');
   icon2.classList.toggle('c');
@@ -13,7 +14,6 @@ icon.addEventListener('click', function () {
   nav.classList.toggle('show');
   // blue.classList.toggle('slide');
 });
-
 
 
 //Ripples

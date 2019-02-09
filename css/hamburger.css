@@ -8,6 +8,7 @@
     src: url(../fonts/Vintage\ Warehouse.ttf);
   }
 
+
 .icon-1, .icon-2, .icon-3 {
     position: absolute;
     left: 25%;
@@ -83,6 +84,7 @@
   transition: all 600ms cubic-bezier(.62,.04,.3,1.56);
   transition-delay: 100ms;
 }
+
 #nav.show {
     width: 50%;
     right: -15%;
@@ -146,7 +148,8 @@ a.ham-menu:hover{
     } 
 
 
-@keyframes shotup{
+
+@keyframes shotup {
   0% {
     transform: translateY(300%) ;
     opacity: 0;
@@ -194,6 +197,7 @@ a.ham-menu:hover{
   #nav{
     background-size: 70%;
   }
+
 }
 
 @media screen and (max-width:768px)
@@ -236,7 +240,18 @@ a.ham-menu:hover{
   #nav{
     background-size: 80%;
   }
-
+  .hamburger-icon-bottom {
+    position: absolute;
+    background-image: url("../img/mobile/hamburger.png");
+    background-size:50px 50px;
+    height: 50px;
+    width: 50px;
+    bottom: 2%;
+    left: 3%;
+    z-index: 1001;
+    cursor: pointer;
+    border-radius: 50%;  
+  }
 }
 
 @media only screen and (orientation:landscape) and (max-width:600px)
@@ -319,3 +334,4 @@ a.ham-menu:hover{
     background-size: 90%;
   }
 }
+
