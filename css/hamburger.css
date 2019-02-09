@@ -93,7 +93,7 @@
 .ham-div{
   position: relative;
   margin-top: 15%;
-  margin-left: 3%;
+  margin-left: 8%;
   width: 45%;
   height: 60%;
   display: block;
@@ -117,7 +117,7 @@
 }
 a.ham-menu{
   /* padding-left: 10%; */
-  font-size: 30px;
+  font-size: 35px;
   font-family: mynavmenu;
   color: #020202 !important; 
   text-transform: uppercase;
@@ -165,7 +165,7 @@ a.ham-menu:hover{
 @media screen and (min-width:1440px)
 {
   a.ham-menu{
-    font-size: 35px;
+    font-size: 40px;
   }
   span.ham-num{
     font-size: 30px !important;
@@ -175,8 +175,8 @@ a.ham-menu:hover{
   }
   .ham-div{
     width: 45%;
-    margin-top: 10%;
-    margin-left: 5%;
+    margin-top: 20%;
+    margin-left: 8%;
     height: 60%;
     /* padding: 10px 0px 0px 15px; */
   }
@@ -190,8 +190,8 @@ a.ham-menu:hover{
 {
   .ham-div{
     width: 60%;
-    margin-top: 22%;
-    margin-left: 5%;
+    margin-top: 25%;
+    margin-left: 10%;
     padding: 20px 5px 0px 5px;
   }
   #nav{
@@ -219,7 +219,7 @@ a.ham-menu:hover{
 @media screen and (max-width:425px)
 {
   a.ham-menu{
-    font-size: 25px;
+    font-size: 27px;
   }
   span.ham-num{
     font-size: 15px !important;
@@ -230,7 +230,7 @@ a.ham-menu:hover{
   .ham-div{
     width: 70%;
     margin-top: 25%;
-    margin-left: 6%;
+    margin-left: 10%;
     height: 50%;
     padding: 10px 0px 0px 15px;
   }
@@ -268,7 +268,7 @@ a.ham-menu:hover{
   .ham-div{
     width: 70%;
     margin-top: 2%;
-    margin-left: 10%;
+    margin-left: 15%;
     height: 100%;
     padding: 2px 0px 0px 80px;
   }
@@ -284,10 +284,10 @@ a.ham-menu:hover{
 @media screen and (max-width:375px)
 {
   a.ham-menu{
-    font-size: 22px;
+    font-size: 30px;
   }
   span.ham-num{
-    font-size: 15px !important;
+    font-size: 20px !important;
   }
   span.ham-side{
     font-size: 10px !important;
@@ -295,7 +295,7 @@ a.ham-menu:hover{
   .ham-div{
     width: 80%;
     margin-top: 30%;
-    margin-left: 6%;
+    margin-left: 10%;
     height: 70%;
     padding: 15px 0px 15px 15px;
   }
@@ -311,7 +311,7 @@ a.ham-menu:hover{
 @media screen and (max-width:320px)
 {
   a.ham-menu{
-    font-size: 22px;
+    font-size: 25px;
   }
   span.ham-num{
     font-size: 15px !important;
@@ -322,7 +322,7 @@ a.ham-menu:hover{
   .ham-div{
     width: 79%;
     margin-top: 40%;
-    margin-left: 6%;
+    margin-left: 10%;
     height: 50%;
     padding: 10px 0px 0px 20px;
   }
