@@ -20,7 +20,9 @@
 #design {
   position: absolute;
 }
-
+.sam-logo{
+  visibility: hidden;
+}
 #homepage {
   background-image: url("../img/events/events.png");
   background-size: cover;
@@ -671,6 +673,11 @@ i {
     position: absolute;
   }
 
+  #sideNav{
+    width:0%;
+    height:0%;
+  }
+
   #homepage {
     background-image: url("../img/mobile/events.png");
     background-size: cover;
@@ -919,6 +926,7 @@ i {
     z-index: 1000;
     cursor: pointer;
     border-radius: 50%;
+    visibility: visible;
 }
 }
 @media (min-width: 375px) and (max-width: 424.98px){
@@ -940,6 +948,16 @@ i {
   #design {
     position: absolute;
   }
+  .sam-logo img {
+    position: absolute;
+    width: 100px;
+    top: 5%;
+    left: 3%;
+    z-index: 1000;
+    cursor: pointer;
+    border-radius: 50%;
+    visibility: visible;
+}
   .font {
     margin-top: 3rem;
     font-size: 2.5rem;
@@ -1242,6 +1260,8 @@ i {
 
   @media (min-width: 576px) and (max-width: 767.98px) {}
 
+
+  /* For Ipad portrait */
   @media (min-width: 768px) and (max-width: 991.98px) and (orientation:portrait){
     #homepage,
   #photography,
@@ -1255,9 +1275,19 @@ i {
   #design {
     position: absolute;
   }
+  .sam-logo img {
+    position: absolute;
+    width: 150px;
+    top: 5%;
+    left: 3%;
+    z-index: 1000;
+    cursor: pointer;
+    border-radius: 50%;
+    visibility: visible;
+}
   .font {
-    margin-top: 3rem;
-    font-size: 2.5rem;
+    margin-top: 4rem;
+    font-size: 4rem;
   }
   .event-play {
     margin-top: 1rem;
@@ -1275,7 +1305,7 @@ i {
 
   .register {
     top: 90%;
-    left: 37.5%;
+    left: 42.5%;
   }
 
   #homepage {
@@ -1327,13 +1357,10 @@ i {
     background-image: url("../img/mobile/dance.png");
     background-size: cover;
   }
-  .font{
-    font-size: 5rem;
-  }
   .p1 img{
     width: 17rem;
     height: auto;
-    margin-top: -18em;
+    margin-top: -16em;
     margin-left: -4rem;
   }
   .p2 img{
@@ -1381,6 +1408,7 @@ i {
     #design {
       position: absolute;
     }
+
     .font {
       margin-top: 3.5rem;
       font-size: 7rem;
