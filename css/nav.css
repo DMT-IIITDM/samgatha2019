@@ -24,6 +24,7 @@
   .nav-item a:target{
     color:orange;
   }
+  
 
 
   #sideNav {
@@ -33,7 +34,7 @@
     left: 0;
     display: flex;
     flex-direction: column;
-    width: 17rem;
+    width: 27rem;
     height: 100vh;
   }
   #sideNav .navbar-brand {
@@ -64,8 +65,11 @@
     display: block;
     color:white;
     padding :1px;
+    font-size: 1.5em;
     font-family:Market Deco;
+    font-size:18px;
   }
+
   #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link.active {
       display: block;
       /* color:#F38445 !important; */
@@ -80,3 +84,40 @@
 
   } */
 }    
+
+@media (min-width: 768px) and (max-width:991.9px){
+  #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+    display: block;
+    color:white;
+    padding :1px;
+    font-size: 1.5em;
+    font-family:Market Deco;
+  }
+  img.insta{
+    width: 40px !important;
+    height: 40px !important;
+    padding: 5px;
+    position: absolute !important;
+    bottom: -200px !important;
+    left: -20px !important;
+  }
+  img.fb{
+    width: 25px !important;
+    height: 40px !important;
+    padding: 5px;
+    position: absolute !important;
+    bottom: -200px !important;
+    left: 25px !important;
+  }
+  img.twit{
+    width: 50px !important;
+    height: 40px !important;
+    padding: 5px ;
+    position: absolute !important;
+    bottom: -200px !important;
+    left: 55px !important;
+  }
+  .fixed-top{
+    top: 25% !important;
+  }
+}
