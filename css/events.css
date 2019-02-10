@@ -469,6 +469,10 @@ h2 {
 }
 
 
+.hamburger-icon-bottom.active{
+  visibility:hidden;
+}
+
 .stream.active{
   position:absolute;
   left:2.5%;

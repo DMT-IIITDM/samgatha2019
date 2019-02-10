@@ -5,11 +5,13 @@ function menu() {
     $('#bottom-ham').on('click',function(){
         $('#overlay-bot').toggleClass('active');
         $('#close-bot').toggleClass('active');
+        $('#bottom-ham').toggleClass('active');
     });
 
     $('#close-bot').on('click',function(){
         $('#overlay-bot').toggleClass('active');
         $('#close-bot').toggleClass('active');
+        $('#bottom-ham').toggleClass('active');
     });
 
     $('#photo1').on('click', function () {
