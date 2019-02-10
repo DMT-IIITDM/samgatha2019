@@ -62,10 +62,14 @@ for(let i=1;i<=10;i++)
 {
     // document.getElementById(String(1)).style.color= "#F38445";
     document.getElementById(String(i)).onclick=function(){
+        onepage.move(i-1);
         for(let j=1;j<=10;j++)
         {
             document.getElementById(String(j)).style.color="black";
         }
-        onepage.move(i-1);
+        $('#overlay-bot').toggleClass('active');
+        $('#close-bot').toggleClass('active');
+        $('#bottom-ham').toggleClass('active');
+        ham_check=0;
     };
 }
