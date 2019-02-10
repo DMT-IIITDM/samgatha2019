@@ -6,12 +6,14 @@ function menu() {
         $('#overlay-bot').toggleClass('active');
         $('#close-bot').toggleClass('active');
         $('#bottom-ham').toggleClass('active');
+        ham_check=1;
     });
 
     $('#close-bot').on('click',function(){
         $('#overlay-bot').toggleClass('active');
         $('#close-bot').toggleClass('active');
         $('#bottom-ham').toggleClass('active');
+        ham_check=0;
     });
 
     $('#photo1').on('click', function () {
