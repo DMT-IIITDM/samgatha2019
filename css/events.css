@@ -3,6 +3,11 @@
   src: url(../fonts/nav.ttf);
 }
 
+@font-face {
+  font-family: mynavnum;
+  src: url(../fonts/Vintage\ Warehouse.ttf);
+}
+
 #homepage,
 #photography,
 #dance,
@@ -491,6 +496,12 @@ h2 {
   top: 50%;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
+}
+
+.nav-link{
+  color:black;
+  font-family:mynavnum;
+  font-size:1.1rem;
 }
 
 .nav-item.active {
