@@ -679,7 +679,7 @@ i {
 
   #music {
     background-image: url("../img/mobile/music.png");
-    background-size: cover;
+    background-position: bottom right;
   }
 
   #gaming {
@@ -970,7 +970,7 @@ i {
 
   #music {
     background-image: url("../img/mobile/music.png");
-    background-size: cover;
+    background-position: bottom right;
   }
 
   #gaming {
@@ -1353,4 +1353,128 @@ i {
   }
   }
 
-  @media (min-width: 992px) and (max-width: 1199.98px) {}
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    #homepage,
+    #photography,
+    #dance,
+    #art,
+    #music,
+    #gaming,
+    #literature,
+    #drama,
+    #quiz,
+    #design {
+      position: absolute;
+    }
+    .font {
+      margin-top: 3.5rem;
+      font-size: 7rem;
+    }
+    .event-play {
+      margin-top: 1rem;
+    }
+  
+    .event-play h2 {
+      font-size: 4rem;
+    }
+    .material-icons.active {
+      font-size: 30px;
+      color: white;
+      margin-top: 1rem;
+    }
+  
+    .register {
+      top: 90%;
+      left: 40%;
+      font-size: 2rem;
+    }
+  
+    #homepage {
+      background-image: url("../img/mobile/events.png");
+      background-size: cover;
+    }
+  
+    #photography {
+      background-image: url("../img/mobile/photography.png");
+      background-position: bottom right;
+    }
+  
+    #dance {
+      background-image: url("../img/mobile/dance.png");
+      background-size: cover;
+    }
+  
+    #art {
+      background-image: url("../img/mobile/art.png");
+      background-size: cover;
+    }
+  
+    #music {
+      background-image: url("../img/mobile/music.png");
+      background-size: cover;
+    }
+  
+    #gaming {
+      background-image: url("../img/mobile/gaming.png");
+      background-size: cover;
+      background-position: bottom right;
+    }
+    #literature{
+      background-image: url("../img/mobile/literature.png");
+      background-size: cover;
+    }
+  
+    #drama {
+      background-image: url("../img/mobile/drama.png");
+      background-size: cover;
+    }
+  
+    #quiz {
+      background-image: url("../img/mobile/quiz.png");
+      background-position:right;
+    }
+  
+    #design {
+      background-image: url("../img/mobile/dance.png");
+      background-size: cover;
+    }
+    .p1 img{
+      width: 20rem;
+      height: auto;
+      margin-top: -24rem;
+      margin-left: 2rem;
+    }
+    .p2 img{
+      width: 20rem;
+      height: auto;
+      margin-top: 7rem;
+      margin-left: -17rem;
+
+    }
+    .p3 img{
+      width: 20rem;
+      height: auto;
+      margin-top: -14rem;
+      margin-left: -16rem;
+    }
+    .q1 img{
+      width: 20rem;
+      height: auto;
+      margin-top: -13rem;
+      margin-right: -30rem;
+    }
+    .q2 img{
+      width: 20rem;
+      height: auto;
+      margin-bottom: 2rem;
+      margin-right: 1rem;
+
+    }
+    .q3 img{
+      width: 20rem;
+      height: auto;
+      margin-bottom: -37rem;
+      margin-right: 3rem;
+
+    }
+  }
