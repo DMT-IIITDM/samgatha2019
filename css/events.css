@@ -523,6 +523,7 @@ h2 {
 }
 
 .cross1 {
+  color:#F38445;
   position:absolute;
   top:55px;
   left:25px;
@@ -589,7 +590,7 @@ i {
 
 .material-icons.active {
   font-size: 48px;
-  color: white
+  color: white;
 }
 
 @media (max-width: 319.98px) {
@@ -729,6 +730,7 @@ i {
     background-image: url("../img/mobile/dance.png");
     background-size: cover;
   }
+
 
   .font {
     margin-top: 3rem;

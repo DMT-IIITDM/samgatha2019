@@ -60,16 +60,39 @@ for (let i = 1; i < 10; i++) {
 
 for(let i=1;i<=10;i++)
 {
-    // document.getElementById(String(1)).style.color= "#F38445";
-    document.getElementById(String(i)).onclick=function(){
-        onepage.move(i-1);
-        for(let j=1;j<=10;j++)
+    for(let j=0;j<10;j++)
+    {
+        if(list5[j]==1)
         {
-            document.getElementById(String(j)).style.color="black";
+            document.getElementById(String(j+1)).style.color="#F38445";
         }
+        else
+        {
+            document.getElementById(String(j+1)).style.color="black";
+        }
+    }
+    document.getElementById(String(i)).onclick=function(){
+        for(let j=0;j<10;j++)
+        {
+            document.getElementById(String(j+1)).style.color="black";
+            list5[j]=0;
+        }
+        onepage.move(i-1);
+        list5[i-1]=1;
         $('#overlay-bot').toggleClass('active');
         $('#close-bot').toggleClass('active');
         $('#bottom-ham').toggleClass('active');
         ham_check=0;
+        for(let j=0;j<10;j++)
+        {
+            if(list5[j]==1)
+            {
+                document.getElementById(String(j+1)).style.color="#F38445";
+            }
+            else
+            {
+                document.getElementById(String(j+1)).style.color="black";
+            }
+        }
     };
 }

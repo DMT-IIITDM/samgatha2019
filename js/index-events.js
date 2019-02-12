@@ -560,6 +560,7 @@ require.register("onepage/index.js", function (exports, require, module) {
             $('#bottom-ham').toggleClass('active');
             ham_check=0;
         }
+
         for (let i = 0; i < 10; i++) {
             document.getElementById(list1[i][0]).onclick = function () {
                 for (let j = 0; j < 10; j++) {
@@ -576,7 +577,7 @@ require.register("onepage/index.js", function (exports, require, module) {
                 pos1 = i;
             };
         }
-
+        
     };
 
 
@@ -629,6 +630,7 @@ require.register("onepage/index.js", function (exports, require, module) {
             $('#bottom-ham').toggleClass('active');
             ham_check=0;
         }
+    
     };
 
     /**
