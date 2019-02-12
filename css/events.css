@@ -780,8 +780,8 @@ i {
 .dance1 img{
   position:absolute;
   width:80%;
-  height:200px;
-  bottom:52%;
+  height:190px;
+  bottom:53%;
   left:10%;
   margin-top: 0px;
 }
@@ -790,18 +790,18 @@ i {
 .dance2 img{
   position:absolute;
   width:80%;
-  height:200px;
+  height:190px;
   left:13%;
   top:0px;
-  margin-top:-200px;
+  margin-top:-140px;
 }
 
 
 .dance3 img{
   position:absolute;
   width:80%;
-  height:200px;
-  bottom:158px;
+  height:190px;
+  bottom:100px;
   left:13%;
   margin-top: 0px;
 }
@@ -823,7 +823,7 @@ i {
   position:absolute;
   width:65%;
   height:auto;
-  left:19%;
+  left:4.5rem;
   bottom:21rem;
 }
 
@@ -832,7 +832,7 @@ i {
   width:65%;
   height:auto;
   left:4rem;
-  top:-12rem;
+  top:-11rem;
 }
  .m1 img {
     width: 95%;
