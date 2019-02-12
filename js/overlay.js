@@ -7,12 +7,34 @@ function menu() {
         $('#close-bot').toggleClass('active');
         $('#bottom-ham').toggleClass('active');
         ham_check=1;
+        for(let j=0;j<10;j++)
+        {
+            if(list5[j]==1)
+            {
+                document.getElementById(String(j+1)).style.color="#F38445";
+            }
+            else
+            {
+                document.getElementById(String(j+1)).style.color="black";
+            }
+        }
     });
 
     $('#close-bot').on('click',function(){
         $('#overlay-bot').toggleClass('active');
         $('#close-bot').toggleClass('active');
         $('#bottom-ham').toggleClass('active');
+        for(let j=0;j<10;j++)
+        {
+            if(list5[j]==1)
+            {
+                document.getElementById(String(j+1)).style.color="#F38445";
+            }
+            else
+            {
+                document.getElementById(String(j+1)).style.color="black";
+            }
+        }
         ham_check=0;
     });
 
