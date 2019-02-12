@@ -550,9 +550,38 @@ require.register("onepage/index.js", function (exports, require, module) {
                 $(list4[i][3]).toggleClass('active');
                 $('.nav-item').toggleClass('active');
                 $('#social').toggleClass('active');
+                $('#bottom-ham').toggleClass('active');
                 list4[i][1]=0;
             }
         }
+        if(ham_check==1)
+        {
+            $('#overlay-bot').toggleClass('active');
+            $('#close-bot').toggleClass('active');
+            $('#bottom-ham').toggleClass('active');
+            ham_check=0;
+        }
+
+        for(let j=0;j<10;j++)
+        {
+            if(j==me.page)
+            {
+                list5[j]=1;
+            }
+            else
+            {
+                list5[j]=0;
+            }
+            if(list5[j]==1)
+            {
+                document.getElementById(String(j+1)).style.color="#F38445";
+            }
+            else
+            {
+                document.getElementById(String(j+1)).style.color="black";
+            }
+        }
+
 
         for (let i = 0; i < 10; i++) {
             document.getElementById(list1[i][0]).onclick = function () {
@@ -570,7 +599,7 @@ require.register("onepage/index.js", function (exports, require, module) {
                 pos1 = i;
             };
         }
-
+        
     };
 
 
@@ -613,10 +642,36 @@ require.register("onepage/index.js", function (exports, require, module) {
                 $(list4[i][3]).toggleClass('active');
                 $('.nav-item').toggleClass('active');
                 $('#social').toggleClass('active');
+                $('#bottom-ham').toggleClass('active');
                 list4[i][1]=0;
             }
         }
-
+        if(ham_check==1)
+        {
+            $('#overlay-bot').toggleClass('active');
+            $('#close-bot').toggleClass('active');
+            $('#bottom-ham').toggleClass('active');
+            ham_check=0;
+        }
+        for(let j=0;j<10;j++)
+        {
+            if(j==me.page)
+            {
+                list5[j]=1;
+            }
+            else
+            {
+                list5[j]=0;
+            }
+            if(list5[j]==1)
+            {
+                document.getElementById(String(j+1)).style.color="#F38445";
+            }
+            else
+            {
+                document.getElementById(String(j+1)).style.color="black";
+            }
+        }
     };
 
     /**

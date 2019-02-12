@@ -39,7 +39,7 @@ for (let i = 1; i < 10; i++) {
         onepage.move(i);
         list1[i][1] = 1;
         pos1 = i;
-    }
+    };
     document.getElementById(list3[i - 1]).onclick = function () {
         for (let j = 0; j < 10; j++) {
             list1[j][1] = 0;
@@ -53,6 +53,46 @@ for (let i = 1; i < 10; i++) {
         onepage.move(i-1);
         list1[i][1] = 1;
         pos1 = i;
-    }
+    };
 }
 
+// Hambuger links
+
+for(let i=1;i<=10;i++)
+{
+    for(let j=0;j<10;j++)
+    {
+        if(list5[j]==1)
+        {
+            document.getElementById(String(j+1)).style.color="#F38445";
+        }
+        else
+        {
+            document.getElementById(String(j+1)).style.color="black";
+        }
+    }
+    document.getElementById(String(i)).onclick=function(){
+        for(let j=0;j<10;j++)
+        {
+            document.getElementById(String(j+1)).style.color="black";
+            list5[j]=0;
+        }
+        onepage.move(i-1);
+        list5[i-1]=1;
+        $('#overlay-bot').toggleClass('active');
+        $('#close-bot').toggleClass('active');
+        $('#bottom-ham').toggleClass('active');
+        ham_check=0;
+        for(let j=0;j<10;j++)
+        {
+            if(list5[j]==1)
+            {
+                document.getElementById(String(j+1)).style.color="#F38445";
+            }
+            else
+            {
+                document.getElementById(String(j+1)).style.color="black";
+            }
+        }
+    };
+}
