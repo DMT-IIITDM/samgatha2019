@@ -964,8 +964,8 @@ i {
     visibility: visible;
 }
   .font {
-    margin-top: 3rem;
-    font-size: 2.5rem;
+    margin-top: 2rem;
+    font-size: 4rem;
   }
   .event-play {
     margin-top: 1rem;
@@ -1042,30 +1042,30 @@ i {
 
   .dance1 img {
     position: absolute;
-    width: 80%;
-    height: 200px;
-    bottom: 58%;
-    left: 10%;
+    width: 62%;
+    height: 10rem;
+    bottom: 54%;
+    left: 19%;
     margin-top: 0px;
   }
 
 
   .dance2 img {
     position: absolute;
-    width: 80%;
-    height: 200px;
-    left: 15%;
+    width: 62%;
+    height: 10rem;
+    left: 19%;
     top: 0px;
-    margin-top: -200px;
+    margin-top: -179px;
   }
 
 
   .dance3 img {
     position: absolute;
-    width: 80%;
-    height: 200px;
-    bottom: 175px;
-    left: 13%;
+    width: 62%;
+    height: 10rem;
+    bottom: 170px;
+    left: 19%;
     margin-top: 0px;
   }
 
@@ -1075,25 +1075,23 @@ i {
 
   .drama1 img {
     position: absolute;
-    width: 100%;
-    height: auto;
-    top: 25%;
+    width: 15rem;
+    margin-top: 7rem;
+    margin-left: -3rem;
   }
 
   .drama2 img {
     position: absolute;
-    width: 100%;
-    height: auto;
-    left: 10%;
-    bottom: 2%;
+    width: 15rem;
+    margin-bottom: 21rem;
+    margin-left: 3rem;
   }
 
   .drama3 img {
     position: absolute;
-    width: 100%;
-    height: auto;
-    left: -25%;
-    top: 25%;
+    width: 15rem;
+    margin-top: -11rem;
+    margin-left: 15rem;
   }
 
   .g1 {
@@ -1228,34 +1226,12 @@ i {
     bottom: -10rem;
   }
 
-  .drama1 img {
-    position: absolute;
-    width: 65%;
-    top: 11vh;
-    right: 12vh;
-  }
-
-  .drama2 img {
-    position: absolute;
-    width: 65%;
-    top: -42vh;
-    left: 13vh;
-  }
-
-  .drama3 img {
-    position: absolute;
-    width: 65%;
-    top: -20vh;
-    left: 13vh;
-  }
+  
 
   #photography .font {
     font-size: 60px;
   }
 
-  .font {
-    font-size: 70px;
-  }
 }
 
   @media (min-width: 576px) and (max-width: 767.98px) {}
