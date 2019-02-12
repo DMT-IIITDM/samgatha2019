@@ -5,11 +5,15 @@ function menu() {
     $('#bottom-ham').on('click',function(){
         $('#overlay-bot').toggleClass('active');
         $('#close-bot').toggleClass('active');
+        $('#bottom-ham').toggleClass('active');
+        ham_check=1;
     });
 
     $('#close-bot').on('click',function(){
         $('#overlay-bot').toggleClass('active');
         $('#close-bot').toggleClass('active');
+        $('#bottom-ham').toggleClass('active');
+        ham_check=0;
     });
 
     $('#photo1').on('click', function () {
@@ -219,21 +223,21 @@ function menu() {
         $('#close17').toggleClass('active');
         $('.nav-item').toggleClass('active');
         $('#social').toggleClass('active');
-        list4[17][1]=1;
+        list4[14][1]=1;
     });
     $('#drama18').on('click', function () {
         $('#overlay18').toggleClass('active');
         $('#close18').toggleClass('active');
         $('.nav-item').toggleClass('active');
         $('#social').toggleClass('active');
-        list4[18][1]=1;
+        list4[15][1]=1;
     });
     $('#drama19').on('click', function () {
         $('#overlay19').toggleClass('active');
         $('#close19').toggleClass('active');
         $('.nav-item').toggleClass('active');
         $('#social').toggleClass('active');
-        list4[19][1]=1;
+        list4[16][1]=1;
     });
     $('#close17').on('click', function () {
         $('#overlay17').toggleClass('active');
@@ -262,21 +266,21 @@ function menu() {
         $('#close20').toggleClass('active');
         $('.nav-item').toggleClass('active');
         $('#social').toggleClass('active');
-        list4[20][1]=1;
+        list4[17][1]=1;
     });
     $('#quiz21').on('click', function () {
         $('#overlay21').toggleClass('active');
         $('#close21').toggleClass('active');
         $('.nav-item').toggleClass('active');
         $('#social').toggleClass('active');
-        list4[21][1]=1;
+        list4[18][1]=1;
     });
     $('#quiz22').on('click', function () {
         $('#overlay22').toggleClass('active');
         $('#close22').toggleClass('active');
         $('.nav-item').toggleClass('active');
         $('#social').toggleClass('active');
-        list4[22][1]=1;
+        list4[19][1]=1;
     });
     $('#close20').on('click', function () {
         $('#overlay20').toggleClass('active');

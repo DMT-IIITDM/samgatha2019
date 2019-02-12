@@ -32,7 +32,12 @@ body {
   height: 20rem;
   position: relative;
 }
-
+@media (min-width:992px){
+  .logo img{
+    width: 60rem;
+    height: 40rem;
+  }
+}
 @keyframes ripple {
   0% {
     box-shadow: 0 0 0 1rem rgba(0, 0, 0, 0.3), 
