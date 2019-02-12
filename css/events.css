@@ -802,31 +802,28 @@ i {
 
   .dance1 img {
     position: absolute;
-    width: 80%;
-    height: 200px;
-    bottom: 52%;
-    left: 10%;
-    margin-top: 0px;
+    width: 60%;
+    height: auto;
+    left: 18%;
+    top: 15%;
   }
 
 
   .dance2 img {
     position: absolute;
-    width: 80%;
-    height: 200px;
-    left: 13%;
-    top: 0px;
-    margin-top: -200px;
+    width: 60%;
+    height: auto;
+    left: 18%;
+    top: 15%;
   }
 
 
   .dance3 img {
     position: absolute;
-    width: 80%;
-    height: 200px;
-    bottom: 158px;
-    left: 13%;
-    margin-top: 0px;
+    width: 60%;
+    height: auto;
+    left: 18%;
+    top: 15%;
   }
 
 .drama1{
@@ -874,7 +871,7 @@ i {
 
   .g1 img {
     position: absolute;
-    width: 45%;
+    width: 37%;
     height: auto;
     top: 9rem;
     left: 45%;
@@ -882,40 +879,40 @@ i {
 
   .g2 img {
     position: absolute;
-    width: 45%;
+    width: 37%;
     height: auto;
     top: -11rem;
-    left: 25%;
+    left: 30%;
   }
 
   .g3 img {
     position: absolute;
-    width: 45%;
+    width: 37%;
     height: auto;
     top: -20rem;
-    left: 10%;
+    left: 20%;
 
   }
 
   .a1 img {
-    width: 35%;
+    width: 30%;
     height: auto;
-    margin-left: 1rem;
-    margin-top: -9rem;
+    margin-left: 10%;
+    margin-top: -10rem;
   }
 
   .a2 img {
-    width: 35%;
+    width: 30%;
     height: auto;
     margin-left: -3rem;
-    margin-top: 4rem;
+    margin-top: 1rem;
   }
 
   .a3 img {
-    width: 35%;
+    width: 30%;
     height: auto;
     margin-left: -8rem;
-    margin-top: -9rem;
+    margin-top: -10rem;
   }
 
   .sam-logo img {
@@ -1097,24 +1094,23 @@ i {
 
   .g1 img {
     position: absolute;
-    width: 47%;
-    top: 43vh;
-    left: 30vh;
+      width: 33%;
+      top: vh;
+      left: 45%;
   }
 
   .g2 img {
     position: absolute;
-    width: 47%;
-    height: auto;
-    bottom: -13vh;
-    left: 5vh;
+      width: 33%;
+      bottom: -1vh;
+      left: 30%;
   }
 
   .g3 img {
     position: absolute;
-    width: 47%;
-    top: 16vh;
-    left: 30vh;
+    width: 33%;
+    top: -43vh;
+    left: 10%;
   }
 
   .p1 img,
@@ -1123,11 +1119,7 @@ i {
     position: absolute;
   }
 
-  .a1 img,
-  .a2 img,
-  .a3 img {
-    position: absolute;
-  } 
+
 
   .p1 img {
     width: 12rem;
@@ -1151,24 +1143,24 @@ i {
   }
 
   .a1 img {
-    width: 35%;
+    width: 26%;
     height: auto;
-    margin-left: -25vh;
-    margin-top: -15rem;
+    margin-left: -21vh;
+    margin-top: -10rem;
   }
 
   .a2 img {
-    width: 35%;
+    width: 26%;
     height: auto;
-    margin-left: -12vh;
-    margin-top: 5vh;
+    margin-left: -5vh;
+    margin-top: 8vh;
   }
 
   .a3 img {
-    width: 35%;
+    width: 26%;
     height: auto;
-    margin-left: 1vh;
-    margin-top: -15rem;
+    margin-left: 9vh;
+    margin-top: -10rem;
   }
 
   .m1 img {
@@ -1393,6 +1385,46 @@ i {
     margin-bottom: -27rem;
     margin-right: 2rem;
   }
+  .a1 img {
+    width: 80%;
+    height: auto;
+    margin-left: 0%;
+    margin-top: -17rem;
+  }
+
+  .a2 img {
+    width: 80%;
+    height: auto;
+    margin-left: -6rem;
+    margin-top: 3rem;
+  }
+
+  .a3 img {
+    width: 80%;
+    height: auto;
+    margin-left: -11rem;
+    margin-top: -17rem;
+  }
+  .g1 img {
+    position: absolute;
+  width: 120%;
+  top: 10vh;
+  left: 30%;
+  }
+
+  .g2 img {
+    position: absolute;
+    width: 120%;
+    bottom: -4vh;
+    left: 0%;
+  }
+
+  .g3 img {
+    position: absolute;
+    width: 120%;
+    top: 10vh;
+    left: -25%;
+  }
   }
 
   @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -1416,7 +1448,7 @@ i {
     .event-play {
       margin-top: 1rem;
     }
-  
+
     .event-play h2 {
       font-size: 4rem;
     }
@@ -1425,38 +1457,38 @@ i {
       color: white;
       margin-top: 1rem;
     }
-  
+
     .register {
       top: 90%;
       left: 40%;
       font-size: 2rem;
     }
-  
+
     #homepage {
       background-image: url("../img/mobile/events.png");
       background-size: cover;
     }
-  
+
     #photography {
       background-image: url("../img/mobile/photography.png");
       background-position: bottom right;
     }
-  
+
     #dance {
       background-image: url("../img/mobile/dance.png");
       background-size: cover;
     }
-  
+
     #art {
       background-image: url("../img/mobile/art.png");
       background-size: cover;
     }
-  
+
     #music {
       background-image: url("../img/mobile/music.png");
       background-size: cover;
     }
-  
+
     #gaming {
       background-image: url("../img/mobile/gaming.png");
       background-size: cover;
@@ -1466,17 +1498,17 @@ i {
       background-image: url("../img/mobile/literature.png");
       background-size: cover;
     }
-  
+
     #drama {
       background-image: url("../img/mobile/drama.png");
       background-size: cover;
     }
-  
+
     #quiz {
       background-image: url("../img/mobile/quiz.png");
       background-position:right;
     }
-  
+
     #design {
       background-image: url("../img/mobile/dance.png");
       background-size: cover;
@@ -1519,5 +1551,45 @@ i {
       margin-bottom: -37rem;
       margin-right: 3rem;
 
+    }
+    .a1 img {
+      width: 80%;
+    height: auto;
+    margin-left: 9%;
+    margin-top: -23rem;
+    }
+
+    .a2 img {
+      width: 80%;
+    height: auto;
+    margin-left: -6rem;
+    margin-top: 3rem;
+    }
+
+    .a3 img {
+      width: 80%;
+    height: auto;
+    margin-left: -11rem;
+    margin-top: -23rem;
+    }
+    .g1 img {
+      position: absolute;
+    width: 100%;
+    top: 2vh;
+    left: 60%;
+    }
+
+    .g2 img {
+      position: absolute;
+    width: 100%;
+    bottom: -6vh;
+    left: %;
+    }
+
+    .g3 img {
+      position: absolute;
+    width: 100%;
+    top: 2vh;
+    left: -25%;
     }
   }
