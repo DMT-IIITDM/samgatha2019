@@ -24,52 +24,52 @@
   visibility: hidden;
 }
 #homepage {
-  background-image: url("../img/events/events.png");
+  background-image: url("../img/events/events.jpg");
   background-size: cover;
 }
 
 #photography {
-  background-image: url("../img/events/photography.png");
+  background-image: url("../img/events/photography.jpg");
   background-size: cover;
 }
 
 #dance {
-  background-image: url("../img/events/dance.png");
+  background-image: url("../img/events/dance.jpg");
   background-size: cover;
 }
 
 #art {
-  background-image: url("../img/events/art.png");
+  background-image: url("../img/events/art.jpg");
   background-size: cover;
 }
 
 #music {
-  background-image: url("../img/events/music.png");
+  background-image: url("../img/events/music.jpg");
   background-size: cover;
 }
 
 #gaming {
-  background-image: url("../img/events/gaming.png");
+  background-image: url("../img/events/gaming.jpg");
   background-size: cover;
 }
 
 #literature {
-  background-image: url("../img/events/literature.png");
+  background-image: url("../img/events/literature.jpg");
   background-size: cover;
 }
 
 #drama {
-  background-image: url("../img/events/drama.png");
+  background-image: url("../img/events/drama.jpg");
   background-size: cover;
 }
 
 #quiz {
-  background-image: url("../img/events/quiz.png");
+  background-image: url("../img/events/quiz.jpg");
   background-size: cover;
 }
 
 #design {
-  background-image: url("../img/events/design.png");
+  background-image: url("../img/events/design.jpg");
   background-size: cover;
 }
 
@@ -1275,6 +1275,7 @@ i {
   #design {
     position: absolute;
   }
+
   .sam-logo img {
     position: absolute;
     width: 150px;
@@ -1408,7 +1409,9 @@ i {
     #design {
       position: absolute;
     }
-
+    .col-sm-4 img{
+      z-index: 2500;
+    }
     .font {
       margin-top: 3.5rem;
       font-size: 7rem;
