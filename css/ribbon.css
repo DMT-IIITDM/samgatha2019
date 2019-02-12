@@ -285,3 +285,148 @@ span.gradient-right{
     transform:rotate(5deg) scale(1);
   }
 }
+
+@media screen and (max-width:1024px)
+{
+  .register{
+    width: 350px;
+  }
+  .ribbon i:nth-child(3) {
+    border-width: 30px 25px 20px 65px;
+  }
+  .ribbon i:nth-child(2) {
+    border-width: 30px 65px 20px 25px;
+  }
+  .ribbon i:last-child {
+    right: -65px;
+    width: 150px;
+  }
+  span.gradient-left {
+    left: 10px;
+  }
+  .ribbon i:nth-child(4) {
+    left: -65px;
+    width: 150px;
+  }
+}
+
+@media screen and (max-width:768px)
+{
+  .register{
+    width: 280px;
+    height: 65px;
+  }
+  .ribbon i:nth-child(3) {
+    border-width: 30px 60px 20px 50px;
+    bottom: -25px;
+  }
+  .ribbon i:nth-child(2) {
+    border-width: 30px 50px 20px 60px;
+    bottom: -25px;
+  }
+  .ribbon i:last-child {
+    right: -35px;
+    width: 120px;
+    bottom: -25px;
+  }
+  span.gradient-left {
+    left: 0.5px;
+  }
+  span.gradient-right {
+    left: -50px;
+  }
+  .ribbon i:nth-child(4) {
+    left: -35px;
+    width: 120px;
+    bottom: -25px;
+  }
+}
+
+@media only screen and (orientation:landscape) and (max-width:600px)
+{
+  .register{
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    top: -10px;
+  }
+  .ribbon i:nth-child(3) {
+    border-width: 30px 50px 20px 40px;
+    bottom: 0px;
+    top: 1.25px;
+    right: 50px;
+  }
+  .ribbon i:nth-child(2) {
+    border-width: 30px 40px 20px 50px;
+    bottom: 0px;
+    top: 1.25px;
+    left: 50px;
+  }
+  .ribbon i:last-child {
+    right: 25px;
+    width: 90px;
+    bottom: -1px;
+  }
+  span.gradient-left {
+    /* left: 40px; */
+    /* top: -40px; */
+    width: 60px;
+    left: 25.5px;
+  }
+  span.gradient-right {
+    /* left: -90px; */
+    /* top: -40px; */
+    left: -50px;
+    width: 75px;
+  }
+  .ribbon i:nth-child(4) {
+    left: 18px;
+    width: 90px;
+    bottom: -1px;
+  }
+}
+
+@media screen and (max-width:425px)
+{
+  .register{
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    top: -40px;
+  }
+  .ribbon i:nth-child(3) {
+    border-width: 30px 60px 20px 50px;
+    bottom: 30px;
+    top: -22.75px;
+    right: 40px;
+  }
+  .ribbon i:nth-child(2) {
+    border-width: 30px 50px 20px 60px;
+    bottom: 30px;
+    top: -22.75px;
+    left: 40px;
+  }
+  .ribbon i:last-child {
+    right: 50px;
+    width: 75px;
+    bottom: 29px;
+  }
+  span.gradient-left {
+    /* left: 40px; */
+    /* top: -40px; */
+    width: 60px;
+    top: -31px;
+  }
+  span.gradient-right {
+    /* left: -90px; */
+    /* top: -40px; */
+    left: -50px;
+    width: 60px;
+  }
+  .ribbon i:nth-child(4) {
+    left: 51px;
+    width: 75px;
+    bottom: 29px;
+  }
+}
+

@@ -185,13 +185,116 @@ html, body { margin: 0; padding: 0}
   background: rgba(0, 0, 0, 0.8);
 }
 
+@media screen and (max-width:1440px)
+{
+  #homepage{
+    background-size: 140% auto;
+  }
+}
+
+@media screen and (max-width:1024px)
+{
+  .needle{
+    right: 7.5%;
+    bottom:-2%;
+  }
+  .needle img{
+    height:250px;
+  }
+}
+
+@media screen and (max-width:768px)
+{
+  .needle{
+    right: 0.5%;
+    bottom: -20%;
+  }
+  .needle img{
+    height:280px;
+  }
+  
+}
+
+@media only screen and (orientation:landscape) and (max-width:600px)
+{
+  .needle img{
+    height:200px;
+    animation-name: needle-landscape;
+    transform: rotate(35deg);
+  }
+  .needle{
+    right: 14%;
+    bottom: -8%;  
+  }
+}
+
+@media screen and (max-width:425px)
+{
+  .needle{
+    right: 13%;
+    bottom: -10%;  
+  }
+  .needle img{
+    height:220px;
+    animation-name: needle-small;
+    transform: rotate(25deg);
+  }
+  #homepage{
+    background-size: 200% auto;
+    animation-name: vinyl-small;
+    background-position: 50% 40%;
+  }
+  
+}
+
+@media screen and (max-width:375px)
+{
+  .needle{
+    right: 14%;
+  }
+}
+
+@media screen and (max-width:320px)
+{
+  .needle{
+    right: 15%;
+    bottom: -10%;
+  }
+  .needle img{
+    height:220px;
+  }
+  #homepage{
+    background-size: 220% auto;
+    animation-name: vinyl-xsmall;
+    background-position: 50% 40%;
+  }
+  
+}
 
 @keyframes vinyl{
   0%{
     background-size:10% auto;
   }
   100%{
-    background-size:118% auto;
+    background-size:140% auto;
+  }
+}
+
+@keyframes vinyl-small{
+  0%{
+    background-size:10% auto;
+  }
+  100%{
+    background-size:200% auto;
+  }
+}
+
+@keyframes vinyl-xsmall{
+  0%{
+    background-size:10% auto;
+  }
+  100%{
+    background-size:220% auto;
   }
 }
 
@@ -201,5 +304,23 @@ html, body { margin: 0; padding: 0}
   }
   100%{
     transform: rotate(0deg);
+  }
+}
+
+@keyframes needle-small{
+  0%{
+    transform: rotate(90deg);
+  }
+  100%{
+    transform: rotate(25deg);
+  }
+}
+
+@keyframes needle-landscape{
+  0%{
+    transform: rotate(90deg);
+  }
+  100%{
+    transform: rotate(35deg);
   }
 }
