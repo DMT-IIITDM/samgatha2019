@@ -52,6 +52,20 @@
   background-image: url("../img/Rewind bg.png");
   background-size: cover;
   background-repeat: no-repeat;
+  /* background-size:100% 100%; */
+  /* max-width: 100%;  */ 
+
+}
+.themepara{
+  top: 100px;
+  bottom: 5rem;
+  position: relative;
+  width:100%;
+  font-size: 20px;
+}
+.needle{
+  position:absolute;
+  display:block;
 }
 #cause{
   background-color: black;
@@ -61,6 +75,7 @@
 }
 #sponsors{
   background-color: black;
+
 }
 
 #contactus {
@@ -115,6 +130,7 @@
 }
 
 .arrowdown {
+  z-index: 10;
   bottom: 3%;
   position: absolute;
   display: block;
@@ -126,6 +142,7 @@
 }
 
 .arrowup {
+  z-index: 10;
   top: 3%;
   position: absolute;
   display: block;
@@ -314,6 +331,16 @@ body {
   .needle2 img {
     height: 380px;
   }
+  #theme{
+    background-position:center;
+    padding-left: 2px;
+  }
+  .themepara{
+    height:48%;
+    width: 85%;
+    font-size: 14px;
+  }
+  
 }
 
 @media screen and (max-width:375px)
