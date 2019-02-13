@@ -275,7 +275,9 @@ h2 {
   left: -40%;
   top: 19%;
 }
-
+.dance{
+  bottom: 20px;
+}
 
 .dance3 img {
   position: absolute;
@@ -431,24 +433,37 @@ h2 {
   bottom: 4%;
   right: 25%;
 }
-
 .q3 img {
   width: 60%;
   position: absolute;
   right: 55%;
   bottom: 40%;
 }
+.q2{
+  top: 2rem;
+}
 .de2 img{
   width: 60%;
-  
-  top: 10%;
+  height: auto;
+  margin-top: 9rem;
+  margin-right:5rem;
 }
 .de1 img{
-  width:60%;
-  
-  top: 30%;
+  width: 60%;
+    height: auto;
+    margin-top: 13rem;
+    margin-left: 12rem;
+    margin-bottom: 5rem;
 }
-
+.de1{
+  padding-right: 0px;
+  margin-top:20px;
+  right: 2rem;
+}
+.de2{
+  top:25px;
+  left: 2rem;
+}
 /* Hover up */
 
 .stream{
@@ -777,7 +792,18 @@ i {
     top: 90%;
     left: 35%;
   }
-
+  .de1 img{
+    
+    right: 35%;
+    bottom:53%;
+    left:20%;
+  }
+  .de2 img{
+    top: 0%;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
+  }
   .p1 img {
     width: 8.5rem;
     height: auto;
