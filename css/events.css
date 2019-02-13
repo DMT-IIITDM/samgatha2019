@@ -550,7 +550,7 @@ h2 {
 .overlay-content {
   position: relative;
   z-index: 15;
-  top: 50%;
+  top: 30%;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
 }
@@ -565,6 +565,10 @@ h2 {
 
 .overlay-content li {
   font-family: cont;
+}
+
+ul{
+  list-style-type: disc;
 }
 
 .nav-link {
