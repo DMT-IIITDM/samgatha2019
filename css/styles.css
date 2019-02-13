@@ -32,6 +32,23 @@ body {
   height: 20rem;
   position: relative;
 }
+
+@media only screen and (orientation:landscape) and (max-width:600px)
+{
+  .logo img{
+    top: -40px;
+    width: 24rem;
+    height: 16rem;
+  }
+
+}
+
+@media screen and (max-width:425px)
+{
+  .logo img{
+    top: -20px;
+  }
+
 @media (min-width:992px){
   .logo img{
     width: 60rem;
