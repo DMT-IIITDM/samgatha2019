@@ -554,6 +554,18 @@ require.register("onepage/index.js", function (exports, require, module) {
                 list4[i][1]=0;
             }
         }
+        for(let i=0;i<list6.length;i++)
+        {
+            if(list6[i][1]==1)
+            {
+                $(list6[i][2]).toggleClass('active');
+                $(list6[i][3]).toggleClass('active');
+                $('.nav-item').toggleClass('active');
+                $('#social').toggleClass('active');
+                $('#bottom-ham').toggleClass('active');
+                list6[i][1]=0;
+            }
+        }
         if(ham_check==1)
         {
             $('#overlay-bot').toggleClass('active');
@@ -644,6 +656,18 @@ require.register("onepage/index.js", function (exports, require, module) {
                 $('#social').toggleClass('active');
                 $('#bottom-ham').toggleClass('active');
                 list4[i][1]=0;
+            }
+        }
+        for(let i=0;i<list6.length;i++)
+        {
+            if(list6[i][1]==1)
+            {
+                $(list6[i][2]).toggleClass('active');
+                $(list6[i][3]).toggleClass('active');
+                $('.nav-item').toggleClass('active');
+                $('#social').toggleClass('active');
+                $('#bottom-ham').toggleClass('active');
+                list6[i][1]=0;
             }
         }
         if(ham_check==1)
