@@ -46,6 +46,16 @@
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
+#contactus{
+  position: absolute;
+  background-image: url("../img/contact.png");
+  background-position: center center;
+}
+#contactus img{
+  width: 40%;
+  margin-right: -70rem;
+  margin-bottom: -30rem;
+}
 .needle{
   position:absolute;
   display:block;
