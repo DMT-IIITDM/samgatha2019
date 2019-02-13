@@ -61,6 +61,7 @@
 }
 #sponsors{
   background-color: black;
+
 }
 
 #contactus {
@@ -115,6 +116,7 @@
 }
 
 .arrowdown {
+  z-index: 10;
   bottom: 3%;
   position: absolute;
   display: block;
@@ -126,6 +128,7 @@
 }
 
 .arrowup {
+  z-index: 10;
   top: 3%;
   position: absolute;
   display: block;
