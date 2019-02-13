@@ -7,7 +7,10 @@
   font-family: mynavnum;
   src: url(../fonts/Vintage\ Warehouse.ttf);
 }
-
+@font-face {
+  font-family: cont;
+  src: url(../fonts/IBMPlexSans-Regular.ttf);
+}
 #homepage,
 #photography,
 #dance,
@@ -499,7 +502,16 @@ h2 {
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
 }
-
+.overlay-content h3{
+  font-family: nav;
+}
+.overlay-content p{
+  font-family: cont;
+}
+.overlay-content li{
+  float: left;
+  font-family: cont;
+}
 .nav-link{
   color:black;
   font-family:mynavnum;
