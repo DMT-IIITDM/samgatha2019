@@ -52,6 +52,20 @@
   background-image: url("../img/Rewind bg.png");
   background-size: cover;
   background-repeat: no-repeat;
+  /* background-size:100% 100%; */
+  /* max-width: 100%;  */ 
+
+}
+.themepara{
+  top: 100px;
+  bottom: 5rem;
+  position: relative;
+  width:100%;
+  font-size: 20px;
+}
+.needle{
+  position:absolute;
+  display:block;
 }
 #cause{
   background-color: black;
@@ -252,31 +266,35 @@ body {
 
 @media screen and (max-width:1440px) {
   #homepage {
-    background-size: 140% auto;
+    background-size: 120% auto;
   }
 }
 
-@media screen and (max-width:1024px) {
-  .needle {
-    right: 7.5%;
+@media screen and (max-width:1024px)
+{
+  .needle{
+    right: 6%;
     bottom: -2%;
   }
-
-  .needle img {
-    height: 250px;
+  .needle img{
+    height:300px;
   }
 }
 
-@media screen and (max-width:768px) {
-  .needle {
-    right: 0.5%;
+@media screen and (max-width:768px)
+{
+  .needle{
+    right: -2.5%;
     bottom: -20%;
   }
 
   .needle img {
     height: 280px;
   }
-
+  .needle2 img {
+    height: 460px;
+  }
+  
 }
 
 @media only screen and (orientation:landscape) and (max-width:600px) {
@@ -292,10 +310,11 @@ body {
   }
 }
 
-@media screen and (max-width:425px) {
-  .needle {
-    right: 13%;
-    bottom: -10%;
+@media screen and (max-width:425px)
+{
+  .needle{
+    right: 4%;
+    bottom: -4%; 
   }
 
   .needle img {
@@ -309,19 +328,42 @@ body {
     animation-name: vinyl-small;
     background-position: 50% 40%;
   }
-
-}
-
-@media screen and (max-width:375px) {
-  .needle {
-    right: 14%;
+  .needle2 img {
+    height: 380px;
   }
+  #theme{
+    background-position:center;
+    padding-left: 2px;
+  }
+  .themepara{
+    height:48%;
+    width: 85%;
+    font-size: 14px;
+  }
+  
 }
 
-@media screen and (max-width:320px) {
-  .needle {
-    right: 15%;
-    bottom: -10%;
+@media screen and (max-width:375px)
+{
+  .needle{
+    right: -5%;
+    bottom: -9%;
+  }
+  .needle img{
+    animation-name: needle-xsmall;
+    transform: rotate(10deg);
+  }
+  .needle2 img {
+    height: 300px;
+  }
+
+}
+
+@media screen and (max-width:320px)
+{
+  .needle{
+    right: -8%;
+    bottom: -11%;
   }
 
   .needle img {
@@ -342,7 +384,7 @@ body {
   }
 
   100% {
-    background-size: 118% auto;
+    background-size: 120% auto;
   }
 }
 
@@ -386,8 +428,17 @@ body {
   }
 }
 
-@keyframes needle-landscape {
-  0% {
+@keyframes needle-xsmall{
+  0%{
+    transform: rotate(90deg);
+  }
+  100%{
+    transform: rotate(10deg);
+  }
+}
+
+@keyframes needle-landscape{
+  0%{
     transform: rotate(90deg);
   }
 
