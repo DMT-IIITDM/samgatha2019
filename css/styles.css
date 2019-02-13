@@ -43,27 +43,50 @@ body {
 
 }
 
-/* @media only screen and (max-width:1440px) and (min-width:768.1px) 
+@media only screen and (min-width:1440px){
+.logo img {
+  width: 51rem;
+  height: 34rem;
+  top: 2em;
+}
+}
+
+/*@media only screen and (min-width:1024px) 
 {
 .logo img {
-  width: 60rem;
-  height: 40rem;
+  width: 45rem;
+  height: 30rem;
+  top: 2em;
 }
 }*/
+
+@media only screen and (max-width:1024px)
+{
+  .logo img {
+    width: 30rem;
+    height: 20rem;
+    top: 1em;
+  }
+}
 
 @media screen and (max-width:425px)
 {
   .logo img{
     top: -20px;
   }
+  .logo img {
+    width: 23rem;
+    height: 14rem;
+    top: 21px;
+  }
 }
 
-@media (min-width:992px){
+/*@media (min-width:992px){
   .logo img{
     width: 60rem;
     height: 40rem;
   }
-}
+}*/
 @keyframes ripple {
   0% {
     box-shadow: 0 0 0 1rem rgba(0, 0, 0, 0.3), 

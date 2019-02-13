@@ -249,7 +249,7 @@ body {
 
 @media screen and (max-width:1440px) {
   #homepage {
-    background-size: 140% auto;
+    background-size: 120% auto;
   }
 }
 
@@ -357,7 +357,7 @@ body {
   }
 
   100% {
-    background-size: 118% auto;
+    background-size: 120% auto;
   }
 }
 
