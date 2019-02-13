@@ -34,7 +34,7 @@
 }
 
 #homepage {
-  background-image: url("../img/mergedbg.png");
+  background-image: url("../img/newbg.jpg");
   background-repeat: no-repeat;
   background-position: 47% 47%;
   background-size: 118% auto;
@@ -52,8 +52,15 @@
   background-image: url("../img/Rewind bg.png");
   background-size: cover;
   background-repeat: no-repeat;
-
-
+}
+#cause{
+  background-color: black;
+}
+#team{
+  background-color: black;
+}
+#sponsors{
+  background-color: black;
 }
 
 #contactus {
@@ -332,7 +339,7 @@ body {
   }
 
   100% {
-    background-size: 140% auto;
+    background-size: 118% auto;
   }
 }
 
