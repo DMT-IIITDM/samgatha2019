@@ -493,16 +493,59 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-4 li1">
-                        <img src="img/hoverevents/Literature/Group 650.png" />
+                        <img id="litre1" src="img/hoverevents/Literature/Group 650.png" />
                     </div>
                     <div class="col-sm-4 li2">
-                       <img src="img/hoverevents/Literature/Group 651.png" />
+                       <img id="litre2" src="img/hoverevents/Literature/Group 651.png" />
                     </div>
                     <div class="col-sm-4 li3">
-                        <img src="img/hoverevents/Literature/Group 652.png" />
+                        <img id="litre3" src="img/hoverevents/Literature/Group 652.png" />
                     </div>
                 </div>
             </div>
+
+
+            <!-- Lit overlayes start -->
+
+
+            <div id="overlay31" class="stream">
+                <div class="cross">
+                    <button class="register">REGISTER</button>
+                    <div class="event-play">
+                        <h2>LAWYER UP</h2>
+                    </div>
+                    <i id="close31" class="material-icons">close</i>
+                </div>
+                <div class="overlay-content">
+                </div>
+            </div>
+            <div id="overlay32" class="stream">
+                <div class="cross">
+                    <button class="register">REGISTER</button>
+                    <div class="event-play">
+                        <h2>RESONANCE</h2>
+                    </div>
+                    <i id="close32" class="material-icons">close</i>
+                </div>
+                <div class="overlay-content">
+                </div>
+            </div>
+            <div id="overlay33" class="stream">
+                <div class="cross">
+                    <button class="register">REGISTER</button>
+                    <div class="event-play">
+                        <h2>ELOQUENT</h2>
+                    </div>
+                    <i id="close33" class="material-icons">close</i>
+                </div>
+                <div class="overlay-content">
+                </div>
+            </div>
+
+
+            <!-- lit overlays done -->
+
+
             <div class="arrowdown" id="d7">
                 <a href="#">
                     <img src="img/DownArrow.png" />
@@ -660,7 +703,8 @@
         let list3 = ['u1', 'u2', 'u3', 'u4', 'u5', 'u6', 'u7', 'u8', 'u9'];
         //['li1',0,'#overlay14','#close14'],['li2',0,'#overlay15','#close15'],['li3',0,'#overlay16','#close16'],
         let list4 = [['photo1',0,'#overlay','#close'],['photo3',0,'#overlay1','#close1'],['photo4',0,'#overlay2','#close2'],['dance1',0,'#overlay3','#close3'],['dance3',0,'#overlay4','#close4'],['dance4',0,'#overlay5','#close5'],['art1',0,'#overlay6','#close6'],['art3',0,'#overlay7','#close7'],['art4',0,'#overlay8','#close8'],['music1',0,'#overlay9','#close9'],['music3',0,'#overlay10','#close10'],['game1',0,'#overlay11','#close11'],['game2',0,'#overlay12','#close12'],['game3',0,'#overlay13','#close13'],['drama17',0,'#overlay17','#close17'],['drama18',0,'#overlay18','#close18'],['drama19',0,'#overlay19','#close19'],['quiz20',0,'#overlay20','#close20'],['quiz21',0,'#overlay21','#close21'],['quiz22',0,'#overlay22','#close22']];
-        let list5=[1,0,0,0,0,0,0,0,0,0];
+        let list5 = [1,0,0,0,0,0,0,0,0,0];
+        let list6 = [['litre1',0,'#overlay31','#close31'],['litre2',0,'#overlay32','#close32'],['litre3',0,'#overlay33','#close33']];
     </script>
     <!-- <script src='http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js'></script> -->
     <script src="js/index-events.js"></script>
@@ -672,6 +716,10 @@
         for(let i=0;i<list4.length;i++)
         {
             list4[i][1]=0;
+        }
+        for(let i=0;i<list6.length;i++)
+        {
+            list6[i][1]=0;
         }
     </script>
     <script src="js/overlay.js"></script>

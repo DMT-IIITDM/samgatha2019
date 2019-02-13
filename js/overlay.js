@@ -365,4 +365,53 @@ function menu() {
         $('#bottom-ham').toggleClass('active');
         list4[19][1]=0;
     });
+    //Literature
+    $('#litre1').on('click',function(){
+        $('#overlay31').toggleClass('active');
+        $('#close31').toggleClass('active');
+        $('.nav-item').toggleClass('active');
+        $('#social').toggleClass('active');
+        $('#bottom-ham').toggleClass('active');
+        list6[0][1]=1;
+    });
+    $('#litre2').on('click',function(){
+        $('#overlay32').toggleClass('active');
+        $('#close32').toggleClass('active');
+        $('.nav-item').toggleClass('active');
+        $('#social').toggleClass('active');
+        $('#bottom-ham').toggleClass('active');
+        list6[1][1]=1;
+    });
+    $('#litre3').on('click',function(){
+        $('#overlay33').toggleClass('active');
+        $('#close33').toggleClass('active');
+        $('.nav-item').toggleClass('active');
+        $('#social').toggleClass('active');
+        $('#bottom-ham').toggleClass('active');
+        list6[2][1]=1;
+    });
+    $('#close31').on('click', function () {
+        $('#overlay31').toggleClass('active');
+        $('#close31').toggleClass('active');
+        $('.nav-item').toggleClass('active');
+        $('#social').toggleClass('active');
+        $('#bottom-ham').toggleClass('active');
+        list6[0][1]=0;
+    });
+    $('#close32').on('click', function () {
+        $('#overlay32').toggleClass('active');
+        $('#close32').toggleClass('active');
+        $('.nav-item').toggleClass('active');
+        $('#social').toggleClass('active');
+        $('#bottom-ham').toggleClass('active');
+        list6[1][1]=0;
+    });
+    $('#close33').on('click', function () {
+        $('#overlay33').toggleClass('active');
+        $('#close33').toggleClass('active');
+        $('.nav-item').toggleClass('active');
+        $('#social').toggleClass('active');
+        $('#bottom-ham').toggleClass('active');
+        list6[2][1]=0;
+    });
 }
