@@ -40,6 +40,12 @@
   position: absolute;
   background-image:url("../img/Woodbg.jpg");
 }
+#theme{
+  position: absolute;
+  background-image: url("../img/Rewind bg.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
 .needle{
   position:absolute;
   display:block;
