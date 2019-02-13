@@ -1,3 +1,7 @@
+@font-face {
+  font-family: cont;
+  src: url(../fonts/IBMPlexSans-Regular.ttf);
+}
 .onepage-container {
   position: fixed;
   display: block;
@@ -20,27 +24,30 @@
 .onepage-container .onepage-element {
   width: 100%;
   height: 100%;
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
-#onepage{
+
+#onepage {
   background-color: #09111b;
 }
-#homepage{
-  background-image:url("../img/mergedbg.png");
+
+#homepage {
+  background-image: url("../img/newbg.jpg");
   background-repeat: no-repeat;
-  background-position: 47% 47%; 
-  background-size:118% auto;
-  animation-name:vinyl;
-  animation-duration:5000ms;
+  background-position: 47% 47%;
+  background-size: 118% auto;
+  animation-name: vinyl;
+  animation-duration: 5000ms;
 }
 
-#about{
+#about {
   position: absolute;
-  background-image:url("../img/Woodbg.jpg");
+  background-image: url("../img/Woodbg.jpg");
 }
-#theme{
+
+#theme {
   background-position: center center;
   background-image: url("../img/Rewind bg.png");
   background-size: cover;
@@ -59,11 +66,39 @@
 .needle{
   position:absolute;
   display:block;
+}
+#cause{
+  background-color: black;
+}
+#team{
+  background-color: black;
+}
+#sponsors{
+  background-color: black;
+
+}
+
+#contactus {
+  position: absolute;
+  background-image: url("../img/contact.png");
+  background-position: center center;
+}
+
+#contactus img {
+  width: 40%;
+  margin-right: -70rem;
+  margin-bottom: -30rem;
+}
+
+.needle {
+  position: absolute;
+  display: block;
   bottom: 0;
   right: 4%;
 }
-.needle img{
-  height:370px;
+
+.needle img {
+  height: 370px;
   width: auto;
   animation-name: needle;
   animation-duration: 5000ms;
@@ -73,50 +108,65 @@
   -ms-transform-origin: 0 100%;
   transform-origin: 0 100%;
 }
-.needle2{
-  position:absolute;
-  display:block;
+
+.needle2 {
+  position: absolute;
+  display: block;
   top: 0;
   right: 5.2%;
 }
-.needle2 img{
+
+.needle2 img {
   z-index: 3;
-  height:550px;
-  width:auto;
+  height: 550px;
+  width: auto;
 }
-.top-vinyl{
+
+.top-vinyl {
   position: absolute;
   top: 0;
   width: 100%;
   height: auto;
 }
-.arrowdown{
-  bottom:3%;
-  position:absolute;
-  display:block;
+
+.arrowdown {
+  z-index: 10;
+  bottom: 3%;
+  position: absolute;
+  display: block;
 }
-.arrowdown a img{
-  height:20px;
-  width: auto;  
+
+.arrowdown a img {
+  height: 20px;
+  width: auto;
 }
-.arrowup{
-  top:3%;
-  position:absolute;
-  display:block;
+
+.arrowup {
+  z-index: 10;
+  top: 3%;
+  position: absolute;
+  display: block;
 }
-.arrowup a img{
-  height:20px;
-  width: auto;  
+
+.arrowup a img {
+  height: 20px;
+  width: auto;
 }
-#theme, #cause, #sponsors, #team{
+
+#theme,
+#cause,
+#sponsors,
+#team {
   position: absolute;
 }
+
 .onepage-pagination {
   position: absolute;
   right: 10px;
   top: 50%;
   z-index: 1;
 }
+
 .onepage-pagination a {
   position: relative;
   display: block;
@@ -124,6 +174,7 @@
   width: 4px;
   height: 4px;
 }
+
 .onepage-pagination .text-title {
   position: absolute;
   top: 4px;
@@ -140,9 +191,11 @@
   -o-transition: opacity 0.3s ease;
   transition: opacity 0.3s ease;
 }
+
 .onepage-pagination a:hover .text-title {
   opacity: 1;
 }
+
 .onepage-pagination a:before {
   display: block;
   width: 4px;
@@ -168,26 +221,35 @@
   margin-left: -4px;
 }
 
-html, body { margin: 0; padding: 0}
+html,
+body {
+  margin: 0;
+  padding: 0
+}
 
 #onepage {
   font: 500 16px/1.6 "Lucida Grande", "Helvetica Neue", sans-serif;
   text-align: center;
   color: rgba(255, 255, 255, 0.9);
 }
+
 #onepage a {
   color: rgba(255, 255, 255, 0.9);
 }
+
 #onepage h1 {
   margin-top: 100px;
 }
+
 #onepage pre {
   color: white;
 }
+
 #onepage .copyright {
   font-size: 12px;
   margin-bottom: 80px;
 }
+
 #onepage .github {
   display: inline-block;
   text-decoration: none;
@@ -197,65 +259,66 @@ html, body { margin: 0; padding: 0}
   border-radius: 4px;
   background: rgba(0, 0, 0, 0.9);
 }
+
 #onepage .github:hover {
   background: rgba(0, 0, 0, 0.8);
 }
 
-@media screen and (max-width:1440px)
-{
-  #homepage{
+@media screen and (max-width:1440px) {
+  #homepage {
     background-size: 140% auto;
   }
 }
 
-@media screen and (max-width:1024px)
-{
-  .needle{
+@media screen and (max-width:1024px) {
+  .needle {
     right: 7.5%;
-    bottom:-2%;
+    bottom: -2%;
   }
-  .needle img{
-    height:250px;
+
+  .needle img {
+    height: 250px;
   }
 }
 
-@media screen and (max-width:768px)
-{
-  .needle{
+@media screen and (max-width:768px) {
+  .needle {
     right: 0.5%;
     bottom: -20%;
   }
-  .needle img{
-    height:280px;
+
+  .needle img {
+    height: 280px;
   }
-  
+
 }
 
-@media only screen and (orientation:landscape) and (max-width:600px)
-{
-  .needle img{
-    height:200px;
+@media only screen and (orientation:landscape) and (max-width:600px) {
+  .needle img {
+    height: 200px;
     animation-name: needle-landscape;
     transform: rotate(35deg);
   }
-  .needle{
+
+  .needle {
     right: 14%;
-    bottom: -8%;  
+    bottom: -8%;
   }
 }
 
-@media screen and (max-width:425px)
-{
-  .needle{
+@media screen and (max-width:425px) {
+  .needle {
     right: 13%;
-    bottom: -10%;  
+    bottom: -10%;
   }
-  .needle img{
-    height:220px;
+
+  .needle img {
+    height: 220px;
     animation-name: needle-small;
     transform: rotate(25deg);
   }
-  #homepage{
+
+  #homepage {
     background-size: 200% auto;
     animation-name: vinyl-small;
     background-position: 50% 40%;
@@ -272,80 +335,116 @@ html, body { margin: 0; padding: 0}
   
 }
 
-@media screen and (max-width:375px)
-{
-  .needle{
+@media screen and (max-width:375px) {
+  .needle {
     right: 14%;
   }
 }
 
-@media screen and (max-width:320px)
-{
-  .needle{
+@media screen and (max-width:320px) {
+  .needle {
     right: 15%;
     bottom: -10%;
   }
-  .needle img{
-    height:220px;
+
+  .needle img {
+    height: 220px;
   }
-  #homepage{
+
+  #homepage {
     background-size: 220% auto;
     animation-name: vinyl-xsmall;
     background-position: 50% 40%;
   }
-  
+
 }
 
-@keyframes vinyl{
-  0%{
-    background-size:10% auto;
+@keyframes vinyl {
+  0% {
+    background-size: 10% auto;
   }
-  100%{
-    background-size:140% auto;
-  }
-}
 
-@keyframes vinyl-small{
-  0%{
-    background-size:10% auto;
-  }
-  100%{
-    background-size:200% auto;
+  100% {
+    background-size: 118% auto;
   }
 }
 
-@keyframes vinyl-xsmall{
-  0%{
-    background-size:10% auto;
+@keyframes vinyl-small {
+  0% {
+    background-size: 10% auto;
   }
-  100%{
-    background-size:220% auto;
+
+  100% {
+    background-size: 200% auto;
   }
 }
 
-@keyframes needle{
-  0%{
+@keyframes vinyl-xsmall {
+  0% {
+    background-size: 10% auto;
+  }
+
+  100% {
+    background-size: 220% auto;
+  }
+}
+
+@keyframes needle {
+  0% {
     transform: rotate(90deg);
   }
-  100%{
+
+  100% {
     transform: rotate(0deg);
   }
 }
 
-@keyframes needle-small{
-  0%{
+@keyframes needle-small {
+  0% {
     transform: rotate(90deg);
   }
-  100%{
+
+  100% {
     transform: rotate(25deg);
   }
 }
 
-@keyframes needle-landscape{
-  0%{
+@keyframes needle-landscape {
+  0% {
     transform: rotate(90deg);
   }
-  100%{
+
+  100% {
     transform: rotate(35deg);
+  }
+}
+.device-notification{
+  display: none;
+}
+@media screen and (max-width: 1022px) and (orientation:landscape) {
+  .device-notification {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    background-color: #0c0c0c;
+    z-index: 10000;
+  }
+  .device-notification--message {
+    width: 70%;
+    font-family: cont;
+    color:#fff8ee;
+    margin: 30px 0 0 0;
+    font-weight: 700;
+    text-align: center;
   }
 }

@@ -19,6 +19,9 @@
   font-weight: 600;
   text-transform: uppercase;
 } */
+#sideNav{
+  display: none;
+}
 @media (min-width: 992px) {
 
   .nav-item a:target{
