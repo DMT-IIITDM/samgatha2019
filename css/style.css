@@ -52,6 +52,20 @@
   background-image: url("../img/Rewind bg.png");
   background-size: cover;
   background-repeat: no-repeat;
+  /* background-size:100% 100%; */
+  /* max-width: 100%;  */ 
+
+}
+.themepara{
+  top: 100px;
+  bottom: 5rem;
+  position: relative;
+  width:100%;
+  font-size: 20px;
+}
+.needle{
+  position:absolute;
+  display:block;
 }
 #cause{
   background-color: black;
@@ -309,7 +323,16 @@ body {
     animation-name: vinyl-small;
     background-position: 50% 40%;
   }
-
+  #theme{
+    background-position:center;
+    padding-left: 2px;
+  }
+  .themepara{
+    height:48%;
+    width: 85%;
+    font-size: 14px;
+  }
+  
 }
 
 @media screen and (max-width:375px) {
