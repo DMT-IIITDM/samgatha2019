@@ -120,6 +120,7 @@
 }
 
 .arrowdown {
+  z-index: 10;
   bottom: 3%;
   position: absolute;
   display: block;
@@ -456,7 +457,7 @@ h2 {
 .q2 img {
   width: 60%;
   position: absolute;
-  bottom: 4%;
+  bottom: 12%;
   right: 25%;
 }
 .q3 img {
