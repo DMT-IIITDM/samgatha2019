@@ -7,10 +7,42 @@
   font-family: mynavnum;
   src: url(../fonts/Vintage\ Warehouse.ttf);
 }
+
 @font-face {
   font-family: cont;
   src: url(../fonts/IBMPlexSans-Regular.ttf);
 }
+.device-notification{
+  display: none;
+}
+@media screen and (max-width: 1022px) and (orientation:landscape) {
+  .device-notification {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    background-color: #0c0c0c;
+    z-index: 10000;
+  }
+  .device-notification--message {
+    width: 70%;
+    font-family: cont;
+    color:#fff8ee;
+    margin: 30px 0 0 0;
+    font-weight: 700;
+    text-align: center;
+  }
+}
+
 #homepage,
 #photography,
 #dance,
@@ -23,9 +55,11 @@
 #design {
   position: absolute;
 }
-.sam-logo{
+
+.sam-logo {
   visibility: hidden;
 }
+
 #homepage {
   background-image: url("../img/events/events.jpg");
   background-size: cover;
@@ -116,6 +150,7 @@
 }
 
 .arrowdown {
+  z-index: 10;
   bottom: 3%;
   position: absolute;
   display: block;
@@ -254,6 +289,28 @@ h2 {
   font-family: mynav;
   font-size: 6em;
 }
+.li1 img{
+  position: absolute;
+  width: 15rem;
+  height: auto;
+  margin-top: -10rem;
+  margin-left: -3rem;
+}
+.li2 img{
+  position: absolute;
+  width: 15rem;
+  height: auto;
+  bottom: -17rem;
+  margin-left: -9rem;
+}
+.li3 img{
+  position: absolute;
+  width: 15rem;
+  height: auto;
+  margin-top: -10rem;
+  right: 11rem;
+
+}
 
 .dance1 {
   height: 600px;
@@ -275,7 +332,9 @@ h2 {
   left: -40%;
   top: 19%;
 }
-
+.dance{
+  bottom: 20px;
+}
 
 .dance3 img {
   position: absolute;
@@ -428,67 +487,90 @@ h2 {
 .q2 img {
   width: 60%;
   position: absolute;
-  bottom: 4%;
+  bottom: 12%;
   right: 25%;
 }
-
 .q3 img {
   width: 60%;
   position: absolute;
   right: 55%;
   bottom: 40%;
 }
-
+.q2{
+  top: 2rem;
+}
+.de2 img{
+  width: 60%;
+  height: auto;
+  margin-top: 9rem;
+  margin-right:5rem;
+}
+.de1 img{
+  width: 60%;
+    height: auto;
+    margin-top: 13rem;
+    margin-left: 12rem;
+    margin-bottom: 5rem;
+}
+.de1{
+  padding-right: 0px;
+  margin-top:20px;
+  right: 2rem;
+}
+.de2{
+  top:25px;
+  left: 2rem;
+}
 /* Hover up */
 
-.stream{
-  width:100%;
-  height:auto;
-  position:absolute;
-  bottom:0;
-  left:0;
-  z-index:20;
+.stream {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 20;
   background: #09111B;
   opacity: 0px;
   visibility: hidden;
 }
 
-.stream1{
-  width:50%;
-  height:auto;
-  position:absolute;
-  bottom:0;
-  left:0;
-  z-index:20;
-  background-image:url("../img/Bottom-Ham.png");
+.stream1 {
+  width: 50%;
+  height: auto;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 20;
+  background-image: url("../img/Bottom-Ham.png");
   background-repeat: no-repeat;
-  background-size:100% 100%;
-  opacity:0px;
-  visibility:hidden;
+  background-size: 100% 100%;
+  opacity: 0px;
+  visibility: hidden;
 }
 
-.stream1.active{
-  position:absolute;
-  left:2.5%;
-  width:95%;
-  height:90%;
-  opacity:1;
-  visibility:visible;
-  border-radius:30px 30px 0px 0px;
-  animation :pull 1s;
+.stream1.active {
+  position: absolute;
+  left: 2.5%;
+  width: 95%;
+  height: 90%;
+  opacity: 1;
+  visibility: visible;
+  border-radius: 30px 30px 0px 0px;
+  animation: pull 1s;
 }
 
 
-.hamburger-icon-bottom.active{
-  visibility:hidden;
+.hamburger-icon-bottom.active {
+  visibility: hidden;
 }
 
-.stream.active{
-  position:absolute;
-  left:2.5%;
-  width:95%;
-  height:80%;
-  opacity:1;
+.stream.active {
+  position: absolute;
+  left: 2.5%;
+  width: 95%;
+  height: 80%;
+  opacity: 1;
   /* z-index:15; */
   visibility: visible;
   border-radius: 30px 30px 0px 0px;
@@ -498,24 +580,31 @@ h2 {
 .overlay-content {
   position: relative;
   z-index: 15;
-  top: 50%;
+  top: 30%;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
 }
-.overlay-content h3{
-  font-family: nav;
+
+.overlay-content h3 {
+  font-family: mynav;
 }
-.overlay-content p{
+
+.overlay-content p {
   font-family: cont;
 }
-.overlay-content li{
-  float: left;
+
+.overlay-content li {
   font-family: cont;
 }
-.nav-link{
-  color:black;
-  font-family:mynavnum;
-  font-size:1.1rem;
+
+ul{
+  list-style-type: disc;
+}
+
+.nav-link {
+  color: black;
+  font-family: mynavnum;
+  font-size: 1.1rem;
 }
 
 .nav-item.active {
@@ -535,13 +624,13 @@ h2 {
 }
 
 .cross1 {
-  color:#F38445;
-  position:absolute;
-  top:55px;
-  left:25px;
+  color: #F38445;
+  position: absolute;
+  top: 55px;
+  left: 25px;
 }
 
-.material-icons{
+.material-icons {
   visibility: hidden;
 }
 
@@ -581,9 +670,11 @@ h2 {
 .col-sm-4 img:hover {
   transform: scale(1.1);
 }
-.col-sm-6 img{
+
+.col-sm-6 img {
   transition: transform 0.5s;
 }
+
 .col-sm-6 img:hover {
   transform: scale(1.1);
 }
@@ -686,9 +777,9 @@ i {
     position: absolute;
   }
 
-  #sideNav{
-    width:0%;
-    height:0%;
+  #sideNav {
+    width: 0%;
+    height: 0%;
   }
 
   #homepage {
@@ -767,7 +858,18 @@ i {
     top: 90%;
     left: 35%;
   }
-
+  .de1 img{
+    
+    right: 35%;
+    bottom:53%;
+    left:20%;
+  }
+  .de2 img{
+    top: 0%;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
+  }
   .p1 img {
     width: 8.5rem;
     height: auto;
@@ -815,70 +917,74 @@ i {
   }
 
 
-.dance1 img{
-  position:absolute;
-  width:80%;
-  height:190px;
-  bottom:53%;
-  left:10%;
-  margin-top: 0px;
-}
+  .dance1 img {
+    position: absolute;
+    width: 80%;
+    height: 190px;
+    bottom: 53%;
+    left: 10%;
+    margin-top: 0px;
+  }
 
 
-.dance2 img{
-  position:absolute;
-  width:80%;
-  height:190px;
-  left:13%;
-  top:0px;
-  margin-top:-140px;
-}
+  .dance2 img {
+    position: absolute;
+    width: 80%;
+    height: 190px;
+    left: 13%;
+    top: 0px;
+    margin-top: -140px;
+  }
 
 
-.dance3 img{
-  position:absolute;
-  width:80%;
-  height:190px;
-  bottom:100px;
-  left:13%;
-  margin-top: 0px;
-}
+  .dance3 img {
+    position: absolute;
+    width: 80%;
+    height: 190px;
+    bottom: 100px;
+    left: 13%;
+    margin-top: 0px;
+  }
 
-.drama1{
-  height:600px;
-}
-.q1{
-  height: 400px;
-}
-.drama1 img{
-  position:absolute;
-  width:65%;
-  height:auto;
-  top:16.5rem;
-  left:4rem;
+  .drama1 {
+    height: 600px;
+  }
+
+  .q1 {
+    height: 400px;
+  }
+
+  .drama1 img {
+    position: absolute;
+    width: 65%;
+    height: auto;
+    top: 16.5rem;
+    left: 4rem;
 
   }
 
-.drama2 img{
-  position:absolute;
-  width:65%;
-  height:auto;
-  left:4.5rem;
-  bottom:21rem;
-}
+  .drama2 img {
+    position: absolute;
+    width: 65%;
+    height: auto;
+    left: 4.5rem;
+    bottom: 21rem;
+  }
 
-.drama3 img{
-  position:absolute;
-  width:65%;
-  height:auto;
-  left:4rem;
-  top:-11rem;
-}
-/* .m1 img {
+  .drama3 img {
+    position: absolute;
+    width: 65%;
+    height: auto;
+    left: 4rem;
+    top: -11rem;
+  }
+
+  /* .m1 img {
     width: 95%;*/
- .m1{
-   height:250px;
- }
+  .m1 {
+    height: 250px;
+  }
+
   .m1 img {
     width: 15rem;
     margin-left: 9px;
@@ -910,7 +1016,7 @@ i {
     width: 37%;
     height: auto;
     top: -20rem;
-    left: 20%;
+    left: 20%;  
 
   }
 
@@ -934,7 +1040,24 @@ i {
     margin-left: -8rem;
     margin-top: -10rem;
   }
-
+  .li1 img{
+    width: 7.5rem;
+    height: auto;
+    margin-top: -7rem;
+    margin-left: -8rem;
+  }
+  .li2 img{
+    width: 7.5rem;
+    height: auto;
+    margin-bottom: 14.5rem;
+    margin-left: 1rem;
+  }
+  .li3 img{
+    width: 8rem;
+    height: auto;
+    margin-top: 4rem;
+    margin-right: -5rem;
+  }
   .sam-logo img {
     position: absolute;
     width: 100px;
@@ -944,13 +1067,15 @@ i {
     cursor: pointer;
     border-radius: 50%;
     visibility: visible;
+  }
 }
+
+@media (min-width: 375px) and (max-width: 424.98px) {
+  .q3 img {
+    margin-bottom: -6rem;
+  }
 }
-@media (min-width: 375px) and (max-width: 424.98px){
- .q3 img{
-  margin-bottom: -6rem;
- }
-}
+
 @media (min-width: 425px) and (max-width:575.98px) {
 
   #homepage,
@@ -965,6 +1090,7 @@ i {
   #design {
     position: absolute;
   }
+
   .sam-logo img {
     position: absolute;
     width: 100px;
@@ -974,11 +1100,13 @@ i {
     cursor: pointer;
     border-radius: 50%;
     visibility: visible;
-}
+  }
+
   .font {
     margin-top: 2rem;
     font-size: 4rem;
   }
+
   .event-play {
     margin-top: 1rem;
   }
@@ -1028,7 +1156,8 @@ i {
     background-size: cover;
     background-position: bottom right;
   }
-  #literature{
+
+  #literature {
     background-image: url("../img/mobile/literature.png");
     background-size: cover;
   }
@@ -1040,7 +1169,7 @@ i {
 
   #quiz {
     background-image: url("../img/mobile/quiz.png");
-    background-position:right;
+    background-position: right;
   }
 
   #design {
@@ -1112,16 +1241,16 @@ i {
 
   .g1 img {
     position: absolute;
-      width: 33%;
-      top: vh;
-      left: 45%;
+    width: 33%;
+    top: vh;
+    left: 45%;
   }
 
   .g2 img {
     position: absolute;
-      width: 33%;
-      bottom: -1vh;
-      left: 30%;
+    width: 33%;
+    bottom: -1vh;
+    left: 30%;
   }
 
   .g3 img {
@@ -1219,26 +1348,27 @@ i {
   }
 
   .li1 img {
-    position: absolute;
-    width: 50%;
-    bottom: -5rem;
-    left: 0%
+    width: 11rem;
+    height: auto;
+    margin-top: -11rem;
+    margin-left: -11.5rem;
   }
 
   .li2 img {
-    position: absolute;
-    left: 1rem;
-    bottom: -20rem;
-    width: 50%;
+    width: 11rem;
+    height: auto;
+    margin-left: 1rem;
+    margin-bottom: 14rem;
   }
 
   .li3 img {
-    position: absolute;
-    width: 50%;
-    bottom: -10rem;
+    width: 11rem;
+    height: auto;
+    margin-top: 5rem;
+    margin-right: -3rem;
   }
 
-  
+
 
   #photography .font {
     font-size: 60px;
@@ -1246,12 +1376,13 @@ i {
 
 }
 
-  @media (min-width: 576px) and (max-width: 767.98px) {}
+@media (min-width: 576px) and (max-width: 767.98px) {}
 
 
-  /* For Ipad portrait */
-  @media (min-width: 768px) and (max-width: 991.98px) and (orientation:portrait){
-    #homepage,
+/* For Ipad portrait */
+@media (min-width: 768px) and (max-width: 991.98px) and (orientation:portrait) {
+
+  #homepage,
   #photography,
   #dance,
   #art,
@@ -1273,11 +1404,13 @@ i {
     cursor: pointer;
     border-radius: 50%;
     visibility: visible;
-}
+  }
+
   .font {
     margin-top: 4rem;
     font-size: 4rem;
   }
+
   .event-play {
     margin-top: 1rem;
   }
@@ -1327,7 +1460,8 @@ i {
     background-size: cover;
     background-position: bottom right;
   }
-  #literature{
+
+  #literature {
     background-image: url("../img/mobile/literature.png");
     background-size: cover;
   }
@@ -1339,49 +1473,73 @@ i {
 
   #quiz {
     background-image: url("../img/mobile/quiz.png");
-    background-position:right;
+    background-position: right;
   }
 
   #design {
     background-image: url("../img/mobile/dance.png");
     background-size: cover;
   }
-  .p1 img{
+  .li1 img{
+    width: 16rem;
+    height: auto;
+    margin-top: -16.5rem;
+    margin-left: -3rem;
+  }
+  .li2 img{
+    width: 16rem;
+    height: auto;
+    margin-left: 2rem;
+    margin-bottom: 13rem;
+  }
+  .li3 img{
+    width: 16rem;
+    height: auto;
+    margin-right: 4rem;
+    margin-top: 6rem;
+  }
+  .p1 img {
     width: 17rem;
     height: auto;
     margin-top: -16em;
     margin-left: -4rem;
   }
-  .p2 img{
+
+  .p2 img {
     width: 17rem;
     height: auto;
     margin-top: 5rem;
     margin-left: -14rem;
   }
-  .p3 img{
+
+  .p3 img {
     width: 17rem;
     height: auto;
     margin-top: -15rem;
     margin-left: -12rem;
   }
-  .q1 img{
+
+  .q1 img {
     width: 17rem;
     height: auto;
     margin-top: -6rem;
     margin-right: -15rem;
   }
-  .q2 img{
+
+  .q2 img {
     width: 17rem;
     height: auto;
     margin-bottom: 1rem;
     margin-right: 8rem;
   }
-  .q3 img{
+
+  .q3 img {
     width: 17rem;
     height: auto;
     margin-bottom: -27rem;
     margin-right: 2rem;
   }
+
   .a1 img {
     width: 80%;
     height: auto;
@@ -1402,11 +1560,12 @@ i {
     margin-left: -11rem;
     margin-top: -17rem;
   }
+
   .g1 img {
     position: absolute;
-  width: 120%;
-  top: 10vh;
-  left: 30%;
+    width: 120%;
+    top: 10vh;
+    left: 30%;
   }
 
   .g2 img {
@@ -1422,173 +1581,200 @@ i {
     top: 10vh;
     left: -25%;
   }
+}
+
+/* Ipad Pro */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+  #homepage,
+  #photography,
+  #dance,
+  #art,
+  #music,
+  #gaming,
+  #literature,
+  #drama,
+  #quiz,
+  #design {
+    position: absolute;
   }
 
-  @media (min-width: 992px) and (max-width: 1199.98px) {
-    #homepage,
-    #photography,
-    #dance,
-    #art,
-    #music,
-    #gaming,
-    #literature,
-    #drama,
-    #quiz,
-    #design {
-      position: absolute;
-    }
-    .col-sm-4 img{
-      z-index: 2500;
-    }
-    .font {
-      margin-top: 3.5rem;
-      font-size: 7rem;
-    }
-    .event-play {
-      margin-top: 1rem;
-    }
+  .font {
+    margin-top: 3.5rem;
+    font-size: 7rem;
+  }
 
-    .event-play h2 {
-      font-size: 4rem;
-    }
-    .material-icons.active {
-      font-size: 30px;
-      color: white;
-      margin-top: 1rem;
-    }
+  .event-play {
+    margin-top: 1rem;
+  }
 
-    .register {
-      top: 90%;
-      left: 40%;
-      font-size: 2rem;
-    }
+  .event-play h2 {
+    font-size: 4rem;
+  }
 
-    #homepage {
-      background-image: url("../img/mobile/events.png");
-      background-size: cover;
-    }
+  .material-icons.active {
+    font-size: 30px;
+    color: white;
+    margin-top: 1rem;
+  }
 
-    #photography {
-      background-image: url("../img/mobile/photography.png");
-      background-position: bottom right;
-    }
+  .register {
+    top: 90%;
+    left: 40%;
+    font-size: 2rem;
+  }
 
-    #dance {
-      background-image: url("../img/mobile/dance.png");
-      background-size: cover;
-    }
+  #homepage {
+    background-image: url("../img/mobile/events.png");
+    background-size: cover;
+  }
 
-    #art {
-      background-image: url("../img/mobile/art.png");
-      background-size: cover;
-    }
+  #photography {
+    background-image: url("../img/mobile/photography.png");
+    background-position: bottom right;
+  }
 
-    #music {
-      background-image: url("../img/mobile/music.png");
-      background-size: cover;
-    }
+  #dance {
+    background-image: url("../img/mobile/dance.png");
+    background-size: cover;
+  }
 
-    #gaming {
-      background-image: url("../img/mobile/gaming.png");
-      background-size: cover;
-      background-position: bottom right;
-    }
-    #literature{
-      background-image: url("../img/mobile/literature.png");
-      background-size: cover;
-    }
+  #art {
+    background-image: url("../img/mobile/art.png");
+    background-size: cover;
+  }
 
-    #drama {
-      background-image: url("../img/mobile/drama.png");
-      background-size: cover;
-    }
+  #music {
+    background-image: url("../img/mobile/music.png");
+    background-size: cover;
+  }
 
-    #quiz {
-      background-image: url("../img/mobile/quiz.png");
-      background-position:right;
-    }
+  #gaming {
+    background-image: url("../img/mobile/gaming.png");
+    background-size: cover;
+    background-position: bottom right;
+  }
 
-    #design {
-      background-image: url("../img/mobile/dance.png");
-      background-size: cover;
-    }
-    .p1 img{
-      width: 20rem;
-      height: auto;
-      margin-top: -24rem;
-      margin-left: 2rem;
-    }
-    .p2 img{
-      width: 20rem;
-      height: auto;
-      margin-top: 7rem;
-      margin-left: -17rem;
+  #literature {
+    background-image: url("../img/mobile/literature.png");
+    background-size: cover;
+  }
 
-    }
-    .p3 img{
-      width: 20rem;
-      height: auto;
-      margin-top: -14rem;
-      margin-left: -16rem;
-    }
-    .q1 img{
-      width: 20rem;
-      height: auto;
-      margin-top: -13rem;
-      margin-right: -30rem;
-    }
-    .q2 img{
-      width: 20rem;
-      height: auto;
-      margin-bottom: 2rem;
-      margin-right: 1rem;
+  #drama {
+    background-image: url("../img/mobile/drama.png");
+    background-size: cover;
+  }
 
-    }
-    .q3 img{
-      width: 20rem;
-      height: auto;
-      margin-bottom: -37rem;
-      margin-right: 3rem;
+  #quiz {
+    background-image: url("../img/mobile/quiz.png");
+    background-position: right;
+  }
 
-    }
-    .a1 img {
-      width: 80%;
+  #design {
+    background-image: url("../img/mobile/dance.png");
+    background-size: cover;
+  }
+  .li1 img{
+    width: 18rem;
+    height: auto;
+    margin-top: -20rem;
+    margin-left: 2rem;
+  }
+  .li2 img{
+    width: 18rem;
+    height: auto;
+    margin-bottom: 14rem;
+    margin-left: 4rem;  
+  }
+  .li3 img{
+    width: 18rem;
+    height: auto;
+    margin-top: 7rem;
+    margin-right: 9rem;
+  }
+  .p1 img {
+    width: 20rem;
+    height: auto;
+    margin-top: -24rem;
+    margin-left: 2rem;
+  }
+
+  .p2 img {
+    width: 20rem;
+    height: auto;
+    margin-top: 7rem;
+    margin-left: -17rem;
+
+  }
+
+  .p3 img {
+    width: 20rem;
+    height: auto;
+    margin-top: -14rem;
+    margin-left: -16rem;
+  }
+
+  .q1 img {
+    width: 20rem;
+    height: auto;
+    margin-top: -13rem;
+    margin-right: -30rem;
+  }
+
+  .q2 img {
+    width: 20rem;
+    height: auto;
+    margin-bottom: 2rem;
+    margin-right: 1rem;
+
+  }
+
+  .q3 img {
+    width: 20rem;
+    height: auto;
+    margin-bottom: -37rem;
+    margin-right: 3rem;
+
+  }
+
+  .a1 img {
+    width: 80%;
     height: auto;
     margin-left: 9%;
     margin-top: -23rem;
-    }
+  }
 
-    .a2 img {
-      width: 80%;
+  .a2 img {
+    width: 80%;
     height: auto;
     margin-left: -6rem;
     margin-top: 3rem;
-    }
+  }
 
-    .a3 img {
-      width: 80%;
+  .a3 img {
+    width: 80%;
     height: auto;
     margin-left: -11rem;
     margin-top: -23rem;
-    }
-    .g1 img {
-      position: absolute;
+  }
+
+  .g1 img {
+    position: absolute;
     width: 100%;
     top: 2vh;
     left: 60%;
-    }
+  }
 
-    .g2 img {
-      position: absolute;
+  .g2 img {
+    position: absolute;
     width: 100%;
     bottom: -6vh;
-    left: %;
-    }
+  }
 
-    .g3 img {
-      position: absolute;
+  .g3 img {
+    position: absolute;
     width: 100%;
     top: 2vh;
     left: -25%;
-    }
   }
+}

@@ -56,6 +56,7 @@ body {
   .logo img{
     top: -20px;
   }
+}
 
 @media (min-width:992px){
   .logo img{
@@ -77,5 +78,4 @@ body {
      0 0 0 10rem rgba(0, 0, 0, 0);
   }
 }
-
 

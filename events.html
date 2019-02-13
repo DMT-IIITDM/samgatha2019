@@ -17,16 +17,24 @@
     <link rel="stylesheet" media="(min-width: 425px) and (max-width:575.98px)" href="css/events.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
-    crossorigin="anonymous"></script>
+        crossorigin="anonymous"></script>
 </head>
 
 <body>
+    <div class="device-notification">
+        <img style="width: 150px;" src="img/samlogo.png" />
+        <p class="device-notification--message">Samgatha has so much to offer that we must request you orient your
+            device to
+            portrait or find a larger screen. You won't be disappointed.</p>
+    </div>
+
     <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top" id="sideNav" style="width:17rem;">
         <a class="navbar-brand js-scroll-trigger"></a>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav">
                 <li class="ml-4" style="position:absolute;display:block;top:3%;">
-                    <a href="index.html"><img style="width: 180px;height: auto;margin-left: auto;margin-right: auto;" src="img/samlogo.png" /></a>
+                    <a href="index.html"><img style="width: 180px;height: auto;margin-left: auto;margin-right: auto;"
+                            src="img/samlogo.png" /></a>
                 </li>
                 <li class="nav-item ml-5 ">
                     <a class="nav-link js-scroll-trigger " id="home2" href="#homepage">HOME</a>
@@ -68,11 +76,11 @@
             </ul>
         </div>
     </nav>
-   
+
     <div class="sam-logo">
         <a href="index.html"> <img src="img/samlogo.png" alt="" style="position:fixed;"> </a>
     </div>
-    
+
     <div class="hamburger-icon" id="icon" style="position:fixed">
         <div class="icon-1" id="a"></div>
         <div class="icon-2" id="b"></div>
@@ -125,18 +133,19 @@
 
     <!-- Down Hmaburger -->
 
-    <div class="hamburger-icon-bottom" id="bottom-ham" style="position:fixed">      
+    <div class="hamburger-icon-bottom" id="bottom-ham" style="position:fixed">
     </div>
-    
+
     <div id="overlay-bot" class="stream1" style="z-index:2000;">
-        <div class="still" style="position:absolute;height:100%;width:100%;z-index:3;" >
+        <div class="still" style="position:absolute;height:100%;width:100%;z-index:3;">
             <div class="cross1">
                 <!-- <i id="close-bot" class="material-icons" style="font-size:48px;color:white">close</i> -->
                 <div style="position:absolute;">
-                    <img id="close-bot" src="img/mobile/Closeicon.png" class="material-icons" height="30px" width="30px" style="position:relative;top:-2rem"/>
+                    <img id="close-bot" src="img/mobile/Closeicon.png" class="material-icons" height="30px" width="30px"
+                        style="position:relative;top:-2rem" />
                 </div>
                 <script>
-                    $("#close-bot").css('left',(screen.width)*0.045+'rem');
+                    $("#close-bot").css('left', (screen.width) * 0.045 + 'rem');
                 </script>
                 <ul class="navbar-nav">
                     <li class="nav-item ml-5 ">
@@ -178,7 +187,7 @@
 
     <div id="onepage">
         <div id="homepage">
-        	<div class="heading">
+            <div class="heading">
                 <h2 class="font">EVENTS</h2>
             </div>
             <div class="arrowdown" id="d1">
@@ -212,24 +221,24 @@
             </div>
             <!-- Overlay Display -->
             <div id="overlay" class="stream">
-                    <div class="cross">
-                        <button class="register">REGISTER</button>
-                        <div class="event-play">
-                            <h2>DRISHYAM</h2>
-                        </div>
-                        <i id="close" class="material-icons">close</i>
+                <div class="cross">
+                    <button class="register">REGISTER</button>
+                    <div class="event-play">
+                        <h2>DRISHYAM</h2>
                     </div>
-                    <div class="overlay-content">
-                        <h3>ABOUT</h3>
-                        <p>It's time to round up your crew, get your cameraman in place and step into the world of
-                           Spielberg and Scorsese. Enter a world of technicolor and black and white. Finish up those last
-                           minute edits, and transform your story into an amazing short film.</p>
-                        <!-- <h3>PRIZES</h3> -->
-                        <h3>RULES</h3>
-                            <li>Time duration - 10-15 minutes</li>
-                            <li>There is no language restriction. Has to be an Indian language, subtitles</li>
-                            <li>Judging criteria: Acting, story, screenplay, theme/message</li>
-                    </div>
+                    <i id="close" class="material-icons">close</i>
+                </div>
+                <div class="overlay-content">
+                    <h3>ABOUT</h3>
+                    <p>It's time to round up your crew, get your cameraman in place and step into the world of
+                        Spielberg and Scorsese. Enter a world of technicolor and black and white. Finish up those last
+                        minute edits, and transform your story into an amazing short film.</p>
+                    <!-- <h3>PRIZES</h3> -->
+                    <h3>RULES</h3>
+                    <li>Time duration - 10-15 minutes</li>
+                    <li>There is no language restriction. Has to be an Indian language, subtitles</li>
+                    <li>Judging criteria: Acting, story, screenplay, theme/message</li>
+                </div>
             </div>
             <div id="overlay1" class="stream">
                 <div class="cross">
@@ -331,7 +340,8 @@
             </div>
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-4 a1" ><script src="js/pacman.js"></script>
+                    <div class="col-sm-4 a1">
+                        <script src="js/pacman.js"></script>
                         <img id="art1" src="img/hoverevents/Art/Group 510.png" />
                     </div>
                     <div class="col-sm-4 a2">
@@ -392,10 +402,10 @@
             </div>
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-6 m1" >
+                    <div class="col-sm-6 m1">
                         <img id="music1" src="img/hoverevents/Music/Group 441.png" />
                     </div>
-                    <div class="col-sm-6 m2" >
+                    <div class="col-sm-6 m2">
                         <img id="music3" src="img/hoverevents/Music/Group 442.png" />
                     </div>
                 </div>
@@ -409,6 +419,24 @@
                     <i id="close9" class="material-icons">close</i>
                 </div>
                 <div class="overlay-content">
+                    <h3>ABOUT</h3>
+                    <p>Bring your instruments,let loose your voices and set the stage on fire with
+                        some mind-blowing music and powerful performances in this eclectic battle of
+                        bands.</p>
+                    <h3>PRIZES</h3>
+                    <h3>RULES</h3>
+                    <div style="display: inline-flex; margin-left:30px;">
+                        <ul style="text-align:left;">
+                            <li>The band size is supposed to be 8 members at maximum</li>
+                            <li>Limit performance time to 18 minutes(including setup)</li>
+                            <li>Eastern and western performances are allowed</li>
+                            <li>SAM ID / online registration is a must</li>
+                            <li>Video to be submitted for shortlisting( 5 mins max,send it to ​ <a href="mailto:musicclub.iiitdm@gmail.com​">musicclub.iiitdm@gmail.com​</a>)</li>
+                            <li>Participant can perform only for one band</li>
+                            <li>Extra points for original compositions!</li>
+                            <li>Only a drum kit and keyboard stand will be provided</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
             <div id="overlay10" class="stream">
@@ -420,6 +448,24 @@
                     <i id="close10" class="material-icons">close</i>
                 </div>
                 <div class="overlay-content">
+                    <h3>ABOUT</h3>
+                    <p>Calling all the musicians-amateurs,professionals and even those wanna-be’s
+                        who have never confessed your passion for singing. Lighten up,shed your fears
+                        and let your voice out on the stage.</p>
+                    <h3>PRIZES</h3>
+                    <h3>RULES</h3>
+                    <div style="display: inline-flex; margin-left:30px;">
+                        <ul style="text-align:left;">
+                            <li>Any genre of music is allowed</li>
+                            <li>SAM ID / online registration is a must: on-spot registration at the last moment will
+                                not be allowed</li>
+                            <li>Video to be submitted for shortlisting( 4 mins max,send it to ​ <a href="mailto:musicclub.iiitdm@gmail.com​">musicclub.iiitdm@gmail.com​</a>)</li>
+                            <li>One submission per participant</li>
+                            <li>Final performance should be under 5 minutes</li>
+                            <li>Particiapant may use a karaoke or any accompanying instrument(played by him/her or
+                                another person) though only vocals will be judged.</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
             <div class="arrowdown" id="d5">
@@ -434,7 +480,7 @@
             </div>
             <div class="container">
                 <div class="row">
-                     <div class="col-sm-4 g1">
+                    <div class="col-sm-4 g1">
                         <img id="game1" src="img/hoverevents/Gaming/Group 421.png" />
                     </div>
                     <div class="col-sm-4 g2">
@@ -505,7 +551,7 @@
                         <img id="litre1" src="img/hoverevents/Literature/Group 650.png" />
                     </div>
                     <div class="col-sm-4 li2">
-                       <img id="litre2" src="img/hoverevents/Literature/Group 651.png" />
+                        <img id="litre2" src="img/hoverevents/Literature/Group 651.png" />
                     </div>
                     <div class="col-sm-4 li3">
                         <img id="litre3" src="img/hoverevents/Literature/Group 652.png" />
@@ -692,10 +738,42 @@
                     <img src="img/UpArrow.png" />
                 </a>
             </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 de1">
+                        <img id="design31" src="img/hoverevents/Design/Group 600.png" />
+                    </div>
+                    <div class="col-sm-6 de2">
+                        <img id="design32" src="img/hoverevents/Design/Group 599.png" />
+                    </div>
+                </div>
+            </div>
+            <div id="overlay20" class="stream">
+                <div class="cross">
+                    <button class="register">REGISTER</button>
+                    <div class="event-play">
+                        <h2>ALTER REALITY</h2>
+                    </div>
+                    <i id="close20" class="material-icons">close</i>
+                </div>
+                <div class="overlay-content">
+                </div>
+            </div>
+            <div id="overlay21" class="stream">
+                <div class="cross">
+                    <button class="register">REGISTER</button>
+                    <div class="event-play">
+                        <h2>DESIGNATHON</h2>
+                    </div>
+                    <i id="close21" class="material-icons">close</i>
+                </div>
+                <div class="overlay-content">
+                </div>
+            </div>
         </div>
     </div>
     <script>
-        let ham_check=0;
+        let ham_check = 0;
         let list1 = [
             ['home2', 1],
             ['photo2', 0],
@@ -711,9 +789,34 @@
         let list2 = ['d1', 'd2', 'd3', 'd4', 'd5', 'd6', 'd7', 'd8', 'd9'];
         let list3 = ['u1', 'u2', 'u3', 'u4', 'u5', 'u6', 'u7', 'u8', 'u9'];
         //['li1',0,'#overlay14','#close14'],['li2',0,'#overlay15','#close15'],['li3',0,'#overlay16','#close16'],
-        let list4 = [['photo1',0,'#overlay','#close'],['photo3',0,'#overlay1','#close1'],['photo4',0,'#overlay2','#close2'],['dance1',0,'#overlay3','#close3'],['dance3',0,'#overlay4','#close4'],['dance4',0,'#overlay5','#close5'],['art1',0,'#overlay6','#close6'],['art3',0,'#overlay7','#close7'],['art4',0,'#overlay8','#close8'],['music1',0,'#overlay9','#close9'],['music3',0,'#overlay10','#close10'],['game1',0,'#overlay11','#close11'],['game2',0,'#overlay12','#close12'],['game3',0,'#overlay13','#close13'],['drama17',0,'#overlay17','#close17'],['drama18',0,'#overlay18','#close18'],['drama19',0,'#overlay19','#close19'],['quiz20',0,'#overlay20','#close20'],['quiz21',0,'#overlay21','#close21'],['quiz22',0,'#overlay22','#close22']];
-        let list5 = [1,0,0,0,0,0,0,0,0,0];
-        let list6 = [['litre1',0,'#overlay31','#close31'],['litre2',0,'#overlay32','#close32'],['litre3',0,'#overlay33','#close33']];
+        let list4 = [
+            ['photo1', 0, '#overlay', '#close'],
+            ['photo3', 0, '#overlay1', '#close1'],
+            ['photo4', 0, '#overlay2', '#close2'],
+            ['dance1', 0, '#overlay3', '#close3'],
+            ['dance3', 0, '#overlay4', '#close4'],
+            ['dance4', 0, '#overlay5', '#close5'],
+            ['art1', 0, '#overlay6', '#close6'],
+            ['art3', 0, '#overlay7', '#close7'],
+            ['art4', 0, '#overlay8', '#close8'],
+            ['music1', 0, '#overlay9', '#close9'],
+            ['music3', 0, '#overlay10', '#close10'],
+            ['game1', 0, '#overlay11', '#close11'],
+            ['game2', 0, '#overlay12', '#close12'],
+            ['game3', 0, '#overlay13', '#close13'],
+            ['drama17', 0, '#overlay17', '#close17'],
+            ['drama18', 0, '#overlay18', '#close18'],
+            ['drama19', 0, '#overlay19', '#close19'],
+            ['quiz20', 0, '#overlay20', '#close20'],
+            ['quiz21', 0, '#overlay21', '#close21'],
+            ['quiz22', 0, '#overlay22', '#close22']
+        ];
+        let list5 = [1, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+        let list6 = [
+            ['litre1', 0, '#overlay31', '#close31'],
+            ['litre2', 0, '#overlay32', '#close32'],
+            ['litre3', 0, '#overlay33', '#close33']
+        ];
     </script>
     <!-- <script src='http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js'></script> -->
     <script src="js/index-events.js"></script>
@@ -722,13 +825,11 @@
         crossorigin="anonymous"></script> -->
     <script src="js/active-events.js"></script>
     <script>
-        for(let i=0;i<list4.length;i++)
-        {
-            list4[i][1]=0;
+        for (let i = 0; i < list4.length; i++) {
+            list4[i][1] = 0;
         }
-        for(let i=0;i<list6.length;i++)
-        {
-            list6[i][1]=0;
+        for (let i = 0; i < list6.length; i++) {
+            list6[i][1] = 0;
         }
     </script>
     <script src="js/overlay.js"></script>
