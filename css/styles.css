@@ -43,6 +43,14 @@ body {
 
 }
 
+@media only screen and (max-width:1440px) and (min-width:768.1px)
+{
+.logo img {
+  width: 60rem;
+  height: 40rem;
+}
+}
+
 @media screen and (max-width:425px)
 {
   .logo img{

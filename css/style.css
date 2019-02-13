@@ -201,22 +201,25 @@ html, body { margin: 0; padding: 0}
 @media screen and (max-width:1024px)
 {
   .needle{
-    right: 7.5%;
-    bottom:-2%;
+    right: 6%;
+    bottom: -2%;
   }
   .needle img{
-    height:250px;
+    height:300px;
   }
 }
 
 @media screen and (max-width:768px)
 {
   .needle{
-    right: 0.5%;
+    right: -2.5%;
     bottom: -20%;
   }
   .needle img{
     height:280px;
+  }
+  .needle2 img {
+    height: 460px;
   }
   
 }
@@ -237,8 +240,8 @@ html, body { margin: 0; padding: 0}
 @media screen and (max-width:425px)
 {
   .needle{
-    right: 13%;
-    bottom: -10%;  
+    right: 4%;
+    bottom: -4%; 
   }
   .needle img{
     height:220px;
@@ -250,21 +253,32 @@ html, body { margin: 0; padding: 0}
     animation-name: vinyl-small;
     background-position: 50% 40%;
   }
-  
+  .needle2 img {
+    height: 380px;
+  }
 }
 
 @media screen and (max-width:375px)
 {
   .needle{
-    right: 14%;
+    right: -5%;
+    bottom: -9%;
   }
+  .needle img{
+    animation-name: needle-xsmall;
+    transform: rotate(10deg);
+  }
+  .needle2 img {
+    height: 300px;
+  }
+
 }
 
 @media screen and (max-width:320px)
 {
   .needle{
-    right: 15%;
-    bottom: -10%;
+    right: -8%;
+    bottom: -11%;
   }
   .needle img{
     height:220px;
@@ -319,6 +333,15 @@ html, body { margin: 0; padding: 0}
   }
   100%{
     transform: rotate(25deg);
+  }
+}
+
+@keyframes needle-xsmall{
+  0%{
+    transform: rotate(90deg);
+  }
+  100%{
+    transform: rotate(10deg);
   }
 }
 
