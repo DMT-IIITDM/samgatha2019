@@ -865,8 +865,9 @@ i {
   }
 
   .register {
-    top: 90%;
-    left: 35%;
+    font-size:20px; 
+    top: 88%;
+    left: 38%;
   }
   .de1 img{
     
@@ -928,32 +929,26 @@ i {
 
 
   .dance1 img {
-    position: absolute;
-    width: 80%;
-    height: 190px;
+    width: 14rem;
     bottom: 53%;
-    left: 10%;
+    left: 3rem;
     margin-top: 0px;
   }
 
 
   .dance2 img {
-    position: absolute;
-    width: 80%;
-    height: 190px;
-    left: 13%;
+    width: 14rem;
+    left: 3rem;
     top: 0px;
-    margin-top: -140px;
+    margin-top: -9rem;
   }
 
 
   .dance3 img {
-    position: absolute;
-    width: 80%;
-    height: 190px;
+    width: 14rem;
     bottom: 100px;
     left: 13%;
-    margin-top: 0px;
+    margin-bottom: 1.5rem;
   }
 
   .drama1 {
@@ -968,17 +963,16 @@ i {
     position: absolute;
     width: 65%;
     height: auto;
-    top: 16.5rem;
+    top: 17.5rem;
     left: 4rem;
-
   }
 
   .drama2 img {
     position: absolute;
     width: 65%;
     height: auto;
-    left: 4.5rem;
-    bottom: 21rem;
+    left: 3.5rem;
+    bottom: 20rem;
   }
 
   .drama3 img {
@@ -986,7 +980,7 @@ i {
     width: 65%;
     height: auto;
     left: 4rem;
-    top: -11rem;
+    top: -12rem;
   }
 
   /* .m1 img {
@@ -1490,6 +1484,42 @@ i {
     background-image: url("../img/mobile/dance.png");
     background-size: cover;
   }
+  .dance1 img{
+    width: 22rem;
+    height: auto;
+    margin-bottom: 3rem;
+    margin-left: -1rem;
+  }
+  .dance2 img{
+    width: 23rem;
+    height: auto;
+    margin-top: -5rem;
+    left: -40%;
+  }
+  .dance3 img{
+    height: auto;
+    width: 22rem;
+    margin-bottom: 3rem;
+    margin-left: 4rem;
+  }
+  .drama1 img{
+    width: 21rem;
+    height: auto;
+    margin-top: -5rem;
+    margin-left: -6rem;
+  }
+  .drama2 img{
+    width: 21rem;
+    height: auto;
+    margin-bottom: 0rem;
+    margin-left: -4rem;
+  }
+  .drama3 img{
+    width: 21rem;
+    height: auto;
+    margin-top: -5rem;
+    margin-left: -2rem;
+  }
   .li1 img{
     width: 16rem;
     height: auto;
@@ -1683,6 +1713,40 @@ i {
   #design {
     background-image: url("../img/mobile/dance.png");
     background-size: cover;
+  }
+  .dance1 img{
+    width: 28rem;
+    height: auto;
+    margin-bottom: -14rem;
+    margin-left: 7rem;
+  }
+  .dance2 img{
+    width: 28rem;
+    height: auto;
+    margin-top: -10rem;
+    left: -40%;
+  }
+  .dance3 img{
+    height: auto;
+    width: 28rem;
+    margin-bottom: 3rem;
+    margin-left: 5rem;
+  }
+  .drama1 img{
+    width: 24rem;
+    height: auto;
+    margin-top: -3rem;
+  }
+  .drama2 img{
+    width: 24rem;
+    height: auto;
+    margin-bottom: -2rem;
+  }
+  .drama3 img{
+    width: 24rem;
+    height: auto;
+    margin-top: -4rem;
+    margin-left: 1rem;
   }
   .li1 img{
     width: 18rem;
