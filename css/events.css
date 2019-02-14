@@ -609,12 +609,6 @@ ul{
   list-style-type: disc;
 }
 
-.nav-link {
-  color: black;
-  font-family: mynavnum;
-  font-size: 1.1rem;
-}
-
 .nav-item.active {
   transition-delay: .2s;
   visibility: hidden;
@@ -630,14 +624,6 @@ ul{
   top: 5px;
   right: 25px;
 }
-
-.cross1 {
-  color: #F38445;
-  position: absolute;
-  top: 55px;
-  left: 25px;
-}
-
 .material-icons {
   visibility: hidden;
 }
@@ -1126,7 +1112,7 @@ i {
   }
 
   .register {
-    top: 90%;
+    top: 88%;
     left: 37.5%;
   }
 
@@ -1188,7 +1174,6 @@ i {
   .dance1 img {
     position: absolute;
     width: 62%;
-    height: 10rem;
     bottom: 54%;
     left: 19%;
     margin-top: 0px;
@@ -1198,7 +1183,6 @@ i {
   .dance2 img {
     position: absolute;
     width: 62%;
-    height: 10rem;
     left: 19%;
     top: 0px;
     margin-top: -179px;
@@ -1208,8 +1192,7 @@ i {
   .dance3 img {
     position: absolute;
     width: 62%;
-    height: 10rem;
-    bottom: 170px;
+    bottom: 163px;
     left: 19%;
     margin-top: 0px;
   }
