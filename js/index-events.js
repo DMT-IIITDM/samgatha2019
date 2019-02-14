@@ -746,7 +746,7 @@ require.register("onepage/index.js", function (exports, require, module) {
             var delta = new Date().getTime() - (me.transitioned || 0);
             var period = me.options.period + me.options.duration;
             if (delta > period && Math.abs(e.wheelDelta) > me.options.wheelDelta) {
-                //if(clickedModal==0)
+                if(clickedModal==0)
                 {
                     if (e.wheelDelta > 0) {
                         me.pageUp();

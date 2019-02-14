@@ -44,6 +44,7 @@ function menu() {
         $('.nav-item').toggleClass('active');
         $('#social').toggleClass('active');
         $('#bottom-ham').toggleClass('active');
+        clickedModal=1;
         list4[0][1]=1;
     });
     $('#photo3').on('click', function () {
@@ -52,6 +53,7 @@ function menu() {
         $('.nav-item').toggleClass('active');
         $('#social').toggleClass('active');
         $('#bottom-ham').toggleClass('active');
+        clickedModal=1;
         list4[1][1]=1;
     });
     $('#photo4').on('click', function () {
@@ -60,6 +62,7 @@ function menu() {
         $('.nav-item').toggleClass('active');
         $('#social').toggleClass('active');
         $('#bottom-ham').toggleClass('active');
+        clickedModal=1;
         list4[2][1]=1;
     });
     $('#close').on('click', function () {
@@ -68,6 +71,7 @@ function menu() {
         $('.nav-item').toggleClass('active');
         $('#social').toggleClass('active');
         $('#bottom-ham').toggleClass('active');
+        clickedModal=0;
         list4[0][1]=0;
     });
     $('#close1').on('click', function () {
@@ -76,6 +80,7 @@ function menu() {
         $('.nav-item').toggleClass('active');
         $('#social').toggleClass('active');
         $('#bottom-ham').toggleClass('active');
+        clickedModal=0;
         list4[1][1]=0;
     });
     $('#close2').on('click', function () {
@@ -84,6 +89,7 @@ function menu() {
         $('.nav-item').toggleClass('active');
         $('#social').toggleClass('active');
         $('#bottom-ham').toggleClass('active');
+        clickedModal=0;
         list4[2][1]=0;
     });
     // DANCE

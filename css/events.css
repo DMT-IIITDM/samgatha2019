@@ -17,27 +17,31 @@
   src: url(../fonts/register.ttf);
 }
 
-#container .active{
-  visibility: visible;
-  background-color:lightblue;
-  margin-bottom:1em;
+
+.inside-nav{
+  height:200px;
+  overflow-y:scroll;
+  width:80%;
+  margin:0 auto;
+  padding-right:5%;
+  padding-left:5%;
 }
 
 /* Scroll bar design */
 
 /* width */
-#container::-webkit-scrollbar {
+.inside-nav::-webkit-scrollbar {
   width: 12px;
 }
 
 /* Track */
-#container::-webkit-scrollbar-track {
+.inside-nav::-webkit-scrollbar-track {
   visibility:hidden;
 }
 
 /* Handle */
-#container::-webkit-scrollbar-thumb {
-  background: white; 
+.inside-nav::-webkit-scrollbar-thumb {
+  background: #FFFFFF; 
   border-radius: 10px;
 }
 
