@@ -334,7 +334,11 @@ a.ham-menu:hover{
     color: #F38445;
     position: absolute;
     top: 141px;
-    left: 224px;
+    left: 196px;
+    display: inline-block;
+  }
+  .still{
+    text-align: center;
   }
 }
 @media only screen and (orientation:landscape) and (max-width:600px) and (max-height:430px)

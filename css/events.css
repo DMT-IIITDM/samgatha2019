@@ -972,26 +972,26 @@ i {
 
   .drama1 img {
     position: absolute;
-    width: 65%;
+    width: 55%;
     height: auto;
-    top: 17.5rem;
-    left: 4rem;
+    top: 45%;
+    left: 5rem;
   }
 
   .drama2 img {
     position: absolute;
-    width: 65%;
+    width: 55%;
     height: auto;
-    left: 3.5rem;
-    bottom: 20rem;
+    left: 5.5rem;
+    bottom: 21rem;
   }
 
   .drama3 img {
     position: absolute;
-    width: 65%;
+    width: 55%;
     height: auto;
-    left: 4rem;
-    top: -12rem;
+    left: 6rem;
+    top: -11rem;
   }
 
   /* .m1 img {
