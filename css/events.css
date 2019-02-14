@@ -17,15 +17,28 @@
   src: url(../fonts/register.ttf);
 }
 
-.hidden{
-  visibility: hidden;
-  height:200px;
-}
-
 #container .active{
   visibility: visible;
   background-color:lightblue;
   margin-bottom:1em;
+}
+
+/* Scroll bar design */
+
+/* width */
+#container::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+#container::-webkit-scrollbar-track {
+  visibility:hidden;
+}
+
+/* Handle */
+#container::-webkit-scrollbar-thumb {
+  background: white; 
+  border-radius: 10px;
 }
 
 .device-notification{
