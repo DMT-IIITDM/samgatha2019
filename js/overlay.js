@@ -93,6 +93,7 @@ function menu() {
         $('.nav-item').toggleClass('active');
         $('#social').toggleClass('active');
         $('#bottom-ham').toggleClass('active');
+        //clickedModal=1;
         list4[3][1]=1;
     });
     $('#dance3').on('click', function () {
@@ -117,6 +118,7 @@ function menu() {
         $('.nav-item').toggleClass('active');
         $('#social').toggleClass('active');
         $('#bottom-ham').toggleClass('active');
+        //clickedModal=0;
         list4[3][1]=0;
     });
     $('#close4').on('click', function () {

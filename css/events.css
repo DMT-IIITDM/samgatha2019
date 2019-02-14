@@ -16,6 +16,18 @@
   font-family: sunset;
   src: url(../fonts/register.ttf);
 }
+
+.hidden{
+  visibility: hidden;
+  height:200px;
+}
+
+#container .active{
+  visibility: visible;
+  background-color:lightblue;
+  margin-bottom:1em;
+}
+
 .device-notification{
   display: none;
 }
