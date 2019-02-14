@@ -414,4 +414,40 @@ function menu() {
         $('#bottom-ham').toggleClass('active');
         list6[2][1]=0;
     });
+
+
+    //Design
+
+    $('#design31').on('click',function(){
+        $('#overlay34').toggleClass('active');
+        $('#close34').toggleClass('active');
+        $('.nav-item').toggleClass('active');
+        $('#social').toggleClass('active');
+        $('#bottom-ham').toggleClass('active');
+        list6[3][1]=1;
+    });
+    $('#design32').on('click',function(){
+        $('#overlay35').toggleClass('active');
+        $('#close35').toggleClass('active');
+        $('.nav-item').toggleClass('active');
+        $('#social').toggleClass('active');
+        $('#bottom-ham').toggleClass('active');
+        list6[4][1]=1;
+    });
+    $('#close34').on('click', function () {
+        $('#overlay34').toggleClass('active');
+        $('#close34').toggleClass('active');
+        $('.nav-item').toggleClass('active');
+        $('#social').toggleClass('active');
+        $('#bottom-ham').toggleClass('active');
+        list6[3][1]=0;
+    });
+    $('#close35').on('click', function () {
+        $('#overlay35').toggleClass('active');
+        $('#close35').toggleClass('active');
+        $('.nav-item').toggleClass('active');
+        $('#social').toggleClass('active');
+        $('#bottom-ham').toggleClass('active');
+        list6[4][1]=0;
+    });
 }
