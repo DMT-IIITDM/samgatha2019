@@ -128,7 +128,7 @@
                     <div class="col-2"><span class="ham-num">7</span></div>
                     <div class="col-6"><a class="ham-menu reg">REGISTER</a></div>
                 </div>
-            </div>   
+            </div>
     </nav>
 
     <!-- Down Hmaburger -->
@@ -145,7 +145,10 @@
                         style="position:relative;top:-2rem" />
                 </div>
                 <script>
-                    $("#close-bot").css('left', (screen.width) * 0.045 + 'rem');
+                    if(screen.width>=768 && screen.width<992)
+                        $("#close-bot").css('left', (screen.width) * 0.038 + 'rem');
+                    else
+                        $("#close-bot").css('left', (screen.width) * 0.045 + 'rem');
                 </script>
                 <ul class="navbar-nav">
                     <li class="nav-item ml-5 ">
@@ -229,15 +232,21 @@
                     <i id="close" class="material-icons">close</i>
                 </div>
                 <div class="overlay-content">
-                    <h3>ABOUT</h3>
-                    <p>It's time to round up your crew, get your cameraman in place and step into the world of
-                        Spielberg and Scorsese. Enter a world of technicolor and black and white. Finish up those last
-                        minute edits, and transform your story into an amazing short film.</p>
-                    <!-- <h3>PRIZES</h3> -->
-                    <h3>RULES</h3>
-                    <li>Time duration - 10-15 minutes</li>
-                    <li>There is no language restriction. Has to be an Indian language, subtitles</li>
-                    <li>Judging criteria: Acting, story, screenplay, theme/message</li>
+                    <div class="inside-nav" id="content1">
+                        <h3>ABOUT</h3>
+                        <p>It's time to round up your crew, get your cameraman in place and step into the world of
+                            Spielberg and Scorsese. Enter a world of technicolor and black and white. Finish up those last
+                            minute edits, and transform your story into an amazing short film.</p>
+                        <!-- <h3>PRIZES</h3> -->
+                        <h3>RULES</h3>
+                        <div style="display: inline-flex; margin-left:30px;">
+                                <ul style="text-align:left;">
+                        <li>Time duration - 10-15 minutes</li>
+                        <li>There is no language restriction. Has to be an Indian language, subtitles</li>
+                        <li>Judging criteria: Acting, story, screenplay, theme/message</li>
+                        </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div id="overlay1" class="stream">
@@ -249,6 +258,25 @@
                     <i id="close1" class="material-icons">close</i>
                 </div>
                 <div class="overlay-content">
+                    <div class="inside-nav" id="content2">
+                        <h3>ABOUT</h3>
+                        <p>A picture tells a thousand tales, each one never told before. Phase through the events of our
+                                fest and freeze the moments that talk to you the most!</p>
+                        <!-- <h3>PRIZES</h3> -->
+                        <h3>RULES</h3>
+                        <div style="display: inline-flex; margin-left:30px;">
+                            <ul style="text-align:left;">
+                                <li>Read the General Rules and Photo Specifications carefully.</li>
+                                <li>This is a live photography competition.</li>
+                                <li>One person can submit a maximum of 3 entries.</li>
+                                <li>This event will happen for 3 days and the winner will be announced for each day.</li>
+                                <li>The photos taken must be from 9:00 A.M - 9:00 P.M each day. Only those photos are
+                                        eligible for submission.</li>
+                                        <li>The entries have to be submitted from 9:00 P.M-10:00 P.M at the photography desk
+                                                each day.</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div id="overlay2" class="stream">
@@ -260,6 +288,24 @@
                     <i id="close2" class="material-icons">close</i>
                 </div>
                 <div class="overlay-content">
+                    <div class="inside-nav" id="content3">
+                        <h3>ABOUT</h3>
+                        <p>Resurrect the times of polaroids, darkrooms and roll cameras. Bring out the looking glass of
+                                sepia and light leaks, for history beckons thy name.</p>
+                        <h3>PRIZES</h3>
+                        <!-- <h3>RULES</h3> -->
+                        <div style="display: inline-flex; margin-left:30px;">
+                            <ul style="text-align:left;">
+                                <li>Read the General Rules and Photo Specifications carefully.</li>
+                                <li>The theme for this online competition is “Reminiscent”.</li>
+                                <li>One person can submit a maximum of 2 entries.</li>
+                                <li>The entries have to be emailed to <a href="mailto:iiitdmtv@gmail.com">iiitdmtv@gmail.com​</a> . Email pic and insta id, pic will be
+                                        posted on insta page with tag, time will be given till March 1 to publicize the image. Max
+                                        likes will be declared as winner</li>
+                                <li>No restriction in timing..can be submitted on or before March 1st</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="arrowdown" id="d2">
@@ -361,6 +407,20 @@
                     <i id="close6" class="material-icons">close</i>
                 </div>
                 <div class="overlay-content">
+                      <h3>ABOUT</h3>
+                      <p>“Every stone has a statue inside it but it is the task of
+                          the sculptor to discover it.”<br>Here at Samgatha, carve your
+                          heart out on a piece of soap and get your ticket to becoming the next Michelangelo!
+                       </p>
+                      <h3>PRIZES</h3>
+                      <h3>RULES</h3>
+                      <div style="display: inline-flex; margin-left:30px;">
+                              <ul style="text-align:left;">
+                      <!--<li></li>
+                      <li></li>
+                      <li></li>-->
+                      </ul>
+                      </div>
                 </div>
             </div>
             <div id="overlay7" class="stream">
@@ -372,6 +432,19 @@
                     <i id="close7" class="material-icons">close</i>
                 </div>
                 <div class="overlay-content">
+                  <h3>ABOUT</h3>
+                  <p>Time flies over us, but always leaves its shadow behind.
+                     It’s time to Impress our judges with the shadows that you have in mind.
+                  </p>
+                  <h3>PRIZES</h3>
+                  <h3>RULES</h3>
+                  <div style="display: inline-flex; margin-left:30px;">
+                          <ul style="text-align:left;">
+                  <!--<li>Time duration - 10-15 minutes</li>
+                  <li>There is no language restriction. Has to be an Indian language, subtitles</li>
+                  <li>Judging criteria: Acting, story, screenplay, theme/message</li>-->
+                  </ul>
+                </div>
                 </div>
             </div>
             <div id="overlay8" class="stream">
@@ -383,6 +456,19 @@
                     <i id="close8" class="material-icons">close</i>
                 </div>
                 <div class="overlay-content">
+                  <h3>ABOUT</h3>
+                  <p>Animation is not the art of drawings that move but the art of
+                     movements that are drawn.<br> Flipbook gives you the perfect opportunity
+                     to impress our judges with your movements on paper and win big!</p>
+                  <h3>PRIZES</h3>
+                  <h3>RULES</h3>
+                  <div style="display: inline-flex; margin-left:30px;">
+                          <ul style="text-align:left;">
+                  <!--<li>Time duration - 10-15 minutes</li>
+                  <li>There is no language restriction. Has to be an Indian language, subtitles</li>
+                  <li>Judging criteria: Acting, story, screenplay, theme/message</li>-->
+                  </ul>
+                </div>
                 </div>
             </div>
             <div class="arrowdown" id="d4">
@@ -420,7 +506,7 @@
                 </div>
                 <div class="overlay-content">
                     <h3>ABOUT</h3>
-                    <p>Bring your instruments,let loose your voices and set the stage on fire with
+                    <p>Bring your instruments, let loose your voices and set the stage on fire with
                         some mind-blowing music and powerful performances in this eclectic battle of
                         bands.</p>
                     <h3>PRIZES</h3>
@@ -506,6 +592,19 @@
                     <i id="close11" class="material-icons">close</i>
                 </div>
                 <div class="overlay-content">
+                  <h3>ABOUT</h3>
+                  <p>One shot. One Kill. No luck. Pure skill.
+                     Gather your troupe and make sure no blood does spill.
+                  </p>
+                  <h3>PRIZES</h3>
+                  <h3>RULES</h3>
+                  <div style="display: inline-flex; margin-left:30px;">
+                          <ul style="text-align:left;">
+                  <!--<li></li>
+                  <li></li>
+                  <li></li>-->
+                  </ul>
+                  </div>
                 </div>
             </div>
             <div id="overlay12" class="stream">
@@ -517,6 +616,19 @@
                     <i id="close12" class="material-icons">close</i>
                 </div>
                 <div class="overlay-content">
+                  <h3>ABOUT</h3>
+                  <p>Experience what it takes to control your favorite player!
+                    Play for the pride of your jersey and shoot for victory!
+                  </p>
+                  <h3>PRIZES</h3>
+                  <h3>RULES</h3>
+                  <div style="display: inline-flex; margin-left:30px;">
+                          <ul style="text-align:left;">
+                  <!--<li></li>
+                  <li></li>
+                  <li></li>-->
+                  </ul>
+                  </div>
                 </div>
             </div>
             <div id="overlay13" class="stream">
@@ -528,6 +640,23 @@
                     <i id="close13" class="material-icons">close</i>
                 </div>
                 <div class="overlay-content">
+                  <h3>ABOUT</h3>
+                  <h5>SOLO</h5>
+                  <p>Those who fly solo have the strongest wings.
+                     Get down to the island and get ready to Battle Royale
+                  </p>
+                  <h5>TEAM</h5>
+                  <p>The island's waiting to see some blood.Guide your gang to the top and taste the chicken dinner.
+                  </p>
+                  <h3>PRIZES</h3>
+                  <h3>RULES</h3>
+                  <div style="display: inline-flex; margin-left:30px;">
+                          <ul style="text-align:left;">
+                  <!--<li></li>
+                  <li></li>
+                  <li></li>-->
+                  </ul>
+                  </div>
                 </div>
             </div>
             <div class="arrowdown" id="d6">
@@ -699,6 +828,13 @@
                     <i id="close20" class="material-icons">close</i>
                 </div>
                 <div class="overlay-content">
+                        <h3>ABOUT</h3>
+                        <p>Albus Percival Wulfric Brian Dumbledore. Were you aware of that? Or perhaps, you are Mr.
+                                Know-It-All when it comes to the Mad Titan. Are you the biggest amongst the biggest, best
+                                among the best of fans out there? Make the podium at the FANDOM Quiz, and show us your
+                                might!</p>
+                        <!-- <h3>PRIZES</h3> -->
+                        <!-- <h3>RULES</h3> -->
                 </div>
             </div>
             <div id="overlay21" class="stream">
@@ -710,6 +846,12 @@
                     <i id="close21" class="material-icons">close</i>
                 </div>
                 <div class="overlay-content">
+                        <h3>ABOUT</h3>
+                        <p>If the number of yearbooks you have lined up is your age, this is the place for you. Compete
+                                against the most talented to score questions on S ports, L itt, A rt and M usic. SLAM your way to
+                                victory!</p>
+                        <!-- <h3>PRIZES</h3> -->
+                        <!-- <h3>RULES</h3> -->
                 </div>
             </div>
             <div id="overlay22" class="stream">
@@ -721,6 +863,9 @@
                     <i id="close22" class="material-icons">close</i>
                 </div>
                 <div class="overlay-content">
+                        <h3>ABOUT</h3>
+                        <p>Get your Meme socks on cuz this quiz will blow them away!!! If you love memes, get your
+                                meme vogue ready to answer a question!!</p>
                 </div>
             </div>
             <div class="arrowdown" id="d9">
@@ -748,30 +893,46 @@
                     </div>
                 </div>
             </div>
-            <div id="overlay20" class="stream">
-                <div class="cross">
-                    <button class="register">REGISTER</button>
-                    <div class="event-play">
-                        <h2>ALTER REALITY</h2>
-                    </div>
-                    <i id="close20" class="material-icons">close</i>
-                </div>
-                <div class="overlay-content">
-                </div>
-            </div>
-            <div id="overlay21" class="stream">
+            <div id="overlay34" class="stream">
                 <div class="cross">
                     <button class="register">REGISTER</button>
                     <div class="event-play">
                         <h2>DESIGNATHON</h2>
                     </div>
-                    <i id="close21" class="material-icons">close</i>
+                    <i id="close34" class="material-icons">close</i>
+                </div>
+                <div class="overlay-content">
+                </div>
+            </div>
+            <div id="overlay35" class="stream">
+                <div class="cross">
+                    <button class="register">REGISTER</button>
+                    <div class="event-play">
+                        <h2>ALTER REALITY</h2>
+                    </div>
+                    <i id="close35" class="material-icons">close</i>
                 </div>
                 <div class="overlay-content">
                 </div>
             </div>
         </div>
     </div>
+    <script>
+        var clickedModal = 0;
+        let list=['content1','content2','content3'];
+        for(let i=0;i<list.length;i++)
+        {
+            let toppy = document.getElementById(list[i]);
+            toppy.addEventListener("onwheel" in document ? "wheel" : "mousewheel", function(e) {
+                if (e.deltaY < 0) {
+                toppy.scrollBy(0,-8);
+                }
+                if (e.deltaY > 0) {
+                toppy.scrollBy(0,8);
+                }
+            });
+        }
+    </script>
     <script>
         let ham_check = 0;
         let list1 = [
@@ -815,7 +976,9 @@
         let list6 = [
             ['litre1', 0, '#overlay31', '#close31'],
             ['litre2', 0, '#overlay32', '#close32'],
-            ['litre3', 0, '#overlay33', '#close33']
+            ['litre3', 0, '#overlay33', '#close33'],
+            ['design31',0,'#overlay34', '#close34'],
+            ['design32',0,'#overlay35', '#close35']
         ];
     </script>
     <!-- <script src='http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js'></script> -->
