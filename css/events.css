@@ -16,6 +16,35 @@
   font-family: sunset;
   src: url(../fonts/register.ttf);
 }
+
+
+.inside-nav{
+  height:200px;
+  overflow-y:scroll;
+  width:80%;
+  margin:0 auto;
+  padding-right:5%;
+  padding-left:5%;
+}
+
+/* Scroll bar design */
+
+/* width */
+.inside-nav::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+.inside-nav::-webkit-scrollbar-track {
+  visibility:hidden;
+}
+
+/* Handle */
+.inside-nav::-webkit-scrollbar-thumb {
+  background: #FFFFFF; 
+  border-radius: 10px;
+}
+
 .device-notification{
   display: none;
 }

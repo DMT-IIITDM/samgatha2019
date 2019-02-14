@@ -232,18 +232,20 @@
                     <i id="close" class="material-icons">close</i>
                 </div>
                 <div class="overlay-content">
-                    <h3>ABOUT</h3>
-                    <p>It's time to round up your crew, get your cameraman in place and step into the world of
-                        Spielberg and Scorsese. Enter a world of technicolor and black and white. Finish up those last
-                        minute edits, and transform your story into an amazing short film.</p>
-                    <!-- <h3>PRIZES</h3> -->
-                    <h3>RULES</h3>
-                    <div style="display: inline-flex; margin-left:30px;">
-                            <ul style="text-align:left;">
-                    <li>Time duration - 10-15 minutes</li>
-                    <li>There is no language restriction. Has to be an Indian language, subtitles</li>
-                    <li>Judging criteria: Acting, story, screenplay, theme/message</li>
-                    </ul>
+                    <div class="inside-nav" id="content1">
+                        <h3>ABOUT</h3>
+                        <p>It's time to round up your crew, get your cameraman in place and step into the world of
+                            Spielberg and Scorsese. Enter a world of technicolor and black and white. Finish up those last
+                            minute edits, and transform your story into an amazing short film.</p>
+                        <!-- <h3>PRIZES</h3> -->
+                        <h3>RULES</h3>
+                        <div style="display: inline-flex; margin-left:30px;">
+                                <ul style="text-align:left;">
+                        <li>Time duration - 10-15 minutes</li>
+                        <li>There is no language restriction. Has to be an Indian language, subtitles</li>
+                        <li>Judging criteria: Acting, story, screenplay, theme/message</li>
+                        </ul>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -256,6 +258,7 @@
                     <i id="close1" class="material-icons">close</i>
                 </div>
                 <div class="overlay-content">
+                    <div class="inside-nav" id="content2">
                         <h3>ABOUT</h3>
                         <p>A picture tells a thousand tales, each one never told before. Phase through the events of our
                                 fest and freeze the moments that talk to you the most!</p>
@@ -273,6 +276,7 @@
                                                 each day.</li>
                             </ul>
                         </div>
+                    </div>
                 </div>
             </div>
             <div id="overlay2" class="stream">
@@ -284,6 +288,7 @@
                     <i id="close2" class="material-icons">close</i>
                 </div>
                 <div class="overlay-content">
+                    <div class="inside-nav" id="content3">
                         <h3>ABOUT</h3>
                         <p>Resurrect the times of polaroids, darkrooms and roll cameras. Bring out the looking glass of
                                 sepia and light leaks, for history beckons thy name.</p>
@@ -300,6 +305,7 @@
                                 <li>No restriction in timing..can be submitted on or before March 1st</li>
                             </ul>
                         </div>
+                    </div>
                 </div>
             </div>
             <div class="arrowdown" id="d2">
@@ -911,6 +917,22 @@
             </div>
         </div>
     </div>
+    <script>
+        var clickedModal = 0;
+        let list=['content1','content2','content3'];
+        for(let i=0;i<list.length;i++)
+        {
+            let toppy = document.getElementById(list[i]);
+            toppy.addEventListener("onwheel" in document ? "wheel" : "mousewheel", function(e) {
+                if (e.deltaY < 0) {
+                toppy.scrollBy(0,-8);
+                }
+                if (e.deltaY > 0) {
+                toppy.scrollBy(0,8);
+                }
+            });
+        }
+    </script>
     <script>
         let ham_check = 0;
         let list1 = [
