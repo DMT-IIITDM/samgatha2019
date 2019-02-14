@@ -68,16 +68,18 @@
   display:block;
 }
 #cause{
-  background-color: black;
+  background-color: #09111b;
 }
 #team{
-  background-color: black;
+  background-color: #09111b;
 }
 #sponsors{
-  background-color: black;
+  background-color: #09111b;
 
 }
-
+#cause img,#team img,#sponsors img {
+  width: 70%;
+}
 #contactus {
   position: absolute;
   background-image: url("../img/contact.png");
@@ -339,6 +341,9 @@ body {
     height:48%;
     width: 85%;
     font-size: 14px;
+  }
+  #cause img,#team img,#sponsors img {
+    width: 100%;
   }
   
 }
