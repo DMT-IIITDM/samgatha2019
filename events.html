@@ -145,7 +145,10 @@
                         style="position:relative;top:-2rem" />
                 </div>
                 <script>
-                    $("#close-bot").css('left', (screen.width) * 0.045 + 'rem');
+                    if(screen.width>=768 && screen.width<992)
+                        $("#close-bot").css('left', (screen.width) * 0.038 + 'rem');
+                    else
+                        $("#close-bot").css('left', (screen.width) * 0.045 + 'rem');
                 </script>
                 <ul class="navbar-nav">
                     <li class="nav-item ml-5 ">
