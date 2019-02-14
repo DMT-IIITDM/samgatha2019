@@ -12,6 +12,10 @@
   font-family: cont;
   src: url(../fonts/IBMPlexSans-Regular.ttf);
 }
+@font-face {
+  font-family: sunset;
+  src: url(../fonts/register.ttf);
+}
 .device-notification{
   display: none;
 }
@@ -588,14 +592,17 @@ h2 {
 
 .overlay-content h3 {
   font-family: mynav;
+  color: #E65C9D;
 }
 
 .overlay-content p {
   font-family: cont;
+  color: #f38445;
 }
 
 .overlay-content li {
   font-family: cont;
+  color: #f38445;
 }
 
 ul{
@@ -657,6 +664,8 @@ ul{
   border-color: #E65C9D;
   border-radius: 50px;
   color: #F38445;
+  font-family: sunset;
+  font-size: 30px;
 }
 
 .event-play {
