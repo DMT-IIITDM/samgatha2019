@@ -773,10 +773,13 @@ require.register("onepage/index.js", function (exports, require, module) {
                     if (e.touches && e.touches.length) {
                         var deltaX = x - e.touches[0].pageX;
                         var deltaY = y - e.touches[0].pageY;
-                        if (deltaY >= 50) {
-                            me.pageDown();
-                        } else if (deltaY <= -50) {
-                            me.pageUp();
+                        if(clickedModal==0)
+                        {
+                            if (deltaY >= 50) {
+                                me.pageDown();
+                            } else if (deltaY <= -50) {
+                                me.pageUp();
+                            }
                         }
                         if (Math.abs(deltaX) >= 50 || Math.abs(deltaY) >= 50) {
                             events.unbind(me.element, 'touchmove', touchmove);
