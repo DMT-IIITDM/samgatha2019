@@ -199,6 +199,7 @@ function menu() {
         $('.nav-item').toggleClass('active');
         $('#social').toggleClass('active');
         $('#bottom-ham').toggleClass('active');
+        clickedModal=1;
         list4[9][1]=1;
     });
     $('#music3').on('click', function () {
@@ -207,6 +208,7 @@ function menu() {
         $('.nav-item').toggleClass('active');
         $('#social').toggleClass('active');
         $('#bottom-ham').toggleClass('active');
+        clickedModal=1;
         list4[10][1]=1;
     });
     $('#close9').on('click', function () {
@@ -215,6 +217,7 @@ function menu() {
         $('.nav-item').toggleClass('active');
         $('#social').toggleClass('active');
         $('#bottom-ham').toggleClass('active');
+        clickedModal=0;
         list4[9][1]=0;
     });
     $('#close10').on('click', function () {
@@ -223,6 +226,7 @@ function menu() {
         $('.nav-item').toggleClass('active');
         $('#social').toggleClass('active');
         $('#bottom-ham').toggleClass('active');
+        clickedModal=0;
         list4[10][1]=0;
     });
 
