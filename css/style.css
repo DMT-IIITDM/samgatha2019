@@ -135,11 +135,10 @@ color: #505050;
 
 }
 .themepara{
-  top: 100px;
-  bottom: 5rem;
-  position: relative;
-  width:100%;
+  position: absolute;
   font-size: 20px;
+  font-family: cont;
+  bottom:6rem;
 }
 .needle{
   position:absolute;
@@ -449,6 +448,12 @@ body {
     bottom: -8%;
   }
 }
+@media screen and (max-width:575.98px){
+  .themepara{
+    width: 85%;
+    font-size: 18px;
+  }
+}
 
 @media screen and (max-width:425px)
 {
@@ -473,10 +478,8 @@ body {
   }
   #theme{
     background-position:center;
-    padding-left: 2px;
   }
   .themepara{
-    height:48%;
     width: 85%;
     font-size: 14px;
   }
