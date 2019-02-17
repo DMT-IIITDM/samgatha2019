@@ -26,6 +26,18 @@
 filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 
 }
+
+#aboutContent{
+    margin:0 auto;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 30%;
+}
+
+#aboutContent p{
+    font-size: 20px;
+}
+
 .contact1
 {
 position: absolute;
