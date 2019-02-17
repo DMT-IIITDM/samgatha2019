@@ -17,6 +17,13 @@
   src: url(../fonts/register.ttf);
 }
 
+#eventsContent{
+  margin:0 auto;
+  padding-left: 35%;
+  padding-top: 14%;
+  padding-right: 35%;
+}
+
 
 .inside-nav{
   height: 50vh;
@@ -994,8 +1001,15 @@ i {
     background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../img/mobile/dance.png");
     background-size: cover;
   }
-
-
+  #eventsContent{
+    margin:0 auto;
+    padding-left: 80%;
+    padding-top: 14%;
+    padding-right:80%;
+  }
+  #eventsContent p{
+    font-size:12px;
+  }
   .font {
     margin-top: 3rem;
     font-size: 2.5rem;
@@ -1369,6 +1383,16 @@ i {
   #design.active {
     background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) , url("../img/mobile/dance.png");
     background-size: cover;
+  }
+
+  #eventsContent{
+    margin:0 auto;
+    padding-left: 80%;
+    padding-top: 14%;
+    padding-right:80%;
+  }
+  #eventsContent p{
+    font-size:14px;
   }
 
   .dance1 {
