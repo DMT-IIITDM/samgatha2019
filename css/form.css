@@ -1,0 +1,7 @@
+.ui.form .field > label {
+    text-align: left !important;
+}
+
+.login-form {
+    background-color: rgb(9, 17, 27) !important;
+}
