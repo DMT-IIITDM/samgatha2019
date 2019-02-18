@@ -17,10 +17,18 @@
   src: url(../fonts/register.ttf);
 }
 
+#eventsContent{
+  margin:0 auto;
+  padding-left: 35%;
+  padding-top: 14%;
+  padding-right: 35%;
+}
+
 
 .inside-nav{
   height: 50vh;
   overflow-y: scroll;
+  /* overflow-x:hidden; */
   width: 80%;
   margin: 4.5rem auto auto auto;
   padding-right: 5%;
@@ -103,8 +111,18 @@
   background-size: cover;
 }
 
+#photography.active{
+  background: linear-gradient(rgba(0,0,0,0.7) ,rgba(0,0,0,0.7)),url("../img/events/photography.jpg");
+  background-size: cover;
+}
+
 #dance {
   background-image: url("../img/events/dance.jpg");
+  background-size: cover;
+}
+
+#dance.active{
+  background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../img/events/dance.jpg");
   background-size: cover;
 }
 
@@ -113,8 +131,17 @@
   background-size: cover;
 }
 
+#art.active{
+  background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../img/events/art.jpg");
+  background-size: cover;
+}
+
 #music {
   background-image: url("../img/events/music.jpg");
+  background-size: cover;
+}
+#music.active {
+  background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../img/events/music.jpg");
   background-size: cover;
 }
 
@@ -122,9 +149,17 @@
   background-image: url("../img/events/gaming.jpg");
   background-size: cover;
 }
+#gaming.active {
+  background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../img/events/gaming.jpg");
+  background-size: cover;
+}
 
 #literature {
   background-image: url("../img/events/literature.jpg");
+  background-size: cover;
+}
+#literature.active {
+  background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../img/events/literature.jpg");
   background-size: cover;
 }
 
@@ -133,13 +168,26 @@
   background-size: cover;
 }
 
+#drama.active{
+  background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("../img/events/drama.jpg");
+  background-size: cover;
+}
+
 #quiz {
   background-image: url("../img/events/quiz.jpg");
+  background-size: cover;
+}
+#quiz.active {
+  background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../img/events/quiz.jpg");
   background-size: cover;
 }
 
 #design {
   background-image: url("../img/events/design.jpg");
+  background-size: cover;
+}
+#design.active {
+  background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../img/events/design.jpg");
   background-size: cover;
 }
 
@@ -565,8 +613,9 @@ h2 {
   left: 0;
   z-index: 20;
   background: #09111B;
-  opacity: 0px;
+  opacity: 0;
   visibility: hidden;
+  animation: push 2s;
 }
 
 .stream1 {
@@ -579,7 +628,7 @@ h2 {
   background-image: url("../img/Bottom-Ham.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  opacity: 0px;
+  opacity: 1;
   visibility: hidden;
 }
 
@@ -588,10 +637,10 @@ h2 {
   left: 2.5%;
   width: 95%;
   height: 90%;
-  opacity: 1;
+  opacity: 1 !important;
   visibility: visible;
   border-radius: 30px 30px 0px 0px;
-  animation: pull 1s;
+  animation: pull 0.7s;
 }
 
 
@@ -604,11 +653,11 @@ h2 {
   left: 2.5%;
   width: 95%;
   height: 80%;
-  opacity: 1;
+  opacity: 1 !important;
   /* z-index:15; */
   visibility: visible;
   border-radius: 30px 30px 0px 0px;
-  animation: pull 1s;
+  animation: pull 0.7s;
 }
 
 .overlay-content {
@@ -671,6 +720,16 @@ ul{
 
   100% {
     transform: translateY(0%);
+  }
+}
+
+@keyframes push {
+  0% {
+    transform: translateY(50%);
+  }
+
+  100% {
+    transform: translateY(50%);
   }
 }
 
@@ -747,10 +806,20 @@ i {
   #photography {
     background-image: url("../img/mobile/photography.png");
     background-size: cover;
+    /* background: linear-gradient(rgba(0,0,0,0.3)); */
+  }
+  #photography.active{
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("../img/mobile/photography.png");
+    background-size: cover;
   }
 
   #dance {
     background-image: url("../img/mobile/dance.png");
+    background-size: cover;
+  }
+
+  #dance.active {
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../img/mobile/dance.png");
     background-size: cover;
   }
 
@@ -759,8 +828,17 @@ i {
     background-size: cover;
   }
 
+  #art.active {
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../img/mobile/art.png");
+    background-size: cover;
+  }
+
   #music {
     background-image: url("../img/mobile/music.png");
+    background-size: cover;
+  }
+  #music.active {
+    background :linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../img/mobile/music.png");
     background-size: cover;
   }
 
@@ -768,9 +846,17 @@ i {
     background-image: url("../img/mobile/gaming.png");
     background-size: cover;
   }
+  #gaming.active{
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../img/mobile/gaming.png");
+    background-size: cover;
+  }
 
   #literature {
     background-image: url("../img/mobile/literature.png");
+    background-size: cover;
+  }
+  #literature.active{
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../img/mobile/literature.png");
     background-size: cover;
   }
 
@@ -779,13 +865,27 @@ i {
     background-size: cover;
   }
 
+  #drama.active{
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../img/mobile/drama.png");
+    background-size: cover;
+  }
+
   #quiz {
     background-image: url("../img/mobile/quiz.png");
+    background-size: cover;
+  }
+  #quiz.active{
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../img/mobile/quiz.png");
     background-size: cover;
   }
 
   #design {
     background-image: url("../img/mobile/dance.png");
+    background-size: cover;
+  }
+
+  #design.active{
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7))url("../img/mobile/dance.png");
     background-size: cover;
   }
 }
@@ -819,9 +919,18 @@ i {
     background-image: url("../img/mobile/photography.png");
     background-position: bottom right;
   }
+  #photography.active{
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,url("../img/mobile/photography.png");
+    background-position: bottom right;
+  }
 
   #dance {
     background-image: url("../img/mobile/dance.png");
+    background-size: cover;
+    background-position: right bottom;
+  }
+  #dance.active{
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) , url("../img/mobile/dance.png");
     background-size: cover;
     background-position: right bottom;
   }
@@ -830,9 +939,18 @@ i {
     background-image: url("../img/mobile/art.png");
     background-size: cover;
   }
+  #art.active {
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) , url("../img/mobile/art.png");
+    background-size: cover;
+  }
 
   #music {
     background-image: url("../img/mobile/music.png");
+    background-position: bottom right;
+  }
+
+  #music.active{
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../img/mobile/music.png");
     background-position: bottom right;
   }
 
@@ -841,8 +959,17 @@ i {
     background-size: cover;
   }
 
+  #gaming.active{
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../img/mobile/gaming.png");
+    background-size: cover;
+  }
+
   #literature {
     background-image: url("../img/mobile/literature.png");
+    background-size: cover;
+  }
+  #literature.active {
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("../img/mobile/literature.png");
     background-size: cover;
   }
 
@@ -851,9 +978,18 @@ i {
     background-size: cover;
     background-position: right bottom;
   }
+  #drama.active {
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../img/mobile/drama.png");
+    background-size: cover;
+    background-position: right bottom;
+  }
 
   #quiz {
     background-image: url("../img/mobile/quiz.png");
+    background-position: right;
+  }
+  #quiz.active {
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../img/mobile/quiz.png");
     background-position: right;
   }
 
@@ -861,8 +997,19 @@ i {
     background-image: url("../img/mobile/dance.png");
     background-size: cover;
   }
-
-
+  #design.active{
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../img/mobile/dance.png");
+    background-size: cover;
+  }
+  #eventsContent{
+    margin:0 auto;
+    padding-left: 80%;
+    padding-top: 14%;
+    padding-right:80%;
+  }
+  #eventsContent p{
+    font-size:12px;
+  }
   .font {
     margin-top: 3rem;
     font-size: 2.5rem;
@@ -998,7 +1145,7 @@ i {
     width: 55%;
     height: auto;
     left: 6rem;
-    top: -11rem;
+    top: -12.5rem;
   }
 
   /* .m1 img {
@@ -1157,9 +1304,17 @@ i {
     background-image: url("../img/mobile/photography.png");
     background-position: bottom right;
   }
+  #photography.active{
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,url("../img/mobile/photography.png");
+    background-position: bottom right;
+  }
 
   #dance {
     background-image: url("../img/mobile/dance.png");
+    background-size: cover;
+  }
+  #dance.active {
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,url("../img/mobile/dance.png");
     background-size: cover;
   }
 
@@ -1167,14 +1322,27 @@ i {
     background-image: url("../img/mobile/art.png");
     background-size: cover;
   }
+  #art.active {
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,url("../img/mobile/art.png");
+    background-size: cover;
+  }
 
   #music {
     background-image: url("../img/mobile/music.png");
     background-position: bottom right;
   }
+  #music.active{
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,url("../img/mobile/music.png");
+    background-position: bottom right;
+  }
 
   #gaming {
     background-image: url("../img/mobile/gaming.png");
+    background-size: cover;
+    background-position: bottom right;
+  }
+  #gaming.active{
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,url("../img/mobile/gaming.png");
     background-size: cover;
     background-position: bottom right;
   }
@@ -1184,8 +1352,18 @@ i {
     background-size: cover;
   }
 
+  #literature.active {
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) , url("../img/mobile/literature.png");
+    background-size: cover;
+  }
+
   #drama {
     background-image: url("../img/mobile/drama.png");
+    background-size: cover;
+  }
+
+  #drama.active{
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,url("../img/mobile/drama.png");
     background-size: cover;
   }
 
@@ -1193,10 +1371,28 @@ i {
     background-image: url("../img/mobile/quiz.png");
     background-position: right;
   }
+  #quiz.active {
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) , url("../img/mobile/quiz.png");
+    background-position: right;
+  }
 
   #design {
     background-image: url("../img/mobile/dance.png");
     background-size: cover;
+  }
+  #design.active {
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) , url("../img/mobile/dance.png");
+    background-size: cover;
+  }
+
+  #eventsContent{
+    margin:0 auto;
+    padding-left: 80%;
+    padding-top: 14%;
+    padding-right:80%;
+  }
+  #eventsContent p{
+    font-size:14px;
   }
 
   .dance1 {
@@ -1458,9 +1654,17 @@ i {
     background-image: url("../img/mobile/photography.png");
     background-position: bottom right;
   }
+  #photography.active {
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("../img/mobile/photography.png");
+    background-position: bottom right;
+  }
 
   #dance {
     background-image: url("../img/mobile/dance.png");
+    background-size: cover;
+  }
+  #dance.active {
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),  url("../img/mobile/dance.png");
     background-size: cover;
   }
 
@@ -1468,9 +1672,17 @@ i {
     background-image: url("../img/mobile/art.png");
     background-size: cover;
   }
+  #art.active {
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),  url("../img/mobile/art.png");
+    background-size: cover;
+  }
 
   #music {
     background-image: url("../img/mobile/music.png");
+    background-size: cover;
+  }
+  #music.active {
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("../img/mobile/music.png");
     background-size: cover;
   }
 
@@ -1480,8 +1692,19 @@ i {
     background-position: bottom right;
   }
 
+  #gaming.active {
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("../img/mobile/gaming.png");
+    background-size: cover;
+    background-position: bottom right;
+  }
+
   #literature {
     background-image: url("../img/mobile/literature.png");
+    background-size: cover;
+  }
+
+  #literature.active {
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("../img/mobile/literature.png");
     background-size: cover;
   }
 
@@ -1490,13 +1713,27 @@ i {
     background-size: cover;
   }
 
+  #drama.active {
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("../img/mobile/drama.png");
+    background-size: cover;
+  }
+
   #quiz {
     background-image: url("../img/mobile/quiz.png");
+    background-position: right;
+  }
+  #quiz.active {
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("../img/mobile/quiz.png");
     background-position: right;
   }
 
   #design {
     background-image: url("../img/mobile/dance.png");
+    background-size: cover;
+  }
+
+  #design.active {
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../img/mobile/dance.png");
     background-size: cover;
   }
   .dance1 img{
@@ -1687,10 +1924,21 @@ i {
   #photography {
     background-image: url("../img/mobile/photography.png");
     background-position: bottom right;
+    /* background: linear-gradient(rgba(0,0,0,0.3)); */
   }
+  #photography.active {
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,url("../img/mobile/photography.png");
+    background-position: bottom right;
+    /* background: linear-gradient(rgba(0,0,0,0.3)); */
+  }
+
 
   #dance {
     background-image: url("../img/mobile/dance.png");
+    background-size: cover;
+  }
+  #dance.active{
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,url("../img/mobile/dance.png");
     background-size: cover;
   }
 
@@ -1698,9 +1946,17 @@ i {
     background-image: url("../img/mobile/art.png");
     background-size: cover;
   }
+  #art.active {
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) , url("../img/mobile/art.png");
+    background-size: cover;
+  }
 
   #music {
     background-image: url("../img/mobile/music.png");
+    background-size: cover;
+  }
+  #music.active{
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) , url("../img/mobile/music.png");
     background-size: cover;
   }
 
@@ -1709,14 +1965,27 @@ i {
     background-size: cover;
     background-position: bottom right;
   }
+  #gaming.active {
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) , url("../img/mobile/gaming.png");
+    background-size: cover;
+    background-position: bottom right;
+  }
 
   #literature {
     background-image: url("../img/mobile/literature.png");
     background-size: cover;
   }
+  #literature.active{
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) , url("../img/mobile/literature.png");
+    background-size: cover;
+  }
 
   #drama {
     background-image: url("../img/mobile/drama.png");
+    background-size: cover;
+  }
+  #drama.active {
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) , url("../img/mobile/drama.png");
     background-size: cover;
   }
 
@@ -1725,10 +1994,21 @@ i {
     background-position: right;
   }
 
+  #quiz.active {
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) , url("../img/mobile/quiz.png");
+    background-position: right;
+  }
+
   #design {
     background-image: url("../img/mobile/dance.png");
     background-size: cover;
   }
+
+  #design.active {
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) , url("../img/mobile/dance.png");
+    background-size: cover;
+  }
+
   .dance1 img{
     width: 28rem;
     height: auto;

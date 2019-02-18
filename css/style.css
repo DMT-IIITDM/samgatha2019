@@ -2,6 +2,96 @@
   font-family: cont;
   src: url(../fonts/IBMPlexSans-Regular.ttf);
 }
+
+@font-face {
+  font-family: zapfino;
+  src: url(../fonts/Zapfino.ttf);
+}
+
+.rotate {
+
+/* Safari */
+-webkit-transform: rotate(4deg);
+
+/* Firefox */
+-moz-transform: rotate(4deg);
+
+/* IE */
+-ms-transform: rotate(4deg);
+
+/* Opera */
+-o-transform: rotate(4deg);
+
+/* Internet Explorer */
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+}
+
+#aboutContent{
+    margin:0 auto;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 30%;
+}
+
+#aboutContent p{
+    font-size: 20px;
+}
+
+.contact1
+{
+position: absolute;
+top:45%;
+left: 66%;
+font-size: 38px;
+font-family: zapfino;
+color: #505050;
+}
+.contact2
+{
+position: absolute;
+top:50%;
+left: 68%;
+font-size: 15px;
+font-family: zapfino;
+color: #505050;
+}
+.contact3
+{
+position: absolute;
+top:56%;
+left: 66%;
+font-size: 15px;
+font-family: zapfino;
+color: #505050;
+}
+.contact4
+{
+position: absolute;
+top:65%;
+left: 66%;
+font-size: 38px;
+font-family: zapfino;
+color: #505050;
+}
+.contact5
+{
+position: absolute;
+top:76%;
+left: 66%;
+font-size: 15px;
+font-family: zapfino;
+color: #505050;
+}
+.contact6
+{
+position: absolute;
+top:81%;
+left: 65%;
+font-size: 15px;
+font-family: zapfino;
+color: #505050;
+}
 .onepage-container {
   position: fixed;
   display: block;
@@ -52,16 +142,18 @@
   background-image: url("../img/Rewind bg.png");
   background-size: cover;
   background-repeat: no-repeat;
-  /* background-size:100% 100%; */
-  /* max-width: 100%;  */
-
 }
+/* #theme {
+  width:100%; 
+  height:100%; 
+  background:url(../img/Rewind\ bg.png) center center no-repeat;
+
+} */
 .themepara{
-  top: 100px;
-  bottom: 5rem;
-  position: relative;
-  width:100%;
+  position: absolute;
   font-size: 20px;
+  font-family: cont;
+  bottom:6rem;
 }
 .needle{
   position:absolute;
@@ -71,7 +163,10 @@
   background-color: #09111b;
 }
 #team{
-  background-color: #09111b;
+  background-position: center center;
+  background-image: url("../img/contact.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 #sponsors{
   background-color: #09111b;
@@ -80,34 +175,40 @@
 #cause img,#team img,#sponsors img {
   width: 70%;
 }
-#contactus {
-  position: absolute;
-  background-image: url("../img/contact.png");
-  background-position: center center;
-}
+
 
 #contactus img {
   width: 40%;
   margin-right: -70rem;
-  margin-bottom: -30rem;
+  margin-bottom: -23rem;
 }
 @media (min-width: 320px) and (max-width: 424.98px)
 {
+  .contact1{
+  position: absolute;
+  top:39%;
+  left: 55%;
+  font-size: 10%;
+  font-family: zapfino;
+  color: #505050;
+   }
   #contactus {
-    position: absolute;
-    background-image: url("../img/contact.png");
+    /*background-position: center center;*/
+    /*background-image: url("../img/contact.png");
+    background-size: cover;
+    background-repeat: no-repeat;*/
     /*background-position: center center;*/
   }
   #contactus img {
-    width: 80%;
-    margin-right: -40%;
+    width: 10%;
+    margin-right: -60%;
     margin-bottom: -30%;
   }
 }
 @media (min-width: 425px) and (max-width:575.98px)
 {
   #contactus {
-    position: absolute;
+  /*  position: absolute;
     background-image: url("../img/contact.png");
     /*background-position: center center;*/
   }
@@ -362,6 +463,12 @@ body {
     bottom: -8%;
   }
 }
+@media screen and (max-width:575.98px){
+  .themepara{
+    width: 85%;
+    font-size: 18px;
+  }
+}
 
 @media screen and (max-width:425px)
 {
@@ -386,10 +493,8 @@ body {
   }
   #theme{
     background-position:center;
-    padding-left: 2px;
   }
   .themepara{
-    height:48%;
     width: 85%;
     font-size: 14px;
   }
