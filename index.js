@@ -20,8 +20,8 @@ app.get('/', (req, res) => {
 const options = {
     service: 'SendGrid',
     auth: {
-      api_user: SENDGRID_USERNAME,
-      api_key: SENDGRID_PASSWORD
+      api_user: "gowthammunukutla",
+      api_key: "uisvh8e57vw"
     }
 };
 
