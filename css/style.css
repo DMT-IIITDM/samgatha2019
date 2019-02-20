@@ -173,16 +173,16 @@ color: #505050;
   background-color: #09111b;
 
 }
-#cause img,#team img,#sponsors img {
+.comingsoon img {
   width: 70%;
 }
-
 
 #contactus img {
   width: 40%;
   margin-right: -70rem;
   margin-bottom: -23rem;
 }
+
 @media (min-width: 320px) and (max-width: 424.98px)
 {
   .contact1{
@@ -535,7 +535,7 @@ body {
     width: 85%;
     font-size: 14px;
   }
-  #cause img,#team img,#sponsors img {
+  .comingsoon img {
     width: 100%;
   }
   #contactus img {
