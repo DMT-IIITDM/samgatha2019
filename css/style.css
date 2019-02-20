@@ -150,6 +150,12 @@ color: #505050;
   background:url(../img/Rewind\ bg.png) center center no-repeat;
 
 } */
+.themehead{
+  font-family: Market Deco;
+  font-size: 100px;
+  position: absolute;
+  top: 10%;
+}
 .themepara{
   position: absolute;
   font-size: 20px;
@@ -574,6 +580,11 @@ body {
     left: 56%;
     font-size: 14px;
   }
+  .themehead{
+    font-size: 50px;
+    top: 20%;
+    left: 15%;
+  }
 }
 
 @media screen and (max-width:375px)
@@ -621,6 +632,9 @@ body {
     top: 61%;
     left: 54%;
     font-size: 14px;
+  }
+  .themehead{
+    left: 10%;
   }
 }
 
@@ -673,6 +687,10 @@ body {
     left: 49%;
     font-size: 14px;
   } 
+  .themehead {
+    font-size: 40px;
+    top: 15%;
+  }
 }
 
 @keyframes vinyl {
