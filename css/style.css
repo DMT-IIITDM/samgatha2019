@@ -140,7 +140,7 @@ color: #505050;
 
 #theme {
   background-position: center center;
-  background-image: url("../img/Rewind bg.png");
+  background-image: url("../img/Rewind bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -165,7 +165,7 @@ color: #505050;
 }
 #team{
   background-position: center center;
-  background-image: url("../img/contact.png");
+  background-image: url("../img/contact.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
