@@ -153,12 +153,12 @@ class RegistrationForm extends Component {
                     <div className='login-form'>
                         <Grid textAlign='center' verticalAlign='bottom'>
                             <Grid.Column style={{ maxWidth: 450 }}>
-                                <Header as='h2' color='blue' textAlign='center'>
-                                    Registration Form
+                                <Header as='h2' textAlign='center' className='register'>
+                                    REGISTER
                                 </Header>
                                 <Form size='small' onSubmit={this.handleSubmit}>
-                                    <Segment clearing={true}>
-                                        <Form.Input label='First Name' placeholder='First Name' name='first-name' onChange={this.handleValueChange} />
+                                    <Segment clearing={true} className='form-body'>
+                                        <Form.Input label='First Name' placeholder='First Name' name='first-name' onChange={this.handleValueChange}/>
                                         <Form.Input label='Last Name' placeholder='Last Name' name='last-name' onChange={this.handleValueChange} />
                                         <Form.Field>
                                             <Form.Select label='Gender' options={options} placeholder='Gender' name='gender' onChange={this.handleGenderChange} />
@@ -166,8 +166,8 @@ class RegistrationForm extends Component {
                                         <Form.Input label='Email' placeholder='Email' name='email' onChange={this.handleValueChange} />
                                         <Form.Input label='Mobile Number' placeholder='+91' name='mobile' onChange={this.handleValueChange} />
                                         <Form.Input label='College Name' placeholder='College Name' name='college-name' onChange={this.handleValueChange} />
-                                        <Button type='submit' color='blue' fluid size='large' disabled={disabled} onClick={this.login}>
-                                            Register
+                                        <Button type='submit' fluid size='large' disabled={disabled} onClick={this.login} className='form-button'>
+                                            REGISTER
                                     </Button>
                                     </Segment>
                                 </Form>
