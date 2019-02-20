@@ -4,8 +4,8 @@
 }
 
 @font-face {
-  font-family: zapfino;
-  src: url(../fonts/Zapfino.ttf);
+  font-family: serifreg;
+  src: url(../fonts/IBMPlexSerif-Regular.ttf);
 }
 
 .rotate {
@@ -44,52 +44,53 @@ position: absolute;
 top:45%;
 left: 66%;
 font-size: 38px;
-font-family: zapfino;
+font-family: cont;
 color: #505050;
 }
 .contact2
 {
 position: absolute;
-top:50%;
-left: 68%;
-font-size: 15px;
-font-family: zapfino;
+top:52%;
+left: 66%;
+font-size: 16px;
+font-family: cont;
 color: #505050;
 }
+
 .contact3
 {
 position: absolute;
 top:56%;
 left: 66%;
-font-size: 15px;
-font-family: zapfino;
+font-size: 16px;
+font-family: cont;
 color: #505050;
 }
 .contact4
 {
 position: absolute;
-top:65%;
-left: 66%;
+top:64%;
+left: 65%;
 font-size: 38px;
-font-family: zapfino;
+font-family: cont;
 color: #505050;
 }
 .contact5
 {
 position: absolute;
-top:76%;
-left: 66%;
-font-size: 15px;
-font-family: zapfino;
+top:72%;
+left: 65%;
+font-size: 16px;
+font-family: cont;
 color: #505050;
 }
 .contact6
 {
 position: absolute;
-top:81%;
+top:76%;
 left: 65%;
-font-size: 15px;
-font-family: zapfino;
+font-size: 16px;
+font-family: cont;
 color: #505050;
 }
 .onepage-container {
@@ -139,7 +140,7 @@ color: #505050;
 
 #theme {
   background-position: center center;
-  background-image: url("../img/Rewind bg.png");
+  background-image: url("../img/Rewind bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -164,7 +165,7 @@ color: #505050;
 }
 #team{
   background-position: center center;
-  background-image: url("../img/contact.png");
+  background-image: url("../img/contact.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -189,7 +190,7 @@ color: #505050;
   top:39%;
   left: 55%;
   font-size: 10%;
-  font-family: zapfino;
+  font-family: cont;
   color: #505050;
    }
   #contactus {
