@@ -10,10 +10,64 @@
     <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap-grid.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/sponsors.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/hamburger.css" />
 </head>
 
 <body>
-    <div class="container" style="margin-top:2rem">
+    <!-- <div class="top1"> -->
+    <div class="sam-logo">
+        <a href="index.html"> <img src="img/samlogo.png" alt="" style="position:fixed;"> </a>
+    </div>
+
+    <div class="hamburger-icon">
+            <img id="icon" src="img/rightham.png" onclick="changeColor()"/>
+        </div>
+
+    <nav id="nav">
+        <div class="ham-div">
+            <div class="row display-flex">
+                <div class="offset-2 col-2"><span class="ham-num">1</span></div>
+                <div class="col-6"><a class="ham-menu" href="index.html">HOME</a></div>
+            </div>
+            <div class="row display-flex">
+                <div class="offset-2 col-2"><span class="ham-num">2</span></div>
+                <div class="col-6"><a class="ham-menu" href="events.html">EVENTS</a></div>
+            </div>
+            <div class="row display-flex">
+                <div class="offset-2 col-2"><span class="ham-num">3</span></div>
+                <div class="col-6"><a class="ham-menu">WORKSHOPS</a></div>
+            </div>
+            <div class="row display-flex">
+                <div class="offset-2 col-2"><span class="ham-num">4</span></div>
+                <div class="col-6"><a class="ham-menu">PROSHOWS</a></div>
+            </div>
+            <div class="row display-flex">
+                <div class="offset-2 col-2"><span class="ham-num">5</span></div>
+                <div class="col-6"><a class="ham-menu">TEAMS</a></div>
+            </div>
+            <div class="row display-flex">
+                <div class="offset-2 col-2"><span class="ham-num">6</span></div>
+                <div class="col-6"><a class="ham-menu">SCHEDULE</a></div>
+            </div>
+            <div class="row display-flex">
+                <div class="offset-2 col-2"><span class="ham-num">7</span></div>
+                <div class="col-6" href="sponsors.html"><a class="ham-menu">SPONSORS</a></div>
+            </div>
+            <div class="row display-flex">
+                <div class="offset-2 col-2"><span class="ham-num">8</span></div>
+                <div class="col-6"><a class="ham-menu reg">REGISTER</a></div>
+            </div>
+        </div>
+        <div class="ham-social-media">
+            <span><a href="https://www.instagram.com/samgatha/?hl=en" target="_blank"><img style="width:51x;height:49px;padding:5px;"
+                        class="insta" src="./img/insta.png"></a> </span>
+            <a href="https://www.facebook.com/samgathaatiiitdm/" target="_blank"><img style="width:30px;height:49px;padding:5px;"
+                    class="fb" src="./img/fb.png"></a>
+            <a href="#" target="_blank"><img style="width:60px;height:49px;padding:5px;" class="twit" src="./img/Twitter.png"></a>
+        </div>
+    </nav>
+    </div>
+    <div class="container" style="margin-top:18vh">
         <h1>Sponsors</h1>
         <div class="row">
             <div class="col-lg-12">
@@ -77,7 +131,10 @@
                 </div>
             </div> -->
     </div>
-    </div>
+    <!-- </div> -->
+    <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+    crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>

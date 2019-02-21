@@ -3,6 +3,8 @@
 
 <head>
     <link rel="icon" href="img/Favicon Square.ico" type="image/x-icon" sizes="16x16">
+    <link rel="shortcut icon" href="img/Favicon Square.ico" type="image/x-icon" sizes="16x16">
+    <link rel="apple-touch-icon" href="img/Favicon Square.ico" type="image/x-icon">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -60,52 +62,53 @@
             </ul>
         </div>
     </nav>
-    <div class="hamburger-icon" id="icon">
-        <div class="icon-1" id="a"></div>
-        <div class="icon-2" id="b"></div>
-        <div class="icon-3" id="c"></div>
-        <div class="clear"></div>
+    <div class="hamburger-icon">
+        <img id="icon" src="img/rightham.png" onclick="changeColor()"/>
     </div>
 
     <nav id="nav">
         <div class="ham-div">
             <div class="row display-flex">
-                <div class="offset-3 col-2"><span class="ham-num">1</span></div>
+                <div class="offset-2 col-2" style="vertical-align: bottom;"><span class="ham-num">1</span></div>
                 <div class="col-6"><a class="ham-menu">HOME</a></div>
             </div>
-            <div class="row display-flex">
+            <!-- <div class="row display-flex">
                 <div class="col-3"><span class="ham-side"></span></div>
-            </div>
+            </div> -->
             <div class="row display-flex">
-                <div class="offset-3 col-2"><span class="ham-num">2</span></div>
+                <div class="offset-2 col-2" style="vertical-align: bottom;"><span class="ham-num">2</span></div>
                 <div class="col-6"><a class="ham-menu" href="events.html" style="text-decoration:none">EVENTS</a></div>
             </div>
             <div class="row display-flex">
-                <div class="offset-3 col-2"><span class="ham-num">3</span></div>
+                <div class="offset-2 col-2" style="vertical-align: bottom;"><span class="ham-num">3</span></div>
                 <div class="col-6"><a class="ham-menu">WORKSHOPS</a></div>
             </div>
-            <div class="row display-flex">
+            <!-- <div class="row display-flex">
                 <div class="col-3"><span class="ham-side"></span></div>
-            </div>
+            </div> -->
             <div class="row display-flex">
-                <div class="offset-3 col-2"><span class="ham-num">4</span></div>
+                <div class="offset-2 col-2" style="vertical-align: bottom;"><span class="ham-num">4</span></div>
                 <div class="col-6"><a class="ham-menu">PROSHOWS</a></div>
             </div>
             <div class="row display-flex">
-                <div class="offset-3 col-2"><span class="ham-num">5</span></div>
+                <div class="offset-2 col-2" style="vertical-align: bottom;"><span class="ham-num">5</span></div>
                 <div class="col-6"><a class="ham-menu">TEAMS</a></div>
             </div>
-            <div class="row display-flex">
+            <!-- <div class="row display-flex">
                 <div class="col-3"><span class="ham-side"></span></div>
-            </div>
+            </div> -->
             <div class="row display-flex">
-                <div class="offset-3 col-2"><span class="ham-num">6</span></div>
+                <div class="offset-2 col-2" style="vertical-align: bottom;"><span class="ham-num">6</span></div>
                 <div class="col-6"><a class="ham-menu">SCHEDULE</a></div>
             </div>
             <div class="row display-flex">
-                <div class="col-3"><span class="ham-side"></span></div>
-                <div class="col-2"><span class="ham-num">7</span></div>
-                <div class="col-6"><a class="ham-menu reg">REGISTER</a></div>
+                <div class="offset-2 col-2" style="vertical-align: bottom;"><span class="ham-num">7</span></div>
+                <div class="col-6"><a class="ham-menu" href="sponsors.html" style="text-decoration:none">SPONSORS</a></div>
+            </div>
+            <div class="row display-flex">
+                <!-- <div class="col-3"><span class="ham-side"></span></div> -->
+                <div class="offset-2 col-2" style="vertical-align: bottom;"><span class="ham-num">8</span></div>
+                <div class="col-6"><a class="ham-menu reg" href="registration.html" style="text-decoration:none">REGISTER</a></div>
             </div>
         </div>
         <div class="ham-social-media">
@@ -137,7 +140,7 @@
             <div class="logo"><img src="img/samlogo.png"></div>
             <div class="ribbon-container">
                 <div class="ribbon">
-                    <a href="registration.html"><div class="register">Register</div></a>
+                    <a href='registration.html' style="text-decoration:none"><div class="register" style="text-decoration:none">Register</div></a>
                     <i></i>
                     <i></i>
                     <i><span class="gradient-left"></span></i>
@@ -166,11 +169,10 @@
                     <img src="img/UpArrow.png" />
                 </a>
             </div>
-            <div id="aboutContent">
-                <p>Over the last decade, Samgatha has become a cultural extravaganza, that has hosted some epic wins and unforgettable moments, with the likes of King Siddharth, Poly Varghese, Drums Murali and Matt Bacon adding grandeur to the celebrations.</p>
-                <p> Come step into a whole new world of spectacles. A place where new friendships are forged and memories are forever etched into your hearts. Experience Samgatha in all it’s glory and watch your dreams unfold and turn into reality.</p>
+                <p class="themehead">ABOUT US</p>
+                <p class="themepara">Over the last decade, Samgatha has become a cultural extravaganza,<br> that has hosted some epic wins and unforgettable moments, with the likes of<br>King Siddharth, Poly Varghese, Drums Murali and Matt Bacon adding grandeur to the celebrations.
+                    <br>Come step into a whole new world of spectacles.<br>A place where new friendships are forged and memories are forever etched into your hearts.<br>Experience Samgatha in all it’s glory and watch your dreams unfold and turn into reality.</p>
             <div class="arrowdown" id="d2">
-            </div>
                 <a href="#">
                     <img src="img/DownArrow.png" />
                 </a>
@@ -198,7 +200,7 @@
                     <img src="img/UpArrow.png" />
                 </a>
             </div>
-            <div>
+            <div class="comingsoon">
                 <img src="img/Coming-Soon.jpg"/>
             </div>
             <div class="arrowdown" id="d4">
@@ -213,7 +215,7 @@
                     <img src="img/UpArrow.png" />
                 </a>
             </div>
-            <div>
+            <div class="comingsoon">
                 <img src="img/Coming-Soon.jpg"/>
             </div>
             <div class="arrowdown" id="d5">
