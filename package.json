@@ -1,7 +1,7 @@
 {
   "name": "samgatha2019",
   "version": "1.0.0",
-  "description": "",
+  "description": "The core repo of Samgatha 2019 website",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
