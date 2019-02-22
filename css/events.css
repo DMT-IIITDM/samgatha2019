@@ -594,14 +594,16 @@ h2 {
     margin-left: 12rem;
     margin-bottom: 5rem;
 }
+#design .row{
+  top: 10rem;  
+}
 .de1{
-  padding-right: 0px;
-  margin-top:20px;
-  right: 2rem;
+  /* margin-top: 25rem; */
+  height: 10rem;
 }
 .de2{
-  top:25px;
-  left: 2rem;
+  /* margin-top: - 25rem; */
+  height: 10rem;
 }
 /* Hover up */
 
@@ -1037,16 +1039,16 @@ i {
     left: 38%;
   }
   .de1 img{
-    
-    right: 35%;
-    bottom:53%;
-    left:20%;
+    width: 10rem;
+    height: auto;
+    margin-top: 0rem;
+    margin-left: -8rem;
   }
   .de2 img{
-    top: 0%;
-    bottom: 0%;
-    right: 0%;
-    left: 0%;
+    width: 10rem;
+    height: auto;
+    margin-top: 3rem;
+    margin-right: -5rem;
   }
   .p1 img {
     width: 8.5rem;
@@ -1502,7 +1504,18 @@ i {
     margin-top: 4rem;
     margin-right: -3rem;
   }
-
+  .de1 img{
+    width: 12rem;
+    height: auto;
+    margin-top: -3rem;
+    margin-left: -10rem;
+  }
+  .de2 img{
+    height: auto;
+    width: 12rem;
+    margin-top: 5rem;
+    margin-left: 8rem;
+  }
 
 
   #photography .font {
@@ -1803,6 +1816,19 @@ i {
     top: 10vh;
     left: -25%;
   }
+  .de1 img{
+    width: 20rem;
+    height: auto;
+    margin-top: -14rem;
+    margin-left: 2rem;
+  }
+  .de2 img{
+    width: 20rem;
+    height: auto;
+    margin-top: 9rem;
+    margin-right: 5rem;
+    
+  }
 }
 
 /* Ipad Pro */
@@ -2075,6 +2101,7 @@ i {
     top: 2vh;
     left: -25%;
   }
+<<<<<<< HEAD
 }
 
 @media (max-width:1400px) and (min-width:1025px){
@@ -2085,4 +2112,18 @@ i {
     bottom:10rem;
   }
   
+=======
+  .de1 img{
+    width: 25rem;
+    height: auto;
+    margin-top: -18rem;
+    margin-left: 12rem;
+  }
+  .de2 img{
+    width: 25rem;
+    height: auto;
+    margin-top: 14rem;
+    margin-right: 2rem;
+  }
+>>>>>>> d9fc08858604ee5fdce93c1deb86b1c502e1b5f1
 }
