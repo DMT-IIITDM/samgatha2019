@@ -150,6 +150,12 @@ color: #505050;
   background:url(../img/Rewind\ bg.png) center center no-repeat;
 
 } */
+
+.teaser{
+  font-family: Market Deco;
+  font-size:3vw;
+}
+
 .themehead{
   font-family: Market Deco;
   font-size: 100px;
@@ -179,8 +185,15 @@ color: #505050;
   background-color: #09111b;
 
 }
-.comingsoon img {
-  width: 70%;
+.comingsoon{
+  width: 100%;
+}
+
+#contactusHead{
+  font-size: 7rem;
+  margin-top: -15rem;
+  color: #505050;
+  font-family: Market Deco;
 }
 
 #contactus img {
@@ -206,7 +219,7 @@ color: #505050;
     background-repeat: no-repeat;*/
     /*background-position: center center;*/
   }
-  #contactus img {
+  #contactusImg {
     width: 10%;
     margin-right: -60%;
     margin-bottom: -30%;
@@ -541,7 +554,7 @@ body {
     width: 85%;
     font-size: 14px;
   }
-  .comingsoon img {
+  .comingsoon{
     width: 100%;
   }
   #contactus img {
@@ -600,8 +613,13 @@ body {
   .needle2 img {
     height: 300px;
   }
-  #contactus img {
+  /*#contactus img {
     width: 60%;
+  }*/
+  #contactusImg{
+    width: 70%;
+    margin-right: -50%;
+    margin-bottom: -30%;
   }
   .contact1 {
     top: 39%;

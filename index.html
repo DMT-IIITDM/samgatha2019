@@ -44,10 +44,7 @@
                     <a class="nav-link js-scroll-trigger" id="theme1" href="#theme">THEME</a>
                 </li>
                 <li class="nav-item  ml-5">
-                    <a class="nav-link js-scroll-trigger" id="cause1" href="#cause">SOCIAL CAUSE</a>
-                </li>
-                <li class="nav-item  ml-5">
-                    <a class="nav-link js-scroll-trigger" id="sponsors1" href="#sponsors">SPONSORS</a>
+                    <a class="nav-link js-scroll-trigger" id="sponsors1" href="#sponsors">TEASER</a>
                 </li>
                 <li class="nav-item  ml-5">
                     <a class="nav-link js-scroll-trigger" id="team1" href="#team">CONTACT US</a>
@@ -62,11 +59,8 @@
             </ul>
         </div>
     </nav>
-    <div class="hamburger-icon" id="icon">
-        <div class="icon-1" id="a"></div>
-        <div class="icon-2" id="b"></div>
-        <div class="icon-3" id="c"></div>
-        <div class="clear"></div>
+    <div class="hamburger-icon">
+        <img id="icon" src="img/rightham.png" onclick="changeColor()"/>
     </div>
 
     <nav id="nav">
@@ -84,7 +78,7 @@
             </div>
             <div class="row display-flex">
                 <div class="offset-2 col-2" style="vertical-align: bottom;"><span class="ham-num">3</span></div>
-                <div class="col-6"><a class="ham-menu">WORKSHOPS</a></div>
+                <div class="col-6"><a class="ham-menu" href="workshops.html">WORKSHOPS</a></div>
             </div>
             <!-- <div class="row display-flex">
                 <div class="col-3"><span class="ham-side"></span></div>
@@ -111,7 +105,7 @@
             <div class="row display-flex">
                 <!-- <div class="col-3"><span class="ham-side"></span></div> -->
                 <div class="offset-2 col-2" style="vertical-align: bottom;"><span class="ham-num">8</span></div>
-                <div class="col-6"><a class="ham-menu reg">REGISTER</a></div>
+                <div class="col-6"><a class="ham-menu reg" href="registration.html" style="text-decoration:none">REGISTER</a></div>
             </div>
         </div>
         <div class="ham-social-media">
@@ -197,29 +191,15 @@
                 </a>
             </div>
         </div>
-        <div id="cause">
-            <div class="arrowup" id="u3">
-                <a href="#">
-                    <img src="img/UpArrow.png" />
-                </a>
-            </div>
-            <div class="comingsoon">
-                <img src="img/Coming-Soon.jpg"/>
-            </div>
-            <div class="arrowdown" id="d4">
-                <a href="#">
-                    <img src="img/DownArrow.png" />
-                </a>
-            </div>
-        </div>
         <div id="sponsors">
             <div class="arrowup" id="u4">
                 <a href="#">
                     <img src="img/UpArrow.png" />
                 </a>
             </div>
-            <div class="comingsoon">
-                <img src="img/Coming-Soon.jpg"/>
+            <div class="container">
+                <p class="teaser">TEASER</p>
+                <iframe width="70%" height="450vh" src="https://www.youtube.com/embed/kZiMrOzvMmQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <div class="arrowdown" id="d5">
                 <a href="#">
@@ -234,11 +214,12 @@
                 </a>
             </div>
             <div>
+              <h2 id="contactusHead">CONTACT US</h2>
               <div id="contactus">
-
-              <!--<img src="img/Coming-Soon.jpg"/>-->
+              
+             <!--<img src="img/Coming-Soon.jpg"/>-->
               <div class="container">
-              <img src="img/notebook.png" />
+              <img src="img/notebook.png" id="contactusImg">
               <p class="rotate contact1">Dharmesh</p>
               <p class="rotate contact2">9962279625</p>
               <p class="rotate contact3">esd15i018@iiitdm.ac.in</p>
@@ -255,12 +236,11 @@
             ['homepage1', 1],
             ['about1', 0],
             ['theme1', 0],
-            ['cause1', 0],
             ['sponsors1', 0],
             ['team1', 0]
         ];
-        let list2 = ['d1', 'd2', 'd3', 'd4', 'd5'];
-        let list3 = ['u1', 'u2', 'u3', 'u4', 'u5'];
+        let list2 = ['d1', 'd2', 'd3', 'd5'];
+        let list3 = ['u1', 'u2', 'u4', 'u5'];
     </script>
     <script src="js/index.js"></script>
     <script src="js/script.js"></script>
