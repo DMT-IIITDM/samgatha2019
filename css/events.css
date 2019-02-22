@@ -889,7 +889,100 @@ i {
     background-size: cover;
   }
 }
+@media (min-width: 320px) and (max-width: 767.98px){
+  #homepage {
+    background-image: url("../img/mobile/events.png");
+    background-size: cover;
+    background-position: center right;
+  }
 
+  #photography {
+    background-image: url("../img/mobile/photography.png");
+    background-position: bottom right;
+  }
+  #photography.active{
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,url("../img/mobile/photography.png");
+    background-position: bottom right;
+  }
+
+  #dance {
+    background-image: url("../img/mobile/dance.png");
+    background-size: cover;
+    background-position: bottom right;
+  }
+  #dance.active{
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) , url("../img/mobile/dance.png");
+    background-size: cover;
+    background-position: bottom right;
+  }
+
+  #art {
+    background-image: url("../img/mobile/art.png");
+    background-position: bottom right;
+  }
+  #art.active {
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) , url("../img/mobile/art.png");
+    background-position: bottom right;
+  }
+
+  #music {
+    background-image: url("../img/mobile/music.png");
+    background-position: bottom right;
+  }
+
+  #music.active{
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../img/mobile/music.png");
+    background-position: bottom right;
+  }
+
+  #gaming {
+    background-image: url("../img/mobile/gaming.png");
+    background-position: bottom right;
+  }
+
+  #gaming.active{
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../img/mobile/gaming.png");
+    background-position: bottom right;
+  }
+
+  #literature {
+    background-image: url("../img/mobile/literature.png");
+    background-position: bottom right;
+  }
+  #literature.active {
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("../img/mobile/literature.png");
+    background-position: bottom right;
+  }
+
+  #drama {
+    background-image: url("../img/mobile/drama.png");
+    background-size: cover;
+    background-position: bottom right;
+  }
+  #drama.active {
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../img/mobile/drama.png");
+    background-size: cover;
+    background-position: bottom right;
+  }
+
+  #quiz {
+    background-image: url("../img/mobile/quiz.png");
+    background-position: right;
+  }
+  #quiz.active {
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../img/mobile/quiz.png");
+    background-position: right;
+  }
+
+  #design {
+    background-image: url("../img/mobile/design.png");
+    background-position: bottom right;
+  }
+  #design.active{
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../img/mobile/dance.png");
+    background-position: bottom right;
+  }
+}
 @media (min-width: 320px) and (max-width: 424.98px) {
 
   #homepage,
@@ -910,97 +1003,7 @@ i {
     height: 0%;
   }
 
-  #homepage {
-    background-image: url("../img/mobile/events.png");
-    background-size: cover;
-  }
-
-  #photography {
-    background-image: url("../img/mobile/photography.png");
-    background-position: bottom right;
-  }
-  #photography.active{
-    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,url("../img/mobile/photography.png");
-    background-position: bottom right;
-  }
-
-  #dance {
-    background-image: url("../img/mobile/dance.png");
-    background-size: cover;
-    background-position: right bottom;
-  }
-  #dance.active{
-    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) , url("../img/mobile/dance.png");
-    background-size: cover;
-    background-position: right bottom;
-  }
-
-  #art {
-    background-image: url("../img/mobile/art.png");
-    background-size: cover;
-  }
-  #art.active {
-    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) , url("../img/mobile/art.png");
-    background-size: cover;
-  }
-
-  #music {
-    background-image: url("../img/mobile/music.png");
-    background-position: bottom right;
-  }
-
-  #music.active{
-    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../img/mobile/music.png");
-    background-position: bottom right;
-  }
-
-  #gaming {
-    background-image: url("../img/mobile/gaming.png");
-    background-size: cover;
-  }
-
-  #gaming.active{
-    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../img/mobile/gaming.png");
-    background-size: cover;
-  }
-
-  #literature {
-    background-image: url("../img/mobile/literature.png");
-    background-size: cover;
-  }
-  #literature.active {
-    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("../img/mobile/literature.png");
-    background-size: cover;
-  }
-
-  #drama {
-    background-image: url("../img/mobile/drama.png");
-    background-size: cover;
-    background-position: right bottom;
-  }
-  #drama.active {
-    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../img/mobile/drama.png");
-    background-size: cover;
-    background-position: right bottom;
-  }
-
-  #quiz {
-    background-image: url("../img/mobile/quiz.png");
-    background-position: right;
-  }
-  #quiz.active {
-    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../img/mobile/quiz.png");
-    background-position: right;
-  }
-
-  #design {
-    background-image: url("../img/mobile/dance.png");
-    background-size: cover;
-  }
-  #design.active{
-    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../img/mobile/dance.png");
-    background-size: cover;
-  }
+  
   #eventsContent{
     margin:0 auto;
     padding-left: 80%;
@@ -1295,96 +1298,6 @@ i {
     left: 37.5%;
   }
 
-  #homepage {
-    background-image: url("../img/mobile/events.png");
-    background-size: cover;
-  }
-
-  #photography {
-    background-image: url("../img/mobile/photography.png");
-    background-position: bottom right;
-  }
-  #photography.active{
-    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,url("../img/mobile/photography.png");
-    background-position: bottom right;
-  }
-
-  #dance {
-    background-image: url("../img/mobile/dance.png");
-    background-size: cover;
-  }
-  #dance.active {
-    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,url("../img/mobile/dance.png");
-    background-size: cover;
-  }
-
-  #art {
-    background-image: url("../img/mobile/art.png");
-    background-size: cover;
-  }
-  #art.active {
-    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,url("../img/mobile/art.png");
-    background-size: cover;
-  }
-
-  #music {
-    background-image: url("../img/mobile/music.png");
-    background-position: bottom right;
-  }
-  #music.active{
-    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,url("../img/mobile/music.png");
-    background-position: bottom right;
-  }
-
-  #gaming {
-    background-image: url("../img/mobile/gaming.png");
-    background-size: cover;
-    background-position: bottom right;
-  }
-  #gaming.active{
-    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,url("../img/mobile/gaming.png");
-    background-size: cover;
-    background-position: bottom right;
-  }
-
-  #literature {
-    background-image: url("../img/mobile/literature.png");
-    background-size: cover;
-  }
-
-  #literature.active {
-    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) , url("../img/mobile/literature.png");
-    background-size: cover;
-  }
-
-  #drama {
-    background-image: url("../img/mobile/drama.png");
-    background-size: cover;
-  }
-
-  #drama.active{
-    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,url("../img/mobile/drama.png");
-    background-size: cover;
-  }
-
-  #quiz {
-    background-image: url("../img/mobile/quiz.png");
-    background-position: right;
-  }
-  #quiz.active {
-    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) , url("../img/mobile/quiz.png");
-    background-position: right;
-  }
-
-  #design {
-    background-image: url("../img/mobile/dance.png");
-    background-size: cover;
-  }
-  #design.active {
-    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) , url("../img/mobile/dance.png");
-    background-size: cover;
-  }
-
   #eventsContent{
     margin:0 auto;
     padding-left: 80%;
@@ -1609,7 +1522,98 @@ i {
   #design {
     position: absolute;
   }
+  #homepage {
+    background-image: url("../img/mobile/events.png");
+    background-size: cover;
+    background-position: center right;
+  }
 
+  #photography {
+    background-image: url("../img/mobile/photography.png");
+    background-position: bottom right;
+  }
+  #photography.active{
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,url("../img/mobile/photography.png");
+    background-position: bottom right;
+  }
+
+  #dance {
+    background-image: url("../img/mobile/dance.png");
+    background-size: cover;
+    background-position: bottom right;
+  }
+  #dance.active{
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) , url("../img/mobile/dance.png");
+    background-size: cover;
+    background-position: bottom right;
+  }
+
+  #art {
+    background-image: url("../img/mobile/art.png");
+    background-position: bottom right;
+  }
+  #art.active {
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) , url("../img/mobile/art.png");
+    background-position: bottom right;
+  }
+
+  #music {
+    background-image: url("../img/mobile/music.png");
+    background-position: bottom right;
+  }
+
+  #music.active{
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../img/mobile/music.png");
+    background-position: bottom right;
+  }
+
+  #gaming {
+    background-image: url("../img/mobile/gaming.png");
+    background-position: bottom right;
+  }
+
+  #gaming.active{
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../img/mobile/gaming.png");
+    background-position: bottom right;
+  }
+
+  #literature {
+    background-image: url("../img/mobile/literature.png");
+    background-position: bottom right;
+  }
+  #literature.active {
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("../img/mobile/literature.png");
+    background-position: bottom right;
+  }
+
+  #drama {
+    background-image: url("../img/mobile/drama.png");
+    background-size: cover;
+    background-position: bottom right;
+  }
+  #drama.active {
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../img/mobile/drama.png");
+    background-size: cover;
+    background-position: bottom right;
+  }
+
+  #quiz {
+    background-image: url("../img/mobile/quiz.png");
+    background-position: right;
+  }
+  #quiz.active {
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../img/mobile/quiz.png");
+    background-position: right;
+  }
+
+  #design {
+    background-image: url("../img/mobile/design.png");
+    background-position: bottom right;
+  }
+  #design.active{
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../img/mobile/dance.png");
+    background-position: bottom right;
+  }
   .sam-logo img {
     position: absolute;
     width: 150px;
@@ -1645,97 +1649,6 @@ i {
     left: 42.5%;
   }
 
-  #homepage {
-    background-image: url("../img/mobile/events.png");
-    background-size: cover;
-  }
-
-  #photography {
-    background-image: url("../img/mobile/photography.png");
-    background-position: bottom right;
-  }
-  #photography.active {
-    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("../img/mobile/photography.png");
-    background-position: bottom right;
-  }
-
-  #dance {
-    background-image: url("../img/mobile/dance.png");
-    background-size: cover;
-  }
-  #dance.active {
-    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),  url("../img/mobile/dance.png");
-    background-size: cover;
-  }
-
-  #art {
-    background-image: url("../img/mobile/art.png");
-    background-size: cover;
-  }
-  #art.active {
-    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),  url("../img/mobile/art.png");
-    background-size: cover;
-  }
-
-  #music {
-    background-image: url("../img/mobile/music.png");
-    background-size: cover;
-  }
-  #music.active {
-    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("../img/mobile/music.png");
-    background-size: cover;
-  }
-
-  #gaming {
-    background-image: url("../img/mobile/gaming.png");
-    background-size: cover;
-    background-position: bottom right;
-  }
-
-  #gaming.active {
-    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("../img/mobile/gaming.png");
-    background-size: cover;
-    background-position: bottom right;
-  }
-
-  #literature {
-    background-image: url("../img/mobile/literature.png");
-    background-size: cover;
-  }
-
-  #literature.active {
-    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("../img/mobile/literature.png");
-    background-size: cover;
-  }
-
-  #drama {
-    background-image: url("../img/mobile/drama.png");
-    background-size: cover;
-  }
-
-  #drama.active {
-    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("../img/mobile/drama.png");
-    background-size: cover;
-  }
-
-  #quiz {
-    background-image: url("../img/mobile/quiz.png");
-    background-position: right;
-  }
-  #quiz.active {
-    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("../img/mobile/quiz.png");
-    background-position: right;
-  }
-
-  #design {
-    background-image: url("../img/mobile/dance.png");
-    background-size: cover;
-  }
-
-  #design.active {
-    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../img/mobile/dance.png");
-    background-size: cover;
-  }
   .dance1 img{
     width: 22rem;
     height: auto;
@@ -1916,99 +1829,98 @@ i {
     font-size: 2rem;
   }
 
-  #homepage {
+ #homepage {
     background-image: url("../img/mobile/events.png");
     background-size: cover;
+    background-position: center right;
   }
 
   #photography {
     background-image: url("../img/mobile/photography.png");
     background-position: bottom right;
-    /* background: linear-gradient(rgba(0,0,0,0.3)); */
   }
-  #photography.active {
+  #photography.active{
     background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,url("../img/mobile/photography.png");
     background-position: bottom right;
-    /* background: linear-gradient(rgba(0,0,0,0.3)); */
   }
-
 
   #dance {
     background-image: url("../img/mobile/dance.png");
     background-size: cover;
+    background-position: bottom right;
   }
   #dance.active{
-    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,url("../img/mobile/dance.png");
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) , url("../img/mobile/dance.png");
     background-size: cover;
+    background-position: bottom right;
   }
 
   #art {
     background-image: url("../img/mobile/art.png");
-    background-size: cover;
+    background-position: bottom right;
   }
   #art.active {
     background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) , url("../img/mobile/art.png");
-    background-size: cover;
+    background-position: bottom right;
   }
 
   #music {
     background-image: url("../img/mobile/music.png");
-    background-size: cover;
+    background-position: bottom right;
   }
+
   #music.active{
-    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) , url("../img/mobile/music.png");
-    background-size: cover;
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../img/mobile/music.png");
+    background-position: bottom right;
   }
 
   #gaming {
     background-image: url("../img/mobile/gaming.png");
-    background-size: cover;
     background-position: bottom right;
   }
-  #gaming.active {
-    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) , url("../img/mobile/gaming.png");
-    background-size: cover;
+
+  #gaming.active{
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../img/mobile/gaming.png");
     background-position: bottom right;
   }
 
   #literature {
     background-image: url("../img/mobile/literature.png");
-    background-size: cover;
+    background-position: bottom right;
   }
-  #literature.active{
-    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) , url("../img/mobile/literature.png");
-    background-size: cover;
+  #literature.active {
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("../img/mobile/literature.png");
+    background-position: bottom right;
   }
 
   #drama {
     background-image: url("../img/mobile/drama.png");
     background-size: cover;
+    background-position: bottom right;
   }
   #drama.active {
-    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) , url("../img/mobile/drama.png");
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../img/mobile/drama.png");
     background-size: cover;
+    background-position: bottom right;
   }
 
   #quiz {
     background-image: url("../img/mobile/quiz.png");
     background-position: right;
   }
-
   #quiz.active {
-    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) , url("../img/mobile/quiz.png");
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../img/mobile/quiz.png");
     background-position: right;
   }
 
   #design {
-    background-image: url("../img/mobile/dance.png");
-    background-size: cover;
+    background-image: url("../img/mobile/design.png");
+    background-position: bottom right;
   }
-
-  #design.active {
-    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) , url("../img/mobile/dance.png");
-    background-size: cover;
+  #design.active{
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../img/mobile/dance.png");
+    background-position: bottom right;
   }
-
   .dance1 img{
     width: 28rem;
     height: auto;
