@@ -189,6 +189,13 @@ color: #505050;
   width: 100%;
 }
 
+#contactusHead{
+  font-size: 7rem;
+  margin-top: -15rem;
+  color: #505050;
+  font-family: Market Deco;
+}
+
 #contactus img {
   width: 40%;
   margin-right: -70rem;
@@ -212,7 +219,7 @@ color: #505050;
     background-repeat: no-repeat;*/
     /*background-position: center center;*/
   }
-  #contactus img {
+  #contactusImg {
     width: 10%;
     margin-right: -60%;
     margin-bottom: -30%;
@@ -606,8 +613,13 @@ body {
   .needle2 img {
     height: 300px;
   }
-  #contactus img {
+  /*#contactus img {
     width: 60%;
+  }*/
+  #contactusImg{
+    width: 70%;
+    margin-right: -50%;
+    margin-bottom: -30%;
   }
   .contact1 {
     top: 39%;
