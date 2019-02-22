@@ -240,6 +240,11 @@ color: #505050;
     background-size: cover;
     background-repeat: no-repeat;
   }
+  #about{
+    background-image: url("../img/mobile/aboutus.png");
+    background-position: top;
+    background-size: cover;
+  }
 }
 @media (min-width: 425px) and (max-width:575.98px)
 {
@@ -264,7 +269,7 @@ color: #505050;
 {
   #contactus {
     position: absolute;
-    background-image: url("../img/contact.png");
+    background-image: url("../img/contact.jpg");
     /*background-position: center center;*/
   }
   #contactus img {
@@ -277,7 +282,7 @@ color: #505050;
 {
   #contactus {
     position: absolute;
-    background-image: url("../img/contact.png");
+    background-image: url("../img/contact.jpg");
     /*background-position: center center;*/
   }
   #contactus img {
@@ -575,6 +580,7 @@ body {
   .themepara{
     width: 85%;
     font-size: 14px;
+    bottom: 3rem;
   }
   .comingsoon{
     width: 100%;
@@ -679,7 +685,7 @@ body {
     font-size: 14px;
   }
   .themehead{
-    left: 10%;
+    left: 19%;
   }
   .contacthead{
       left: 10%;

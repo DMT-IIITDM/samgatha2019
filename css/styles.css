@@ -9,6 +9,10 @@ body {
   align-items: center;
   justify-content: center;
 }
+::-webkit-scrollbar {
+  width: 0px;  /* remove scrollbar space */
+  background: transparent;  /* optional: just make scrollbar invisible */
+}'
 
 .circle-ripple {
   background-image: url("../img/Bg.jpg");
@@ -45,20 +49,11 @@ body {
 
 @media only screen and (min-width:1440px){
 .logo img {
-  width: 51rem;
-  height: 34rem;
+  width: 30rem;
+  height: auto;
   top: 2em;
 }
 }
-
-/*@media only screen and (min-width:1024px) 
-{
-.logo img {
-  width: 45rem;
-  height: 30rem;
-  top: 2em;
-}
-}*/
 
 @media only screen and (max-width:1024px)
 {
@@ -80,13 +75,15 @@ body {
     top: 21px;
   }
 }
-
-/*@media (min-width:992px){
-  .logo img{
-    width: 60rem;
-    height: 40rem;
+@media screen and (max-width:375px)
+{
+  .logo img {
+    width: 18rem;
+    height: auto;
+    top: 21px;
   }
-}*/
+}
+
 @keyframes ripple {
   0% {
     box-shadow: 0 0 0 1rem rgba(0, 0, 0, 0.3), 
