@@ -1,12 +1,13 @@
 let pos = 0;
-for (let i = 0; i < 6; i++) {
+for (let i = 0; i < list.length; i++) {
     if (list[i][1] == 1) {
         document.getElementById(list[i][0]).style.color = "#F38445";
     }
 }
-for (let i = 0; i < 6; i++) {
+
+for (let i = 0; i < list.length; i++) {
     document.getElementById(list[i][0]).onclick = function () {
-        for (let j = 0; j < 6; j++) {
+        for (let j = 0; j < list.length; j++) {
             list[j][1] = 0;
             if (j == i) {
                 list[i][1] = 1;
@@ -20,10 +21,12 @@ for (let i = 0; i < 6; i++) {
         pos = i;
     };
 }
+
+
 //Arrow
-for (let i = 1; i < 6; i++) {
+for (let i = 1; i < list.length; i++) {
     document.getElementById(list2[i - 1]).onclick = function () {
-        for (let j = 0; j < 6; j++) {
+        for (let j = 0; j < list.length; j++) {
             list[j][1] = 0;
             if (j == i) {
                 list[i][1] = 1;
@@ -37,7 +40,7 @@ for (let i = 1; i < 6; i++) {
         pos = i;
     }
     document.getElementById(list3[i - 1]).onclick = function () {
-        for (let j = 0; j < 6; j++) {
+        for (let j = 0; j < list.length; j++) {
             list[j][1] = 0;
             if (j == i - 1) {
                 list[i][1] = 1;

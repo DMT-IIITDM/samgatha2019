@@ -150,6 +150,12 @@ color: #505050;
   background:url(../img/Rewind\ bg.png) center center no-repeat;
 
 } */
+
+.teaser{
+  font-family: Market Deco;
+  font-size:3vw;
+}
+
 .themehead{
   font-family: Market Deco;
   font-size: 100px;
@@ -179,8 +185,8 @@ color: #505050;
   background-color: #09111b;
 
 }
-.comingsoon img {
-  width: 70%;
+.comingsoon{
+  width: 100%;
 }
 
 #contactus img {
@@ -541,7 +547,7 @@ body {
     width: 85%;
     font-size: 14px;
   }
-  .comingsoon img {
+  .comingsoon{
     width: 100%;
   }
   #contactus img {
