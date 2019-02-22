@@ -135,7 +135,9 @@ color: #505050;
 
 #about {
   position: absolute;
-  background-image: url("../img/Woodbg.jpg");
+  background-image: url("../img/About-Us-BG.jpg");
+  background-position: center center;
+  background-size: auto 130vh;
 }
 
 #theme {
@@ -155,6 +157,13 @@ color: #505050;
   font-size: 100px;
   position: absolute;
   top: 10%;
+}
+.contacthead{
+  font-family: Market Deco;
+  font-size: 5vh;
+  position: absolute;
+  top: 5%;
+  color: #505050;
 }
 .themepara{
   position: absolute;
@@ -211,6 +220,12 @@ color: #505050;
     margin-right: -60%;
     margin-bottom: -30%;
   }
+  #theme{
+    background-position: center center;
+    background-image: url("../img/mobile/rewind.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 }
 @media (min-width: 425px) and (max-width:575.98px)
 {
@@ -223,6 +238,12 @@ color: #505050;
     width: 80%;
     margin-right: -50%;
     margin-bottom: -30%;
+  }
+  #theme{
+    background-position: center center;
+    background-image: url("../img/mobile/rewind.png");
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 }
 @media (min-width: 768px) and (max-width: 991.98px) and (orientation:portrait)
