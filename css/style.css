@@ -166,16 +166,17 @@ color: #505050;
 }
 .contacthead{
   font-family: Market Deco;
-  font-size: 5vh;
+  font-size: 95px;
   position: absolute;
-  top: 5%;
+  top: 8%;
+  left: 30%;
   color: #505050;
 }
 .themepara{
   position: absolute;
   font-size: 20px;
   font-family: cont;
-  bottom:6rem;
+  bottom:2rem;
 }
 .needle{
   position:absolute;
@@ -198,12 +199,12 @@ color: #505050;
   width: 100%;
 }
 
-#contactusHead{
+/*#contactusHead{
   font-size: 7rem;
   margin-top: -15rem;
   color: #505050;
   font-family: Market Deco;
-}
+}*/
 
 #contactus img {
   width: 40%;
@@ -619,6 +620,11 @@ body {
     top: 20%;
     left: 15%;
   }
+  .contacthead{
+    font-size: 50px;
+    top: 10%;
+    left: 15%;
+  }
 }
 
 @media screen and (max-width:375px)
@@ -675,6 +681,9 @@ body {
   .themehead{
     left: 10%;
   }
+  .contacthead{
+      left: 10%;
+  }
 }
 
 @media screen and (max-width:320px)
@@ -728,7 +737,11 @@ body {
   } 
   .themehead {
     font-size: 40px;
-    top: 15%;
+    top: 10%;
+  }
+  .contacthead {
+    font-size: 40px;
+    top: 10%;
   }
 }
 
