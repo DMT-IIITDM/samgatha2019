@@ -18,7 +18,7 @@
   }
 
 body {
-    background-image: url("../img/Bg.jpg");
+    background-color: #09111b !important;
     font-family: 'Raleway', sans-serif;
   }
   .themehead{
