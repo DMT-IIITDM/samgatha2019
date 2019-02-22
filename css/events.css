@@ -373,21 +373,21 @@ h2 {
 }
 .li1 img{
   position: absolute;
-  width: 15rem;
+  width: 17rem;
   height: auto;
   margin-top: -10rem;
   margin-left: -3rem;
 }
 .li2 img{
   position: absolute;
-  width: 15rem;
+  width: 17rem;
   height: auto;
   bottom: -17rem;
   margin-left: -9rem;
 }
 .li3 img{
   position: absolute;
-  width: 15rem;
+  width: 17rem;
   height: auto;
   margin-top: -10rem;
   right: 11rem;
@@ -671,7 +671,7 @@ h2 {
 .overlay-content h3 {
   font-family: mynav;
   color: #E65C9D;
-  font-size: 3vh;
+  font-size: 4vh;
 }
 
 .overlay-content p {

@@ -15,7 +15,7 @@ body {
 }
 
 body {
-    background-color: #09111b;
+    background-image: url(../img/sponsors/Sponors.jpg);
 }
 
 .sponsor {
@@ -55,3 +55,4 @@ h1 {
     cursor: pointer;
     border-radius: 50%;
   }
+

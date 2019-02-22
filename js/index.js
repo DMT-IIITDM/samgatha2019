@@ -522,7 +522,7 @@ Onepage.prototype.pageUp = function() {
   } else if (loop === 'up' || loop === 'both') {
     me.move(me.pages.length - 1);
   }
-  for(let i=0;i<6;i++)
+  for(let i=0;i<list.length;i++)
   {
     if(list[i][1]==1)
     {
@@ -531,7 +531,7 @@ Onepage.prototype.pageUp = function() {
     list[i][1]=0;
   }
   list[me.page][1]=1;
-  for(let i=0;i<6;i++)
+  for(let i=0;i<list.length;i++)
   {
     if(list[i][1]==1)
     {
@@ -562,7 +562,7 @@ Onepage.prototype.pageDown = function() {
     me.move(0);
   }
   
-  for(let i=0;i<6;i++)
+  for(let i=0;i<list.length;i++)
   {
     if(list[i][1]==1)
     {
@@ -571,7 +571,7 @@ Onepage.prototype.pageDown = function() {
     list[i][1]=0;
   }
   list[me.page][1]=1;
-  for(let i=0;i<6;i++)
+  for(let i=0;i<list.length;i++)
   {
     if(list[i][1]==1)
     {
