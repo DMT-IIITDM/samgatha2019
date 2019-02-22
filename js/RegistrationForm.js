@@ -115,7 +115,7 @@ class RegistrationForm extends Component {
                     <div className='login-form'>
                         <Grid textAlign='center' verticalAlign='bottom'>
                             <Grid.Column style={{ maxWidth: 450 }}>
-                                <Message success header='Successfully Registered' content='Please check your registered email ID for Samgatha ID' />
+                                <Message visible success header='Successfully Registered' content='Please check your registered email ID for Samgatha ID' />
                             </Grid.Column>
                         </Grid>
                     </div>
@@ -130,7 +130,7 @@ class RegistrationForm extends Component {
                     <div className='login-form'>
                         <Grid textAlign='center' verticalAlign='bottom'>
                             <Grid.Column style={{ maxWidth: 450 }}>
-                                <Message error header='Oh no!' content='It appears that this email ID is already registered!' />
+                                <Message visible error header='Oh no!' content='It appears that this email ID is already registered!' />
                             </Grid.Column>
                         </Grid>
                     </div>
