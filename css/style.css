@@ -42,7 +42,7 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 {
 position: absolute;
 top:45%;
-left: 66%;
+left: 64%;
 font-size: 38px;
 font-family: cont;
 color: #505050;
@@ -50,8 +50,8 @@ color: #505050;
 .contact2
 {
 position: absolute;
-top:52%;
-left: 66%;
+top:54%;
+left: 64%;
 font-size: 16px;
 font-family: cont;
 color: #505050;
@@ -60,8 +60,8 @@ color: #505050;
 .contact3
 {
 position: absolute;
-top:56%;
-left: 66%;
+top:60%;
+left: 64%;
 font-size: 16px;
 font-family: cont;
 color: #505050;
@@ -70,7 +70,7 @@ color: #505050;
 {
 position: absolute;
 top:64%;
-left: 65%;
+left: 64%;
 font-size: 38px;
 font-family: cont;
 color: #505050;
@@ -78,8 +78,8 @@ color: #505050;
 .contact5
 {
 position: absolute;
-top:72%;
-left: 65%;
+top:73%;
+left: 64%;
 font-size: 16px;
 font-family: cont;
 color: #505050;
@@ -87,8 +87,8 @@ color: #505050;
 .contact6
 {
 position: absolute;
-top:76%;
-left: 65%;
+top:79%;
+left: 64%;
 font-size: 16px;
 font-family: cont;
 color: #505050;
@@ -168,7 +168,7 @@ color: #505050;
   font-family: Market Deco;
   font-size: 95px;
   position: absolute;
-  top: 8%;
+  top: 5%;
   left: 30%;
   color: #505050;
 }
@@ -208,8 +208,9 @@ color: #505050;
 
 #contactus img {
   width: 40%;
-  margin-right: -70rem;
-  margin-bottom: -23rem;
+  margin-right: 0rem;
+  margin-bottom: -13rem;
+  margin-left: 40rem;
 }
 
 @media (min-width: 320px) and (max-width: 424.98px)
@@ -465,10 +466,58 @@ body {
   background: rgba(0, 0, 0, 0.8);
 }
 
-@media screen and (max-width:1440px) {
+@media screen and (max-width:1440px) and (min-width:1370px) {
   #homepage {
     background-size: 120% auto;
   }
+  .contact1 {
+    position: absolute;
+    top: 45%;
+    left: 63%;
+    font-size: 40px;
+    font-family: cont;
+    color: #505050;
+}
+.contact2 {
+  position: absolute;
+  top: 52%;
+  left: 63%;
+  font-size: 22px;
+  font-family: cont;
+  color: #505050;
+}
+.contact3 {
+  position: absolute;
+  top: 57%;
+  left: 63%;
+  font-size: 22px;
+  font-family: cont;
+  color: #505050;
+}
+.contact4 {
+  position: absolute;
+  top: 64%;
+  left: 63%;
+  font-size: 40px;
+  font-family: cont;
+  color: #505050;
+}
+.contact5 {
+  position: absolute;
+  top: 71%;
+  left: 63%;
+  font-size: 22px;
+  font-family: cont;
+  color: #505050;
+}
+.contact6 {
+  position: absolute;
+  top: 76%;
+  left: 63%;
+  font-size: 22px;
+  font-family: cont;
+  color: #505050;
+}
 }
 
 @media screen and (max-width:1024px)
@@ -481,39 +530,40 @@ body {
     height:300px;
   }
   #contactus img {
-    width: 40%;
-    margin-bottom: -23rem;
-    margin-right: 63%;
-    margin-top: -20%;
+    width: 68%;
+    margin-bottom: -14rem;
+    margin-right: -10%;
+    margin-top: -30%;
+    margin-left: -15rem;
   }
   .contact1 {
     top: -172%;
-    left: 9%;
+    left: 11%;
     font-size: 38px;
   }
   .contact2 {
     top: -54%;
-    left: 10%;
+    left: 13%;
     font-size: 16px;
   }
   .contact3 {
     top: 11%;
-    left: 10%;
+    left: 13%;
     font-size: 16px;
   }
   .contact4 {
     top: 104%;
-    left: 9%;
+    left: 12%;
     font-size: 38px;
   }
   .contact5 {
     top: 227%;
-    left: 10%;
+    left: 13%;
     font-size: 16px;
   }
   .contact6 {
     top: 293%;
-    left: 10%;
+    left: 13%;
     font-size: 16px;
   }
 }
@@ -587,8 +637,8 @@ body {
   }
   #contactus img {
     width: 50%;
-    margin-bottom: -10rem;
-    margin-right: -50%;
+    margin-bottom: -7rem;
+    margin-right: -111%;
     margin-top: -20%;
   }
   .contact1 {
@@ -613,7 +663,7 @@ body {
   }
   .contact5 {
     top: 58%;
-    left: 58%;
+    left: 59%;
     font-size: 14px;
   }
   .contact6 {
@@ -649,11 +699,12 @@ body {
   /*#contactus img {
     width: 60%;
   }*/
-  #contactusImg{
-    width: 70%;
-    margin-right: -50%;
-    margin-bottom: -30%;
-  }
+  #contactus img {
+    width: 60%;
+    margin-bottom: -7rem;
+    margin-right: -124%;
+    margin-top: -20%;
+}
   .contact1 {
     top: 39%;
     left: 56%;
@@ -685,7 +736,8 @@ body {
     font-size: 14px;
   }
   .themehead{
-    left: 19%;
+    left: 10%;
+    top: 10%;
   }
   .contacthead{
       left: 10%;
@@ -710,36 +762,42 @@ body {
   }
   #contactus img {
     width: 65%;
+    margin-bottom: -7rem;
+    margin-right: -143%;
+    margin-top: -20%;
   }
   .contact1 {
-    top: 39%;
-    left: 54%;
-    font-size: 25px;
+    top: 40%;
+    left: 60%;
+    font-size: 23px;
   }
   .contact2 {
-    top: 45%;
-    left: 56%;
-    font-size: 14px;
+    top: 46%;
+    left: 60%;
+    font-size: 12px;
   }
   .contact3 {
-    top: 48%;
-    left: 53%;
-    font-size: 14px;
+    top: 50%;
+    left: 60%;
+    font-size: 12px;
   }
   .contact4 {
-    top: 52%;
-    left: 54%;
-    font-size: 25px;
+    top: 53%;
+    left: 60%;
+    font-size: 23px;
   }
   .contact5 {
-    top: 58%;
-    left: 54%;
-    font-size: 14px;
+    top: 59%;
+    left: 60%;
+    font-size: 12px;
   }
   .contact6 {
     top: 61%;
     left: 49%;
     font-size: 14px;
+    top: 62%;
+    left: 57%;
+    font-size: 12px;
   } 
   .themehead {
     font-size: 40px;
