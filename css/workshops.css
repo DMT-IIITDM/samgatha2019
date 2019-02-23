@@ -34,7 +34,7 @@ body {
 h1 {
     font-family: mynav;
     color: #f38445;
-    font-size: 10vh;
+    font-size: 9vh;
     text-align: center;
 }
 
@@ -69,7 +69,7 @@ h1 {
     .content{max-width:102%;overflow-x: auto; padding-left:10%; padding-right:10%; height: 100%; position: relative;}
     .content p{ text-align: justify;font-size: 1rem; margin-bottom: -5rem;}
     .nav-bar{align-content: right;}
-    img{width:70%;margin-top: 8rem;}
+    /* img{width:70%;margin-top: 8rem;} */
     #four p{text-align:center;}
     
   }
