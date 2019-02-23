@@ -779,7 +779,7 @@ ul{
   diplay:none;
   padding-top:9px;
   position: absolute;
-  top: 100px;
+  top: 30px;
   left: 50px;
   background-color: rgba(0, 0, 0, 0);
   border-color: #E65C9D;
@@ -792,7 +792,7 @@ ul{
   diplay:none;
   padding-top:9px;
   position: absolute;
-  top: 170px;
+  top: 100px;
   left: 50px;
   background-color: rgba(0, 0, 0, 0);
   border-color: #E65C9D;

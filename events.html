@@ -914,7 +914,7 @@ lead to immediate disqualification.</li>
             </div>
             <div id="overlay13" class="stream">
                 <div class="cross">
-                 <button class="register" onclick="myFunction()">REGISTER</button>
+                 <button id="id3"class="register" onclick="myFunction()">REGISTER</button>
                     <button class="register1" style="display: none" id="id1" >REGISTER FOR SOLO</button><button class="register2"
                     style="display: none" id="id2">REGISTER FOR TEAM</button>
                                          <span><a href="https://www.instagram.com/iiitdm.esports/" target="_blank"><img class="instamodal" src="./img/insta.png"></a> </span>                     <div class="event-play">
@@ -1615,6 +1615,7 @@ lead to immediate disqualification.</li>
     </script>
     <script>
     function myFunction() {
+    document.getElementById("id3").style.display = "none";
     document.getElementById("id1").style.display = "block";
     document.getElementById("id2").style.display = "block";
 }
