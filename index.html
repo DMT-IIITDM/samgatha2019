@@ -40,7 +40,7 @@
         //preloader
         $(document).ready(function(){
             $(window).on("load",function(){
-                preloaderFadeOutTime = 3000;
+                preloaderFadeOutTime = 500;
                 function hidePreloader() {
                     var preloadertag = $('#preloader');
                     preloadertag.fadeOut(preloaderFadeOutTime);
@@ -193,10 +193,10 @@
                     <img src="img/UpArrow.png" />
                 </a>
             </div>
+            <p class="teaser" >TEASER</p>
             <div class="container">
-                <p class="teaser" >TEASER</p>
-                <img src="img/tv.png" width="55%" height="auto"/>
-                <iframe style="position:absolute;z-index:100;left:32%;right:50%;top:35%;"width="30%" height="310vh" src="https://www.youtube.com/embed/kZiMrOzvMmQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <img src="img/tv.png" class="tv" height="auto"/>
+                <iframe class="y-link" src="https://www.youtube.com/embed/kZiMrOzvMmQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <div class="arrowdown" id="d5">
                 <a href="#">

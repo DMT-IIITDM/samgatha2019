@@ -21,6 +21,22 @@
     bottom:5%;
 }
 
+.tv{
+    position:absolute;
+    top:20%;
+    left:17rem;
+    width:50rem;
+  }
+  
+  .y-link{
+    left:21rem;
+    position:absolute;
+    top:13rem;
+    width:35rem;
+    height:25rem;
+  }
+  
+
 @media only screen and (orientation:landscape) and (max-width:600px)
 {
   .logo img{
@@ -42,6 +58,18 @@
         height:auto;
         bottom:3%;
     }
+    .tv{
+        top:20%;
+        left:22rem;
+        width:50rem;
+      }
+      
+    .y-link{
+    left:26rem;
+    top:13rem;
+    width:35rem;
+    height:25rem;
+    }
 }
 
 @media only screen and (max-width:1024px)
@@ -55,6 +83,16 @@
         width:20%;
         height:auto;    
         bottom:5%;
+    }
+    .tv{
+    left:2rem;
+    width:35rem;
+    height:25rem;
+    }
+    .y-link{
+        left:6rem;
+        width:24rem;
+        height:18rem;
     }
 }
 
@@ -70,6 +108,18 @@
         height:auto;    
         bottom:5%;
     }
+    .tv{
+        top:18rem;
+        left:-1rem;
+        width:28rem;
+        height:20rem;
+    }
+    .y-link{
+        top:19rem;
+        left:1rem;
+        width:20rem;
+        height:16rem;
+    }
 }
 @media screen and (max-width:375px)
 {
@@ -82,5 +132,17 @@
         width:50%;
         height:auto;    
         bottom:5%;
+    }
+    .tv{
+        top:18rem;
+        left:-1rem;
+        width:28rem;
+        height:20rem;
+    }
+    .y-link{
+        top:19rem;
+        left:1rem;
+        width:20rem;
+        height:16rem;
     }
 }
