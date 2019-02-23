@@ -596,17 +596,17 @@ h2 {
   top: 2rem;
 }
 .de2 img{
-  width: 60%;
-  height: auto;
-  margin-top: 9rem;
-  margin-right:5rem;
+    width: 60%;
+    height: auto;
+    margin-top: -1rem;
+    margin-right: 5rem;
 }
 .de1 img{
   width: 60%;
-    height: auto;
-    margin-top: 13rem;
-    margin-left: 12rem;
-    margin-bottom: 5rem;
+  height: auto;
+  margin-top: -7rem;
+  margin-left: 12rem;
+
 }
 #design .row{
   top: 10rem;  
@@ -2117,7 +2117,6 @@ i {
     top: 2vh;
     left: -25%;
   }
-<<<<<<< HEAD
 }
 
 @media (max-width:1400px) and (min-width:1025px){
@@ -2128,7 +2127,6 @@ i {
     bottom:10rem;
   }
   
-=======
   .de1 img{
     width: 25rem;
     height: auto;
@@ -2141,5 +2139,4 @@ i {
     margin-top: 14rem;
     margin-right: 2rem;
   }
->>>>>>> d9fc08858604ee5fdce93c1deb86b1c502e1b5f1
 }

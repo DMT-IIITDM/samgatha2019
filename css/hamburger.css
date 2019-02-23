@@ -14,7 +14,7 @@
   width: auto;
   top: 5%;
   right: 0;
-  z-index: 1020;
+  z-index: 1050;
   cursor: pointer;
   border-radius: 50%;
   transition: all 0.2s ease-in-out;
@@ -67,7 +67,7 @@
     top: -6%;
     opacity: 1;
     position: fixed;
-    z-index: 1010;
+    z-index: 1040;
     background-size: 100% 42rem;
  }
 .ham-social-media{
@@ -435,7 +435,59 @@ a.ham-menu:hover{
 .row.display-flex{
   margin-top: 0.6rem;
 }
+
+
 /* New changes */
+@media (min-width: 992px) and (max-width: 1199.98px){
+  .ham-div{
+    width: 79%;
+    margin-top: 20%;
+    margin-left: 8%;
+  }
+  #nav.show{
+    width: 100%;
+    right: 0;
+    background-size: 100% 75rem;
+  }
+  .ham-social-media{
+    top: -49%;
+    left: 3%;
+  }
+  a.ham-menu{
+    font-size: 65px;
+    font-family: mynavnum;
+    margin-top: 2rem;
+  }
+  span.ham-num{
+    font-size: 50px !important;
+}
+}
+@media (min-width: 768px) and (max-width: 991.98px){
+  .ham-div{
+    width: 79%;
+    margin-top: 20%;
+    margin-left: 11%;
+  }
+  #nav.show{
+    width: 100%;
+    right: 0;
+    background-size: 100% 55rem;
+  }
+  .ham-social-media{
+    top: -50%;
+    left: 15%;
+    display: block;
+  }
+  a.ham-menu{
+    font-size: 35px;
+    font-family: mynavnum;
+    margin-top: 2rem;
+  }
+  span.ham-num{
+    font-size: 31px !important;
+}
+}
+
 @media screen and (max-width:470px){
   .ham-div{
     width: 79%;
@@ -457,8 +509,7 @@ a.ham-menu:hover{
   }
   span.ham-num{
     font-size: 20px !important;
-  
-
+  }
 }
 @media screen and (max-width:425px){
   .ham-div{
