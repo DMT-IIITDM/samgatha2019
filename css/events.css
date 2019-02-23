@@ -64,6 +64,15 @@
 .device-notification{
   display: none;
 }
+@media screen and (min-width:1440px){
+  #eventsContent{
+    position: absolute;
+    font-size: 20px;
+    font-family: cont;
+    top: 22vw;
+    width: 30vw;
+  }
+}
 @media screen and (max-width: 1022px) and (orientation:landscape) {
   .device-notification {
     display: flex;
@@ -1890,7 +1899,7 @@ i {
     right: 6vw;
     bottom: 2vh;
   }
-  
+
   #homepage,
   #photography,
   #dance,
