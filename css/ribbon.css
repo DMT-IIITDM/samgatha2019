@@ -286,6 +286,10 @@ span.gradient-right{
   }
 }
 
+
+/* queries */
+
+
 @media screen and (max-width:1024px)
 {
   .register{
@@ -390,43 +394,51 @@ span.gradient-right{
 {
   .register{
     width: 200px;
-    height: 50px;
+    height: 45px;
     font-size: 25px;
     top: -40px;
   }
   .ribbon i:nth-child(3) {
-    border-width: 30px 60px 20px 50px;
-    bottom: 30px;
-    top: -22.75px;
+    border-width: 30px 60px 10px 50px;
+    bottom: 50px;
+    top: -25.75px;
     right: 40px;
   }
   .ribbon i:nth-child(2) {
-    border-width: 30px 50px 20px 60px;
-    bottom: 30px;
-    top: -22.75px;
+    border-width: 30px 50px 10px 60px;
+    bottom: 50px;
+    top: -25.75px;
     left: 40px;
   }
   .ribbon i:last-child {
     right: 50px;
-    width: 75px;
-    bottom: 29px;
+    width: 95px;
+    bottom: 45px;
+    /* width */
+    border: 20.5px solid #FFF8EE;
+    border-right-color: transparent;
   }
   span.gradient-left {
-    /* left: 40px; */
+    left: 15px;
     /* top: -40px; */
+    height:40px;
     width: 60px;
-    top: -31px;
+    top: -20px;
   }
   span.gradient-right {
-    /* left: -90px; */
-    /* top: -40px; */
-    left: -50px;
+    left: -90px;
+    /* background-color: black; */
+    top: -21px;
+    height:40px;
+    left: -23px;
     width: 60px;
   }
   .ribbon i:nth-child(4) {
     left: 51px;
-    width: 75px;
-    bottom: 29px;
+    width: 95px;
+    bottom: 45px;
+    border: 20.5px solid #FFF8EE;
+    border-left-color: transparent;
   }
 }
 
