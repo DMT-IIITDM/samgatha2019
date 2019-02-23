@@ -27,7 +27,12 @@
   font-family: cont;
   bottom:20rem;
 }
-
+.instamodal{
+  position: absolute;
+  width: 3rem;
+  height: auto;
+  right: 6vw;
+}
 .inside-nav{
   height: 50vh;
   overflow-y: scroll;
@@ -1001,6 +1006,13 @@ i {
   }
 }
 @media (min-width: 320px) and (max-width: 424.98px) {
+  .instamodal{
+    position: absolute;
+    width: 7vh;
+    height: auto;
+    right: 6vw;
+    bottom: 2vh;
+  }
 
   #homepage,
   #photography,
@@ -1272,6 +1284,14 @@ i {
 
 @media (min-width: 425px) and (max-width:575.98px) {
 
+  .instamodal{
+    position: absolute;
+    width: 7vh;
+    height: auto;
+    right: 6vw;
+    bottom: 2vh;
+  }
+
   #homepage,
   #photography,
   #dance,
@@ -1324,7 +1344,7 @@ i {
   }
 
   .register {
-    top: 91%;
+    top: 90%;
     left: 36.5%;
     font-size: 17px;
   }
@@ -1562,6 +1582,13 @@ i {
 /* For Ipad portrait */
 @media (min-width: 768px) and (max-width: 991.98px) and (orientation:portrait) {
 
+  .instamodal{
+    position: absolute;
+    width: 7vh;
+    height: auto;
+    right: 6vw;
+    bottom: 2vh;
+  }
   #homepage,
   #photography,
   #dance,
@@ -1856,6 +1883,14 @@ i {
 /* Ipad Pro */
 @media (min-width: 992px) and (max-width: 1199.98px) {
 
+  .instamodal{
+    position: absolute;
+    width: 7vh;
+    height: auto;
+    right: 6vw;
+    bottom: 2vh;
+  }
+  
   #homepage,
   #photography,
   #dance,
