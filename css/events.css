@@ -1877,7 +1877,8 @@ i {
   }
 
   .material-icons.active {
-    font-size: 30px;
+    right:5%;
+    font-size: 60px;
     color: white;
     margin-top: 1rem;
   }
@@ -2117,7 +2118,6 @@ i {
     top: 2vh;
     left: -25%;
   }
-<<<<<<< HEAD
 }
 
 @media (max-width:1400px) and (min-width:1025px){
@@ -2128,7 +2128,6 @@ i {
     bottom:10rem;
   }
   
-=======
   .de1 img{
     width: 25rem;
     height: auto;
@@ -2141,5 +2140,4 @@ i {
     margin-top: 14rem;
     margin-right: 2rem;
   }
->>>>>>> d9fc08858604ee5fdce93c1deb86b1c502e1b5f1
 }
