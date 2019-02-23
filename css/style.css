@@ -633,7 +633,7 @@ body {
   }
 
   #homepage {
-    background-size: 200% auto;
+    background-size: 215% auto;
     animation-name: vinyl-small;
     background-position: 50% 40%;
   }
@@ -847,7 +847,7 @@ body {
   }
 
   100% {
-    background-size: 200% auto;
+    background-size: 215% auto;
   }
 }
 
