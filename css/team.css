@@ -222,7 +222,7 @@ body {
     left: 20px;
     font-family: cont;
     color: rgba(255, 255, 255, 0);
-    font-size: 1.2rem;
+    font-size: 0.98rem;
     transition: 0.8s all cubic-bezier(0.785, 0.135, 0.15, 0.86);
   }
 
