@@ -2205,7 +2205,7 @@ i {
   }
 }
 
-@media (max-width:1400px) and (min-width:1025px){
+@media (min-width:1400px){
   #eventsContent{
     position: absolute;
     font-size: 20px;
@@ -2214,15 +2214,15 @@ i {
   }
 
   .de1 img{
-    width: 25rem;
+    width: 18rem;
     height: auto;
-    margin-top: -18rem;
+    margin-top: -6rem;
     margin-left: 12rem;
   }
   .de2 img{
-    width: 25rem;
+    width: 18rem;
     height: auto;
-    margin-top: 14rem;
+    margin-top: 1rem;
     margin-right: 2rem;
   }
 }
