@@ -15,11 +15,14 @@
     <link rel="stylesheet" href="css/ribbon.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/hamburger.css">
+    <link rel="stylesheet" href="css/preloader.css">
     <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap-grid.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css" />
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+        crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -29,6 +32,24 @@
             device to
             portrait or find a larger screen. You won't be disappointed.</p>
     </div>
+
+    <div id="preloader">
+        <img class="loading-gif" src="img/Loading.gif"/>
+    </div>
+    <script>
+        //preloader
+        $(document).ready(function(){
+            $(window).on("load",function(){
+                preloaderFadeOutTime = 500;
+                function hidePreloader() {
+                    var preloadertag = $('#preloader');
+                    preloadertag.fadeOut(preloaderFadeOutTime);
+                }
+                hidePreloader();
+            });
+        });
+        //$("#preloader").css("background-size",String(x)+"% "+String(y)+"%");
+    </script>
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top" id="sideNav">
         <a class="navbar-brand js-scroll-trigger"></a>
@@ -62,48 +83,33 @@
     <div class="hamburger-icon">
         <img id="icon" src="img/rightham.png" onclick="changeColor()"/>
     </div>
-
     <nav id="nav">
         <div class="ham-div">
             <div class="row display-flex">
                 <div class="offset-2 col-2" style="vertical-align: bottom;"><span class="ham-num">1</span></div>
                 <div class="col-6"><a class="ham-menu" href="index.html" style="text-decoration:none">HOME</a></div>
             </div>
-            <!-- <div class="row display-flex">
-                <div class="col-3"><span class="ham-side"></span></div>
-            </div> -->
             <div class="row display-flex">
                 <div class="offset-2 col-2" style="vertical-align: bottom;"><span class="ham-num">2</span></div>
                 <div class="col-6"><a class="ham-menu" href="events.html" style="text-decoration:none">EVENTS</a></div>
             </div>
-            <!-- <div class="row display-flex">
-                <div class="offset-2 col-2" style="vertical-align: bottom;"><span class="ham-num">3</span></div>
-                <div class="col-6"><a class="ham-menu" href="workshops.html">WORKSHOPS</a></div>
-            </div>
-             <div class="row display-flex">
-                <div class="col-3"><span class="ham-side"></span></div>
-            </div> -->
             <div class="row display-flex">
                 <div class="offset-2 col-2" style="vertical-align: bottom;"><span class="ham-num">3</span></div>
-                <div class="col-6"><a  href="proshows.html" class="ham-menu" style="text-decoration:none">PROSHOWS</a></div>
+                <div class="col-6"><a  href="#" class="ham-menu" style="text-decoration:none">PROSHOWS</a></div>
             </div>
             <div class="row display-flex">
                 <div class="offset-2 col-2" style="vertical-align: bottom;"><span class="ham-num">4</span></div>
-                <div class="col-6"><a href="team.html" class="ham-menu">TEAMS</a></div>
+                <div class="col-6"><a href="team.html" class="ham-menu" style="text-decoration:none">TEAMS</a></div>
             </div>
-            <!-- <div class="row display-flex">
-                <div class="col-3"><span class="ham-side"></span></div>
-            </div> -->
             <div class="row display-flex">
                 <div class="offset-2 col-2" style="vertical-align: bottom;"><span class="ham-num">5</span></div>
-                <div class="col-6"><a class="ham-menu">SCHEDULE</a></div>
+                <div class="col-6"><a href='#' class="ham-menu" style="text-decoration:none">SCHEDULE</a></div>
             </div>
             <div class="row display-flex">
                 <div class="offset-2 col-2" style="vertical-align: bottom;"><span class="ham-num">6</span></div>
                 <div class="col-6"><a class="ham-menu" href="sponsors.html" style="text-decoration:none">SPONSORS</a></div>
             </div>
             <div class="row display-flex">
-                <!-- <div class="col-3"><span class="ham-side"></span></div> -->
                 <div class="offset-2 col-2" style="vertical-align: bottom;"><span class="ham-num">7</span></div>
                 <div class="col-6"><a class="ham-menu reg" href="registration.html" style="text-decoration:none">REGISTER</a></div>
             </div>
@@ -118,7 +124,11 @@
     </nav>
 
     <div class="rulebook">
+<<<<<<< HEAD
         <a href="https://drive.google.com/file/d/19doA-o57nI8Mc-NgL9fgfApybkMl1I2C/view?usp=sharing" target="_blank" ><p>RULEBOOK</p></a>
+=======
+        <a href="https://drive.google.com/file/d/14pzv1wb4Crt5SVZM5GQBGyOzVwtp2_Nc/view?usp=sharing" target="_blank"><img src="img/Rule Book.png" height="auto" width="60px"/></a>
+>>>>>>> d8c62d6e0f7fb12f558a7902b93b7de0ea500665
     </div>
 
     <div id="onepage">
@@ -127,7 +137,7 @@
             <div class="logo"><img src="img/samlogo.png"></div>
             <div class="ribbon-container">
                 <div class="ribbon">
-                    <a href='registration.html' style="text-decoration:none"><div class="register" style="text-decoration:none">Register</div></a>
+                    <a href="registration.html" style="text-decoration:none"><div class="register" style="text-decoration:none">Register</div></a>
                     <i></i>
                     <i></i>
                     <i><span class="gradient-left"></span></i>
@@ -187,10 +197,10 @@
                     <img src="img/UpArrow.png" />
                 </a>
             </div>
+            <p class="teaser" >TEASER</p>
             <div class="container">
-                <p class="teaser" >TEASER</p>
-                <img src="img/tv.png" width="55%" height="auto"/>
-                <iframe style="position:absolute;z-index:100;left:32%;right:50%;top:35%;"width="30%" height="310vh" src="https://www.youtube.com/embed/kZiMrOzvMmQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <img src="img/tv.png" class="tv" height="auto"/>
+                <iframe class="y-link" src="https://www.youtube.com/embed/kZiMrOzvMmQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <div class="arrowdown" id="d5">
                 <a href="#">
@@ -236,8 +246,6 @@
     </script>
     <script src="js/index.js"></script>
     <script src="js/script.js"></script>
-    <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
-        crossorigin="anonymous"></script>
     <script src="js/active.js"></script>
     <script>
         $("a").hover(function () {

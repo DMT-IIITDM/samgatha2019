@@ -44,30 +44,19 @@ body {
 }
 .rulebook{
   position:absolute;
-  text-align:center;
-  background-color:white;
-  /* -webkit-transform-origin: 100% 0;
-  -moz-transform-origin: 0 10%0;
-  -ms-transform-origin: 0 100%;
-  transform-origin: 0 100%; */
-  transform : rotate(-90deg);
   top:27%;
-  right:-4%;
+  right:-5.5%;
   width:10vw;
   z-index:10;
   text-decoration:none;
 }
-
-.rulebook p{
-  padding-top:3%;
-  color:black; 
-  padding-bottom: 0%;
-  top:50%;
-  font-size:3vh;
-  font-family:mynav;
+.rulebook img {
+  transition: transform 0.5s;
 }
 
-
+.rulebook img:hover {
+  transform: scale(1.1);
+}
 
 @media only screen and (orientation:landscape) and (max-width:600px)
 {
@@ -80,11 +69,16 @@ body {
 }
 
 @media only screen and (min-width:1440px){
-.logo img {
-  width: 30rem;
-  height: auto;
-  top: 2em;
-}
+  .logo img {
+    width: 30rem;
+    height: auto;
+    top: 2em;
+  }
+  .rulebook{
+    top:20%;
+    width:24vw;
+    right:-20%;
+  }
 }
 
 @media only screen and (max-width:1024px)
@@ -92,7 +86,7 @@ body {
   .rulebook{
     top:20%;
     width:24vw;
-    right:-10%;
+    right:-15%;
   }
   .logo img {
     width: 30rem;
@@ -104,9 +98,9 @@ body {
 @media screen and (max-width:425px)
 {
   .rulebook{
-    top:20%;
-    width:30.5vw;
-    right:-10%;
+    top:16%;
+    width:28vw;
+    right:-16%;
   }
   .logo img{
     top: -20px;
@@ -120,9 +114,9 @@ body {
 @media screen and (max-width:375px)
 {
   .rulebook{
-    top:20%;
-    width:27.5vw;
-    right:-10%;
+    top:14%;
+    width:25.5vw;
+    right:-12.5%;
   }
   .logo img {
     width: 18rem;
