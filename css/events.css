@@ -27,7 +27,12 @@
   font-family: cont;
   bottom:20rem;
 }
-
+.instamodal{
+  position: absolute;
+  width: 3rem;
+  height: auto;
+  right: 6vw;
+}
 .inside-nav{
   height: 50vh;
   overflow-y: scroll;
@@ -58,6 +63,15 @@
 
 .device-notification{
   display: none;
+}
+@media screen and (min-width:1440px){
+  #eventsContent{
+    position: absolute;
+    font-size: 20px;
+    font-family: cont;
+    top: 22vw;
+    width: 30vw;
+  }
 }
 @media screen and (max-width: 1022px) and (orientation:landscape) {
   .device-notification {
@@ -596,17 +610,17 @@ h2 {
   top: 2rem;
 }
 .de2 img{
-  width: 60%;
-  height: auto;
-  margin-top: 9rem;
-  margin-right:5rem;
+    width: 60%;
+    height: auto;
+    margin-top: -1rem;
+    margin-right: 5rem;
 }
 .de1 img{
   width: 60%;
-    height: auto;
-    margin-top: 13rem;
-    margin-left: 12rem;
-    margin-bottom: 5rem;
+  height: auto;
+  margin-top: -7rem;
+  margin-left: 12rem;
+
 }
 #design .row{
   top: 10rem;  
@@ -1001,6 +1015,13 @@ i {
   }
 }
 @media (min-width: 320px) and (max-width: 424.98px) {
+  .instamodal{
+    position: absolute;
+    width: 7vh;
+    height: auto;
+    right: 6vw;
+    bottom: 2vh;
+  }
 
   #homepage,
   #photography,
@@ -1262,9 +1283,23 @@ i {
   .q3 img {
     margin-bottom: -6rem;
   }
+  #eventsContent{
+    width: 79%;
+    font-size: 14px;
+    bottom: 11rem;
+    left: 2rem;
+  }
 }
 
 @media (min-width: 425px) and (max-width:575.98px) {
+
+  .instamodal{
+    position: absolute;
+    width: 7vh;
+    height: auto;
+    right: 6vw;
+    bottom: 2vh;
+  }
 
   #homepage,
   #photography,
@@ -1281,7 +1316,7 @@ i {
   #eventsContent{
     width: 85%;
     font-size: 14px;
-    bottom: 5rem;
+    bottom: 12rem;
   }
   #eventsContent p{
     font-size:15px;
@@ -1318,7 +1353,7 @@ i {
   }
 
   .register {
-    top: 91%;
+    top: 90%;
     left: 36.5%;
     font-size: 17px;
   }
@@ -1556,6 +1591,13 @@ i {
 /* For Ipad portrait */
 @media (min-width: 768px) and (max-width: 991.98px) and (orientation:portrait) {
 
+  .instamodal{
+    position: absolute;
+    width: 7vh;
+    height: auto;
+    right: 6vw;
+    bottom: 2vh;
+  }
   #homepage,
   #photography,
   #dance,
@@ -1849,6 +1891,14 @@ i {
 
 /* Ipad Pro */
 @media (min-width: 992px) and (max-width: 1199.98px) {
+
+  .instamodal{
+    position: absolute;
+    width: 7vh;
+    height: auto;
+    right: 6vw;
+    bottom: 2vh;
+  }
 
   #homepage,
   #photography,
