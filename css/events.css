@@ -744,6 +744,7 @@ ul{
   color: #F38445;
   font-family: mynavnum;
   font-size: 25px;
+  z-index:2000;
 }
 
 .event-play {
