@@ -476,6 +476,7 @@ body {
 @media screen and (max-width:1440px) and (min-width:1370px) {
   #homepage {
     background-size: 120% auto;
+    animation-name: vinyl-medium;
   }
   .contact1 {
     position: absolute;
@@ -832,6 +833,15 @@ body {
 }
 
 @keyframes vinyl {
+  0% {
+    background-size: 10% auto;
+  }
+
+  100% {
+    background-size: 118% auto;
+  }
+}
+@keyframes vinyl-medium {
   0% {
     background-size: 10% auto;
   }
