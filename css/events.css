@@ -17,6 +17,10 @@
   src: url(../fonts/register.ttf);
 }
 
+#sideNav.active{
+    visibility:hidden;
+}
+
 #eventsContent{
   position: absolute;
   font-size: 20px;
@@ -97,7 +101,18 @@
 }
 
 .sam-logo {
-  visibility: hidden;
+  visibility: visible;
+}
+
+.sam-logo img {
+  position: absolute;
+  width: 180px;
+  top: 3%;
+  left: 1%;
+  z-index: 900;
+  cursor: pointer;
+  border-radius: 50%;
+  visibility: visible;
 }
 
 #homepage {
@@ -735,6 +750,7 @@ ul{
 }
 
 .register {
+  padding-top:9px;
   position: absolute;
   top: 30px;
   left: 50px;
@@ -744,7 +760,6 @@ ul{
   color: #F38445;
   font-family: mynavnum;
   font-size: 25px;
-  z-index:2000;
 }
 
 .event-play {

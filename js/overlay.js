@@ -45,6 +45,7 @@ function menu() {
         $('#social').toggleClass('active');
         $('#bottom-ham').toggleClass('active');
         $('#photography').toggleClass('active');
+        $('#sideNav').toggleClass('active');
         clickedModal=1;
         list4[0][1]=1;
     });
@@ -55,6 +56,7 @@ function menu() {
         $('#social').toggleClass('active');
         $('#bottom-ham').toggleClass('active');
         $('#photography').toggleClass('active');
+        $('#sideNav').toggleClass('active');
         clickedModal=1;
         list4[1][1]=1;
     });
@@ -65,6 +67,7 @@ function menu() {
         $('#social').toggleClass('active');
         $('#bottom-ham').toggleClass('active');
         $('#photography').toggleClass('active');
+        $('#sideNav').toggleClass('active');
         clickedModal=1;
         list4[2][1]=1;
     });
@@ -75,6 +78,7 @@ function menu() {
         $('#social').toggleClass('active');
         $('#bottom-ham').toggleClass('active');
         $('#photography').toggleClass('active');
+        $('#sideNav').toggleClass('active');
         clickedModal=0;
         list4[0][1]=0;
     });
@@ -85,6 +89,7 @@ function menu() {
         $('#social').toggleClass('active');
         $('#bottom-ham').toggleClass('active');
         $('#photography').toggleClass('active');
+        $('#sideNav').toggleClass('active');
         clickedModal=0;
         list4[1][1]=0;
     });
@@ -95,6 +100,7 @@ function menu() {
         $('#social').toggleClass('active');
         $('#bottom-ham').toggleClass('active');
         $('#photography').toggleClass('active');
+        $('#sideNav').toggleClass('active');
         clickedModal=0;
         list4[2][1]=0;
     });
@@ -106,6 +112,7 @@ function menu() {
         $('#social').toggleClass('active');
         $('#bottom-ham').toggleClass('active');
         $('#dance').toggleClass('active');
+        $('#sideNav').toggleClass('active');
         clickedModal=1;
         list4[3][1]=1;
     });
@@ -116,6 +123,7 @@ function menu() {
         $('#social').toggleClass('active');
         $('#bottom-ham').toggleClass('active');
         $('#dance').toggleClass('active');
+        $('#sideNav').toggleClass('active');
         clickedModal=1;
         list4[4][1]=1;
     });
@@ -126,6 +134,7 @@ function menu() {
         $('#social').toggleClass('active');
         $('#bottom-ham').toggleClass('active');
         $('#dance').toggleClass('active');
+        $('#sideNav').toggleClass('active');
         clickedModal=1;
         list4[5][1]=1;
     });
@@ -136,6 +145,7 @@ function menu() {
         $('#social').toggleClass('active');
         $('#bottom-ham').toggleClass('active');
         $('#dance').toggleClass('active');
+        $('#sideNav').toggleClass('active');
         clickedModal=0;
         list4[3][1]=0;
     });
@@ -146,6 +156,7 @@ function menu() {
         $('#social').toggleClass('active');
         $('#bottom-ham').toggleClass('active');
         $('#dance').toggleClass('active');
+        $('#sideNav').toggleClass('active');
         clickedModal=0;
         list4[4][1]=0;
     });
@@ -156,6 +167,7 @@ function menu() {
         $('#social').toggleClass('active');
         $('#bottom-ham').toggleClass('active');
         $('#dance').toggleClass('active');
+        $('#sideNav').toggleClass('active');
         clickedModal=0;
         list4[5][1]=0;
     });
@@ -167,6 +179,7 @@ function menu() {
         $('#social').toggleClass('active');
         $('#bottom-ham').toggleClass('active');
         $('#art').toggleClass('active');
+        $('#sideNav').toggleClass('active');
         clickedModal=1;
         list4[6][1]=1;
     });
@@ -177,6 +190,7 @@ function menu() {
         $('#social').toggleClass('active');
         $('#bottom-ham').toggleClass('active');
         $('#art').toggleClass('active');
+        $('#sideNav').toggleClass('active');
         clickedModal=1;
         list4[7][1]=1;
     });
@@ -187,6 +201,7 @@ function menu() {
         $('#social').toggleClass('active');
         $('#bottom-ham').toggleClass('active');
         $('#art').toggleClass('active');
+        $('#sideNav').toggleClass('active');
         clickedModal=1;
         list4[8][1]=1;
     });
@@ -197,6 +212,7 @@ function menu() {
         $('#social').toggleClass('active');
         $('#bottom-ham').toggleClass('active');
         $('#art').toggleClass('active');
+        $('#sideNav').toggleClass('active');
         clickedModal=0;
         list4[6][1]=0;
     });
@@ -207,6 +223,7 @@ function menu() {
         $('#social').toggleClass('active');
         $('#bottom-ham').toggleClass('active');
         $('#art').toggleClass('active');
+        $('#sideNav').toggleClass('active');
         clickedModal=0;
         list4[7][1]=0;
     });
@@ -217,6 +234,7 @@ function menu() {
         $('#social').toggleClass('active');
         $('#bottom-ham').toggleClass('active');
         $('#art').toggleClass('active');
+        $('#sideNav').toggleClass('active');
         clickedModal=0;
         list4[8][1]=0;
     });
@@ -228,6 +246,7 @@ function menu() {
         $('#social').toggleClass('active');
         $('#bottom-ham').toggleClass('active');
         $('#music').toggleClass('active');
+        $('#sideNav').toggleClass('active');
         clickedModal=1;
         list4[9][1]=1;
     });
@@ -238,6 +257,7 @@ function menu() {
         $('#social').toggleClass('active');
         $('#bottom-ham').toggleClass('active');
         $('#music').toggleClass('active');
+        $('#sideNav').toggleClass('active');
         clickedModal=1;
         list4[10][1]=1;
     });
@@ -248,6 +268,7 @@ function menu() {
         $('#social').toggleClass('active');
         $('#bottom-ham').toggleClass('active');
         $('#music').toggleClass('active');
+        $('#sideNav').toggleClass('active');
         clickedModal=0;
         list4[9][1]=0;
     });
@@ -258,6 +279,7 @@ function menu() {
         $('#social').toggleClass('active');
         $('#bottom-ham').toggleClass('active');
         $('#music').toggleClass('active');
+        $('#sideNav').toggleClass('active');
         clickedModal=0;
         list4[10][1]=0;
     });
@@ -270,6 +292,7 @@ function menu() {
         $('#social').toggleClass('active');
         $('#bottom-ham').toggleClass('active');
         $('#gaming').toggleClass('active');
+        $('#sideNav').toggleClass('active');
         clickedModal=1;
         list4[11][1]=1;
     });
@@ -280,6 +303,7 @@ function menu() {
         $('#social').toggleClass('active');
         $('#bottom-ham').toggleClass('active');
         $('#gaming').toggleClass('active');
+        $('#sideNav').toggleClass('active');
         clickedModal=1;
         list4[12][1]=1;
     });
@@ -290,6 +314,7 @@ function menu() {
         $('#social').toggleClass('active');
         $('#bottom-ham').toggleClass('active');
         $('#gaming').toggleClass('active');
+        $('#sideNav').toggleClass('active');
         clickedModal=1;
         list4[13][1]=1;
     });
@@ -300,6 +325,7 @@ function menu() {
         $('#social').toggleClass('active');
         $('#bottom-ham').toggleClass('active');
         $('#gaming').toggleClass('active');
+        $('#sideNav').toggleClass('active');
         clickedModal=0;
         list4[11][1]=0;
     });
@@ -310,6 +336,7 @@ function menu() {
         $('#social').toggleClass('active');
         $('#bottom-ham').toggleClass('active');
         $('#gaming').toggleClass('active');
+        $('#sideNav').toggleClass('active');
         clickedModal=0;
         list4[12][1]=0;
     });
@@ -320,6 +347,7 @@ function menu() {
         $('#social').toggleClass('active');
         $('#bottom-ham').toggleClass('active');
         $('#gaming').toggleClass('active');
+        $('#sideNav').toggleClass('active');
         clickedModal=0;
         list4[13][1]=0;
     });
@@ -331,6 +359,7 @@ function menu() {
         $('#social').toggleClass('active');
         $('#bottom-ham').toggleClass('active');
         $('#drama').toggleClass('active');
+        $('#sideNav').toggleClass('active');
         clickedModal=1;
         list4[14][1]=1;
     });
@@ -341,6 +370,7 @@ function menu() {
         $('#social').toggleClass('active');
         $('#bottom-ham').toggleClass('active');
         $('#drama').toggleClass('active');
+        $('#sideNav').toggleClass('active');
         clickedModal=1;
         list4[15][1]=1;
     });
@@ -351,6 +381,7 @@ function menu() {
         $('#social').toggleClass('active');
         $('#bottom-ham').toggleClass('active');
         $('#drama').toggleClass('active');
+        $('#sideNav').toggleClass('active');
         clickedModal=1;
         list4[16][1]=1;
     });
@@ -361,6 +392,7 @@ function menu() {
         $('#social').toggleClass('active');
         $('#bottom-ham').toggleClass('active');
         $('#drama').toggleClass('active');
+        $('#sideNav').toggleClass('active');
         clickedModal=0;
         list4[14][1]=0;
     });
@@ -371,6 +403,7 @@ function menu() {
         $('#social').toggleClass('active');
         $('#bottom-ham').toggleClass('active');
         $('#drama').toggleClass('active');
+        $('#sideNav').toggleClass('active');
         clickedModal=0;
         list4[15][1]=0;
     });
@@ -381,6 +414,7 @@ function menu() {
         $('#social').toggleClass('active');
         $('#bottom-ham').toggleClass('active');
         $('#drama').toggleClass('active');
+        $('#sideNav').toggleClass('active');
         clickedModal=0;
         list4[16][1]=0;
     });
@@ -392,6 +426,7 @@ function menu() {
         $('#social').toggleClass('active');
         $('#bottom-ham').toggleClass('active');
         $('#quiz').toggleClass('active');
+        $('#sideNav').toggleClass('active');
         clickedModal=1;
         list4[17][1]=1;
     });
@@ -402,6 +437,7 @@ function menu() {
         $('#social').toggleClass('active');
         $('#bottom-ham').toggleClass('active');
         $('#quiz').toggleClass('active');
+        $('#sideNav').toggleClass('active');
         clickedModal=1;
         list4[18][1]=1;
     });
@@ -412,6 +448,7 @@ function menu() {
         $('#social').toggleClass('active');
         $('#bottom-ham').toggleClass('active');
         $('#quiz').toggleClass('active');
+        $('#sideNav').toggleClass('active');
         clickedModal=1;
         list4[19][1]=1;
     });
@@ -422,6 +459,7 @@ function menu() {
         $('#social').toggleClass('active');
         $('#bottom-ham').toggleClass('active');
         $('#quiz').toggleClass('active');
+        $('#sideNav').toggleClass('active');
         clickedModal=0;
         list4[17][1]=0;
     });
@@ -432,6 +470,7 @@ function menu() {
         $('#social').toggleClass('active');
         $('#bottom-ham').toggleClass('active');
         $('#quiz').toggleClass('active');
+        $('#sideNav').toggleClass('active');
         clickedModal=0;
         list4[18][1]=0;
     });
@@ -442,6 +481,7 @@ function menu() {
         $('#social').toggleClass('active');
         $('#bottom-ham').toggleClass('active');
         $('#quiz').toggleClass('active');
+        $('#sideNav').toggleClass('active');
         clickedModal=0;
         list4[19][1]=0;
     });
@@ -453,6 +493,7 @@ function menu() {
         $('#social').toggleClass('active');
         $('#bottom-ham').toggleClass('active');
         $('#literature').toggleClass('active');
+        $('#sideNav').toggleClass('active');
         clickedModal=1;
         list6[0][1]=1;
     });
@@ -463,6 +504,7 @@ function menu() {
         $('#social').toggleClass('active');
         $('#bottom-ham').toggleClass('active');
         $('#literature').toggleClass('active');
+        $('#sideNav').toggleClass('active');
         clickedModal=1;
         list6[1][1]=1;
     });
@@ -473,6 +515,7 @@ function menu() {
         $('#social').toggleClass('active');
         $('#bottom-ham').toggleClass('active');
         $('#literature').toggleClass('active');
+        $('#sideNav').toggleClass('active');
         clickedModal=1;
         list6[2][1]=1;
     });
@@ -483,6 +526,7 @@ function menu() {
         $('#social').toggleClass('active');
         $('#bottom-ham').toggleClass('active');
         $('#literature').toggleClass('active');
+        $('#sideNav').toggleClass('active');
         clickedModal=0;
         list6[0][1]=0;
     });
@@ -493,6 +537,7 @@ function menu() {
         $('#social').toggleClass('active');
         $('#bottom-ham').toggleClass('active');
         $('#literature').toggleClass('active');
+        $('#sideNav').toggleClass('active');
         clickedModal=0;
         list6[1][1]=0;
     });
@@ -503,6 +548,7 @@ function menu() {
         $('#social').toggleClass('active');
         $('#bottom-ham').toggleClass('active');
         $('#literature').toggleClass('active');
+        $('#sideNav').toggleClass('active');
         clickedModal=0;
         list6[2][1]=0;
     });
@@ -517,6 +563,7 @@ function menu() {
         $('#social').toggleClass('active');
         $('#bottom-ham').toggleClass('active');
         $('#design').toggleClass('active');
+        $('#sideNav').toggleClass('active');
         clickedModal=1;
         list6[3][1]=1;
     });
@@ -527,6 +574,7 @@ function menu() {
         $('#social').toggleClass('active');
         $('#bottom-ham').toggleClass('active');
         $('#design').toggleClass('active');
+        $('#sideNav').toggleClass('active');
         clickedModal=1;
         list6[4][1]=1;
     });
@@ -537,6 +585,7 @@ function menu() {
         $('#social').toggleClass('active');
         $('#bottom-ham').toggleClass('active');
         $('#design').toggleClass('active');
+        $('#sideNav').toggleClass('active');
         clickedModal=0;
         list6[3][1]=0;
     });
@@ -547,6 +596,7 @@ function menu() {
         $('#social').toggleClass('active');
         $('#bottom-ham').toggleClass('active');
         $('#design').toggleClass('active');
+        $('#sideNav').toggleClass('active');
         clickedModal=0;
         list6[4][1]=0;
     });
@@ -563,6 +613,7 @@ function menu() {
                 $('#social').toggleClass('active');
                 $('#bottom-ham').toggleClass('active');
                 $(list4[i][4]).toggleClass('active');
+                $('#sideNav').toggleClass('active');
                 clickedModal=0;
                 list4[i][1]=0;
             }
@@ -576,6 +627,7 @@ function menu() {
                 $('#social').toggleClass('active');
                 $('#bottom-ham').toggleClass('active');
                 $(list6[i][4]).toggleClass('active');
+                $('#sideNav').toggleClass('active');
                 clickedModal=0;
                 list6[i][1]=0;
             }
