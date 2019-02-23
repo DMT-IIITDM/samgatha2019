@@ -31,7 +31,8 @@
   position: absolute;
   width: 3rem;
   height: auto;
-  right: 6vw;
+  padding-top:0.5rem;
+  left: 15vw;
 }
 .inside-nav{
   height: 50vh;
