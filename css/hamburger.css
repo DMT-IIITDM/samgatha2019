@@ -463,19 +463,19 @@ a.ham-menu:hover{
 @media screen and (max-width:425px){
   .ham-div{
     width: 79%;
-    margin-top: 28%;
-    margin-left:3%;
+    margin-top: 23%;
+    margin-left: 11%;
   }
   #nav.show{
     width: 100%;
     right: 0%;
   }
   .ham-social-media{
-    top: -44.1%;
+    top: -45.3%;
     left: 6%;
   }
   a.ham-menu{
-    font-size: 36px;
+    font-size: 26px;
     font-family: mynavnum;
 
   }
@@ -487,8 +487,8 @@ a.ham-menu:hover{
 @media screen and (max-width:375px){
   .ham-div{
     width: 79%;
-    margin-top: 53%;
-    margin-left: 3%;
+    margin-top: 43%;
+    margin-left: 10%;
   }
   #nav.show{
     width: 100%;

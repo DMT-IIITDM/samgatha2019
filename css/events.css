@@ -18,10 +18,10 @@
 }
 
 #eventsContent{
-  margin:0 auto;
-  padding-left: 35%;
-  padding-top: 14%;
-  padding-right: 35%;
+  position: absolute;
+  font-size: 20px;
+  font-family: cont;
+  bottom:20rem;
 }
 
 .inside-nav{
@@ -1006,13 +1006,12 @@ i {
 
   
   #eventsContent{
-    margin:0 auto;
-    padding-left: 80%;
-    padding-top: 14%;
-    padding-right:80%;
+    width: 85%;
+    font-size: 14px;
+    bottom: 6rem;
   }
   #eventsContent p{
-    font-size:12px;
+    font-size:15px;
   }
   .font {
     margin-top: 3rem;
@@ -1263,6 +1262,14 @@ i {
   #design {
     position: absolute;
   }
+  #eventsContent{
+    width: 85%;
+    font-size: 14px;
+    bottom: 5rem;
+  }
+  #eventsContent p{
+    font-size:15px;
+  }
 
   .sam-logo img {
     position: absolute;
@@ -1300,7 +1307,7 @@ i {
     font-size: 17px;
   }
 
-  #eventsContent{
+  /*#eventsContent{
     margin:0 auto;
     padding-left: 80%;
     padding-top: 14%;
@@ -1308,7 +1315,7 @@ i {
   }
   #eventsContent p{
     font-size:14px;
-  }
+  }*/
 
   .dance1 {
     height: 600px;
@@ -1514,6 +1521,16 @@ i {
   #photography .font {
     font-size: 60px;
   }
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  #eventsContent {
+    position: absolute;
+    font-size: 20px;
+    font-family: cont;
+    bottom: 13rem;
+}
 
 }
 
@@ -1832,7 +1849,7 @@ i {
 
   .font {
     margin-top: 3.5rem;
-    font-size: 7rem;
+    font-size: 5rem;
   }
 
   .event-play {
@@ -2084,6 +2101,18 @@ i {
     top: 2vh;
     left: -25%;
   }
+<<<<<<< HEAD
+}
+
+@media (max-width:1400px) and (min-width:1025px){
+  #eventsContent{
+    position: absolute;
+    font-size: 20px;
+    font-family: cont;
+    bottom:10rem;
+  }
+  
+=======
   .de1 img{
     width: 25rem;
     height: auto;
@@ -2096,4 +2125,5 @@ i {
     margin-top: 14rem;
     margin-right: 2rem;
   }
+>>>>>>> d9fc08858604ee5fdce93c1deb86b1c502e1b5f1
 }
