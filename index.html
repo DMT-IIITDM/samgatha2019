@@ -26,24 +26,6 @@
 </head>
 
 <body>
-    <script>
-        var viewPortWidth;
-        var viewPortHeight;
-        if (typeof window.innerWidth != 'undefined') {
-            viewPortWidth = window.innerWidth,
-            viewPortHeight = window.innerHeight
-        }
-        else if (typeof document.documentElement != 'undefined'
-        && typeof document.documentElement.clientWidth !=
-        'undefined' && document.documentElement.clientWidth != 0) {
-            viewPortWidth = document.documentElement.clientWidth,
-            viewPortHeight = document.documentElement.clientHeight
-        }
-        else {
-            viewPortWidth = document.getElementsByTagName('body')[0].clientWidth,
-            viewPortHeight = document.getElementsByTagName('body')[0].clientHeight
-        }
-    </script>
     <div class="device-notification">
         <img style="width: 150px;" src="img/samlogo.png" />
         <p class="device-notification--message">Samgatha has so much to offer that we must request you orient your
@@ -56,8 +38,6 @@
     </div>
     <script>
         //preloader
-        var x = Math.ceil((viewPortWidth*35)/(1366))+2;
-        var y = Math.ceil((viewPortHeight*48)/(699))+2;
         $(document).ready(function(){
             $(window).on("load",function(){
                 preloaderFadeOutTime = 3000;
@@ -69,7 +49,6 @@
             });
         });
         //$("#preloader").css("background-size",String(x)+"% "+String(y)+"%");
-        console.log(String(x)+"% "+String(y)+"%");
     </script>
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top" id="sideNav">
@@ -160,7 +139,7 @@
     </nav>
 
     <div class="rulebook">
-        <a href="https://drive.google.com/file/d/14pzv1wb4Crt5SVZM5GQBGyOzVwtp2_Nc/view?usp=sharing" target="_blank"><p>RULEBOOK</p></a>
+        <a href="https://drive.google.com/file/d/14pzv1wb4Crt5SVZM5GQBGyOzVwtp2_Nc/view?usp=sharing" target="_blank"><img src="img/Rule Book.png" height="auto" width="60px"/></a>
     </div>
 
     <div id="onepage">
@@ -169,7 +148,7 @@
             <div class="logo"><img src="img/samlogo.png"></div>
             <div class="ribbon-container">
                 <div class="ribbon">
-                    <a href='registration.html' style="text-decoration:none"><div class="register" style="text-decoration:none">Register</div></a>
+                    <a href="registration.html" style="text-decoration:none"><div class="register" style="text-decoration:none">Register</div></a>
                     <i></i>
                     <i></i>
                     <i><span class="gradient-left"></span></i>

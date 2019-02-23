@@ -13,10 +13,10 @@
 }
 
 #preloader img{
-    width:12%;
+    width:9%;
     height:auto;
     position:absolute;
-    left:44%;
+    left:46%;
     right:50%;
     bottom:5%;
 }
@@ -51,7 +51,7 @@
         background-position-y: 13.7rem;
     }
     #preloader img{
-        left:13.5rem;
+        left:15rem;
         width:20%;
         height:auto;    
         bottom:5%;
