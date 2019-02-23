@@ -50,6 +50,13 @@ body {
   z-index:10;
   text-decoration:none;
 }
+.rulebook img {
+  transition: transform 0.5s;
+}
+
+.rulebook img:hover {
+  transform: scale(1.1);
+}
 
 @media only screen and (orientation:landscape) and (max-width:600px)
 {
