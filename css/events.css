@@ -750,6 +750,7 @@ ul{
 }
 
 .register {
+  padding-top:9px;
   position: absolute;
   top: 30px;
   left: 50px;
@@ -759,7 +760,6 @@ ul{
   color: #F38445;
   font-family: mynavnum;
   font-size: 25px;
-  z-index:2000;
 }
 
 .event-play {
