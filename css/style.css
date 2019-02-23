@@ -156,8 +156,9 @@ color: #505050;
 } */
 
 .teaser{
+  top:0;
   font-family: Market Deco;
-  font-size:3vw;
+  font-size:6vw;
 }
 
 .themehead{

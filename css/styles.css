@@ -18,7 +18,7 @@ body {
 ::-webkit-scrollbar {
   width: 0px;  /* remove scrollbar space */
   background: transparent;  /* optional: just make scrollbar invisible */
-}'
+}
 
 .circle-ripple {
   background-image: url("../img/Bg.jpg");
@@ -42,69 +42,6 @@ body {
   height: 20rem;
   position: relative;
 }
-
-@media only screen and (orientation:landscape) and (max-width:600px)
-{
-  .logo img{
-    top: -40px;
-    width: 24rem;
-    height: 16rem;
-  }
-
-}
-
-@media only screen and (min-width:1440px){
-.logo img {
-  width: 30rem;
-  height: auto;
-  top: 2em;
-}
-}
-
-@media only screen and (max-width:1024px)
-{
-  .logo img {
-    width: 30rem;
-    height: 20rem;
-    top: 1em;
-  }
-}
-
-@media screen and (max-width:425px)
-{
-  .logo img{
-    top: -20px;
-  }
-  .logo img {
-    width: 23rem;
-    height: 14rem;
-    top: 21px;
-  }
-}
-@media screen and (max-width:375px)
-{
-  .logo img {
-    width: 18rem;
-    height: auto;
-    top: 21px;
-  }
-}
-
-@keyframes ripple {
-  0% {
-    box-shadow: 0 0 0 1rem rgba(0, 0, 0, 0.3), 
-    0 0 0 2rem rgba(0, 0, 0, 0.3), 
-    0 0 0 3rem rgba(0, 0, 0, 0.3), 
-    0 0 0 5rem rgba(0, 0, 0, 0.3);
-  }
-  100% {
-    box-shadow: 0 0 0 4rem rgba(0, 0, 0, 0.3),
-     0 0 0 6rem rgba(0, 0, 0, 0.3),
-     0 0 0 8rem rgba(0, 0, 0, 0.3), 
-     0 0 0 10rem rgba(0, 0, 0, 0);
-  }
-}
-
 .rulebook{
   position:absolute;
   text-align:center;
@@ -129,3 +66,83 @@ body {
   font-size:3vh;
   font-family:mynav;
 }
+
+
+
+@media only screen and (orientation:landscape) and (max-width:600px)
+{
+  .logo img{
+    top: -40px;
+    width: 24rem;
+    height: 16rem;
+  }
+
+}
+
+@media only screen and (min-width:1440px){
+.logo img {
+  width: 30rem;
+  height: auto;
+  top: 2em;
+}
+}
+
+@media only screen and (max-width:1024px)
+{
+  .rulebook{
+    top:20%;
+    width:24vw;
+    right:-10%;
+  }
+  .logo img {
+    width: 30rem;
+    height: 20rem;
+    top: 1em;
+  }
+}
+
+@media screen and (max-width:425px)
+{
+  .rulebook{
+    top:20%;
+    width:27.5vw;
+    right:-10%;
+  }
+  .logo img{
+    top: -20px;
+  }
+  .logo img {
+    width: 23rem;
+    height: 14rem;
+    top: 21px;
+  }
+}
+@media screen and (max-width:375px)
+{
+  .rulebook{
+    top:20%;
+    width:27.5vw;
+    right:-10%;
+  }
+  .logo img {
+    width: 18rem;
+    height: auto;
+    top: 21px;
+  }
+}
+
+@keyframes ripple {
+  0% {
+    box-shadow: 0 0 0 1rem rgba(0, 0, 0, 0.3), 
+    0 0 0 2rem rgba(0, 0, 0, 0.3), 
+    0 0 0 3rem rgba(0, 0, 0, 0.3), 
+    0 0 0 5rem rgba(0, 0, 0, 0.3);
+  }
+  100% {
+    box-shadow: 0 0 0 4rem rgba(0, 0, 0, 0.3),
+     0 0 0 6rem rgba(0, 0, 0, 0.3),
+     0 0 0 8rem rgba(0, 0, 0, 0.3), 
+     0 0 0 10rem rgba(0, 0, 0, 0);
+  }
+}
+
