@@ -17,6 +17,10 @@
   src: url(../fonts/register.ttf);
 }
 
+#sideNav.active{
+    visibility:hidden;
+}
+
 #eventsContent{
   position: absolute;
   font-size: 20px;
@@ -97,7 +101,18 @@
 }
 
 .sam-logo {
-  visibility: hidden;
+  visibility: visible;
+}
+
+.sam-logo img {
+  position: absolute;
+  width: 180px;
+  top: 3%;
+  left: 1%;
+  z-index: 900;
+  cursor: pointer;
+  border-radius: 50%;
+  visibility: visible;
 }
 
 #homepage {
