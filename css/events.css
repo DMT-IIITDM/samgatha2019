@@ -743,7 +743,7 @@ ul{
   border-color: #E65C9D;
   border-radius: 50px;
   color: #F38445;
-  font-family: sunset;
+  font-family: mynavnum;
   font-size: 30px;
 }
 
@@ -1035,9 +1035,9 @@ i {
   }
 
   .register {
-    font-size:20px; 
-    top: 88%;
-    left: 38%;
+    font-size: 16px;
+    top: 89%;
+    left: 33%;
   }
   .de1 img{
     width: 10rem;
@@ -1277,7 +1277,7 @@ i {
   }
 
   .font {
-    margin-top: 2rem;
+    margin-top: 3rem;
     font-size: 4rem;
   }
 
@@ -1296,8 +1296,9 @@ i {
   }
 
   .register {
-    top: 88%;
-    left: 37.5%;
+    top: 91%;
+    left: 36.5%;
+    font-size: 17px;
   }
 
   #eventsContent{
