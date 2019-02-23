@@ -51,9 +51,6 @@ body {
   text-decoration:none;
 }
 
-
-
-
 @media only screen and (orientation:landscape) and (max-width:600px)
 {
   .logo img{
