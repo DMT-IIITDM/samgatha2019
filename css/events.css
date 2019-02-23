@@ -126,7 +126,7 @@
   left: 1%;
   z-index: 900;
   cursor: pointer;
-  border-radius: 50%;
+  border-radius: 0%;
   visibility: visible;
 }
 
