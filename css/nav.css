@@ -97,20 +97,20 @@
     font-family:Market Deco;
   }
   img.insta{
-    width: 40px !important;
-    height: 40px !important;
+    width: 98px !important;
+    height: auto !important;
     padding: 5px;
     position: absolute !important;
-    bottom: -200px !important;
+    bottom: -242px !important;
     left: -20px !important;
   }
   img.fb{
-    width: 25px !important;
-    height: 40px !important;
+    width: 60px !important;
+    height: auto !important;
     padding: 5px;
     position: absolute !important;
-    bottom: -200px !important;
-    left: 25px !important;
+    bottom: -242px !important;
+    left: 105px !important;
   }
   img.twit{
     width: 50px !important;
