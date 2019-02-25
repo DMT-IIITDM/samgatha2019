@@ -80,7 +80,14 @@ body {
     right:-20%;
   }
 }
-
+@media only screen and (min-width:1025px){
+  .logo img {
+    width: 28rem;
+    height: auto;
+    position: relative;
+    top: 1rem;
+}
+}
 @media only screen and (max-width:1024px)
 {
   .rulebook{
@@ -102,12 +109,16 @@ body {
     width:28vw;
     right:-16%;
   }
+  .rulebook img{
+    width: 7vh;
+    height: auto;
+  }
   .logo img{
     top: -20px;
   }
   .logo img {
-    width: 23rem;
-    height: 14rem;
+    width: 20rem;
+    height: auto;
     top: 21px;
   }
 }
@@ -116,10 +127,21 @@ body {
   .rulebook{
     top:14%;
     width:25.5vw;
-    right:-12.5%;
+    right:-13.5%;
+  }
+  .rulebook img{
+    width: 7vh;
+    height: auto;
   }
   .logo img {
-    width: 18rem;
+    width: 15rem;
+    height: auto;
+    top: 21px;
+  }
+}
+@media screen and (max-width:320px){
+  .logo img {
+    width: 15rem;
     height: auto;
     top: 21px;
   }
