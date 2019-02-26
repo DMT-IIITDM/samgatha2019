@@ -195,6 +195,24 @@
         top: 18vw;
         left: -6rem;;
     }
+    
+    .c1 img {
+    height: 250px;
+    left: 25%;
+    margin-bottom: -110%;
+    }
+    
+    .c2 img {
+    height: 380px;
+    top: -30%;
+    left: -110%;
+    }
+    
+    .c3 img {
+    height: 270px;
+    margin-bottom: -20%;
+    left: -15%;
+    }
 }
 
 /* Ipad pro */
