@@ -233,6 +233,24 @@
         top: 21vw;
         left: -6rem;
     }
+    
+    .c1 img {
+    height: 330px;
+    left: 45%;
+    margin-bottom: -80%;
+    }
+    
+    .c2 img {
+    height: 660px;
+    top: -10%;
+    left: -40%;
+    }
+    
+    .c3 img {
+    height: 330px;
+    margin-bottom: -80%;
+    left: -15%;
+    }
 }
 @media (min-width: 1440px){
     .r1 img {
