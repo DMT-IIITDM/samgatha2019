@@ -99,11 +99,23 @@
 
 /* Use minimum height as 560 */
 @media (min-width: 320px) and (max-width: 424.98px) {
-    .c1 img {}
+    .c1 img {
+    height: 120px;
+    left: 15%;
+    margin-bottom: -90%;
+    }
 
-    .c2 img {}
+    .c2 img {
+    height: 160px;
+    top: -40%;
+    left: -20%;
+    }
 
-    .c3 img {}
+    .c3 img {
+      height: 130px;
+    margin-bottom: -20%;
+    left: 55%;
+    }
 
     .e1 img {}
 
