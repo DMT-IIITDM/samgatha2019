@@ -50,6 +50,20 @@
     top: 7vh;
 }
 
+.c1 img {}
+
+.c2 img {}
+
+.c3 img {}
+
+.e1 img {}
+
+.e2 img {}
+
+.r1 img {}
+
+.r2 img {}
+
 /* Use minimum height as 560 */
 @media (min-width: 320px) and (max-width: 424.98px) {
     .c1 img {}
