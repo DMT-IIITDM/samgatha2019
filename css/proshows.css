@@ -50,19 +50,52 @@
     top: 7vh;
 }
 
-.c1 img {}
+.c1 img {
+    height: 45%;
+    bottom: 2%;
+    left: 20%;
+    position: absolute;
+}
 
-.c2 img {}
+.c2 img {
+    height: 80%;
+    left: -8%;
+    position: inherit;
+    top: 10%;
+}
 
-.c3 img {}
+.c3 img {
+    height: 47%;
+    bottom: 2%;
+    left: 29%;
+    position: absolute;
+}
 
-.e1 img {}
+.e1 img {
+    height: 133%;
+    position: absolute;
+    left: 22%;
+}
 
-.e2 img {}
+.e2 img {
+    height: 90%;
+    position: inherit;
+    left: 20%;
+    top: 40%;
+}
 
-.r1 img {}
+.r1 img {
+    height: 75%;
+    position: inherit;
+    top: 25%;
+}
 
-.r2 img {}
+.r2 img {
+    position: inherit;
+    height: 40%;
+    top: 45%;
+    left: 20%;
+}
 
 /* Use minimum height as 560 */
 @media (min-width: 320px) and (max-width: 424.98px) {
