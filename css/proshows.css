@@ -1,0 +1,77 @@
+@font-face {
+    font-family: comedy;
+    src: url(../fonts/Gotham-UltraItalic.otf);
+}
+
+@font-face {
+    font-family: edm;
+    src: url(../fonts/nsteel.ttf);
+}
+
+@font-face {
+    font-family: rock;
+    src: url(../fonts/Toe\ the\ Lineless.ttf);
+}
+
+@font-face {
+    font-family: mynav;
+    src: url(../fonts/nav.ttf);
+}
+
+.heading {
+    position: absolute;
+}
+
+#comedy h2 {
+    font-family: comedy;
+    font-size: 8vw;
+    color: #1F1F20;
+}
+
+#comedy .heading {
+    top: 0;
+}
+
+#edm h2 {
+    font-family: edm;
+    font-size: 8vw;
+}
+
+#edm .heading {
+    top: 7vh;
+}
+
+#rock h2 {
+    font-family: rock;
+    font-size: 8vw;
+}
+
+#rock .heading {
+    top: 7vh;
+}
+
+/* Use minimum height as 560 */
+@media (min-width: 320px) and (max-width: 424.98px) {
+    .c1 img {}
+
+    .c2 img {}
+
+    .c3 img {}
+
+    .e1 img {}
+
+    .e2 img {}
+
+    .r1 img {}
+
+    .r2 img {}
+}
+
+/* Use minimum height as 730 */
+@media (min-width: 425px) and (max-width:575.98px) {}
+
+/* Ipad */
+@media (min-width: 768px) and (max-width: 991.98px) and (orientation:portrait) {}
+
+/* Ipad pro */
+@media (min-width: 992px) and (max-width: 1199.98px) {}
