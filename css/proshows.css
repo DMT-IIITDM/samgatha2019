@@ -109,16 +109,80 @@
 
     .e2 img {}
 
-    .r1 img {}
+    .r1 img {
+        position: absolute;
+        width: 75vw;
+        height: auto;
+        top: -47vw;
+        left: 2rem;
+    
+    }
 
-    .r2 img {}
+    .r2 img {
+        position: absolute;
+        width: 75vw;
+        height: auto;
+        top: 25vw;
+        left: 1rem;
+    }
 }
 
 /* Use minimum height as 730 */
-@media (min-width: 425px) and (max-width:575.98px) {}
+@media (min-width: 425px) and (max-width:575.98px) {
+    .r1 img {
+        position: absolute;
+        width: 75vw;
+        height: auto;
+        top: -47vw;
+        left: 2rem;
+    
+    }
+
+    .r2 img {
+        position: absolute;
+        width: 75vw;
+        height: auto;
+        top: 25vw;
+        left: 1rem;
+    }
+}
 
 /* Ipad */
-@media (min-width: 768px) and (max-width: 991.98px) and (orientation:portrait) {}
+@media (min-width: 768px) and (max-width: 991.98px) and (orientation:portrait) {
+    .r1 img {
+        position: absolute;
+        width: 67vw;
+        height: auto;
+        top: -39vw;
+        left: 0rem;
+    
+    }
+
+    .r2 img {
+        position: absolute;
+        width: 62vw;
+        height: auto;
+        top: 18vw;
+        left: -6rem;;
+    }
+}
 
 /* Ipad pro */
-@media (min-width: 992px) and (max-width: 1199.98px) {}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .r1 img {
+        position: absolute;
+        width: 60vw;
+        height: auto;
+        top: -39vw;
+        left: 9rem;
+    
+    }
+
+    .r2 img {
+        position: absolute;
+        width: 55vw;
+        height: auto;
+        top: 21vw;
+        left: -6rem;
+    }
+}
