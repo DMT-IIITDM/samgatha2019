@@ -157,6 +157,24 @@
         top: 25vw;
         left: 1rem;
     }
+    
+    .c1 img {
+    height: 160px;
+    left: 10%;
+    margin-bottom: -100%;
+    }
+    
+    .c2 img {
+    height: 230px;
+    top: -30%;
+    left: -20%;
+    }
+    
+    .c3 img {
+    height: 160px;
+    margin-bottom: -20%;
+    left: 55%;
+    }
 }
 
 /* Ipad */
