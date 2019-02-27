@@ -50,28 +50,220 @@
     top: 7vh;
 }
 
+.c1 img {
+    height: 45%;
+    bottom: 2%;
+    left: 20%;
+    position: absolute;
+}
+
+.c2 img {
+    height: 80%;
+    left: -8%;
+    position: inherit;
+    top: 10%;
+}
+
+.c3 img {
+    height: 47%;
+    bottom: 2%;
+    left: 29%;
+    position: absolute;
+}
+
+.e1 img {
+    height: 133%;
+    position: absolute;
+    left: 22%;
+}
+
+.e2 img {
+    height: 90%;
+    position: inherit;
+    left: 20%;
+    top: 40%;
+}
+
+.r1 img {
+    height: 75%;
+    position: inherit;
+    top: 25%;
+}
+
+.r2 img {
+    position: inherit;
+    height: 40%;
+    top: 45%;
+    left: 20%;
+}
+
 /* Use minimum height as 560 */
 @media (min-width: 320px) and (max-width: 424.98px) {
-    .c1 img {}
+    .c1 img {
+    height: 120px;
+    left: 15%;
+    margin-bottom: -90%;
+    }
 
-    .c2 img {}
+    .c2 img {
+    height: 160px;
+    top: -40%;
+    left: -20%;
+    }
 
-    .c3 img {}
+    .c3 img {
+      height: 130px;
+    margin-bottom: -20%;
+    left: 55%;
+    }
 
     .e1 img {}
 
     .e2 img {}
 
-    .r1 img {}
+    .r1 img {
+        position: absolute;
+        width: 75vw;
+        height: auto;
+        top: -47vw;
+        left: 2rem;
+    
+    }
 
-    .r2 img {}
+    .r2 img {
+        position: absolute;
+        width: 75vw;
+        height: auto;
+        top: 25vw;
+        left: 1rem;
+    }
 }
 
 /* Use minimum height as 730 */
-@media (min-width: 425px) and (max-width:575.98px) {}
+@media (min-width: 425px) and (max-width:575.98px) {
+    .r1 img {
+        position: absolute;
+        width: 75vw;
+        height: auto;
+        top: -47vw;
+        left: 2rem;
+    
+    }
+
+    .r2 img {
+        position: absolute;
+        width: 75vw;
+        height: auto;
+        top: 25vw;
+        left: 1rem;
+    }
+    
+    .c1 img {
+    height: 160px;
+    left: 10%;
+    margin-bottom: -100%;
+    }
+    
+    .c2 img {
+    height: 230px;
+    top: -30%;
+    left: -20%;
+    }
+    
+    .c3 img {
+    height: 160px;
+    margin-bottom: -20%;
+    left: 55%;
+    }
+}
 
 /* Ipad */
-@media (min-width: 768px) and (max-width: 991.98px) and (orientation:portrait) {}
+@media (min-width: 768px) and (max-width: 991.98px) and (orientation:portrait) {
+    .r1 img {
+        position: absolute;
+        width: 67vw;
+        height: auto;
+        top: -39vw;
+        left: 0rem;
+    
+    }
+
+    .r2 img {
+        position: absolute;
+        width: 62vw;
+        height: auto;
+        top: 18vw;
+        left: -6rem;;
+    }
+    
+    .c1 img {
+    height: 250px;
+    left: 25%;
+    margin-bottom: -110%;
+    }
+    
+    .c2 img {
+    height: 380px;
+    top: -30%;
+    left: -110%;
+    }
+    
+    .c3 img {
+    height: 270px;
+    margin-bottom: -20%;
+    left: -15%;
+    }
+}
 
 /* Ipad pro */
-@media (min-width: 992px) and (max-width: 1199.98px) {}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .r1 img {
+        position: absolute;
+        width: 60vw;
+        height: auto;
+        top: -39vw;
+        left: 9rem;
+    
+    }
+
+    .r2 img {
+        position: absolute;
+        width: 55vw;
+        height: auto;
+        top: 21vw;
+        left: -6rem;
+    }
+    
+    .c1 img {
+    height: 330px;
+    left: 45%;
+    margin-bottom: -80%;
+    }
+    
+    .c2 img {
+    height: 660px;
+    top: -10%;
+    left: -40%;
+    }
+    
+    .c3 img {
+    height: 330px;
+    margin-bottom: -80%;
+    left: -15%;
+    }
+}
+@media (min-width: 1440px){
+    .r1 img {
+        height: 66%;
+        position: inherit;
+        top: 29%;
+        left: 10%;
+    }
+    
+    .r2 img {
+        position: inherit;
+        height: 37%;
+        top: 45%;
+        left: 20%;
+    }
+}
