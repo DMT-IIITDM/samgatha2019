@@ -270,6 +270,20 @@
         </div>
     </div>
     <script>
+        var clickedModal = 0;
+        for (let i = 1; i <=7; i++) {
+            let toppy = document.getElementById('content'+String(i));
+            toppy.addEventListener("onwheel" in document ? "wheel" : "mousewheel", function (e) {
+                if (e.deltaY < 0) {
+                    toppy.scrollBy(0, -8);
+                }
+                if (e.deltaY > 0) {
+                    toppy.scrollBy(0, 8);
+                }
+            });
+        }
+    </script>
+    <script>
         let list = [
             ['comedy1', 1],
             ['edm1', 0],
