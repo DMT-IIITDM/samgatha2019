@@ -72,16 +72,17 @@
 }
 
 .e1 img {
-    height: 133%;
+    height: 120%;
     position: absolute;
     left: 22%;
+    top: 2.5vw;
 }
 
 .e2 img {
-    height: 90%;
+    height: 86%;
     position: inherit;
-    left: 20%;
-    top: 40%;
+    left: 16%;
+    top: 35%;
 }
 
 .r1 img {
