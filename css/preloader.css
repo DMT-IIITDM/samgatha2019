@@ -47,10 +47,14 @@
 
 }
 
-@media only screen and (min-width:1440px){
+@media only screen and (min-width:1439px){
     #preloader{
-        background-size:30rem 18.5rem;
-        background-position-y: 15.5rem;
+        position: relative;
+        background-size:30rem auto;
+        background-position-y: 17.8em;
+        /* width: 30rem;
+        height: auto;
+        top: 2em; */
     }
     #preloader img{
         left:42rem;
