@@ -72,28 +72,29 @@
 }
 
 .e1 img {
-    height: 120%;
+    height: 32vw;
     position: absolute;
-    left: 22%;
-    top: 2.5vw;
+    left: 26%;
+    top: 4.5vw;
 }
 
 .e2 img {
     height: 86%;
     position: inherit;
     left: 16%;
-    top: 35%;
+    top: 26%;
 }
 
 .r1 img {
-    height: 75%;
+    height: 35vw;
     position: inherit;
     top: 25%;
+    left: 8vw;
 }
 
 .r2 img {
     position: inherit;
-    height: 40%;
+    height: 20vw;
     top: 45%;
     left: 20%;
 }
