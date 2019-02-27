@@ -9,7 +9,10 @@
 }
 
 
-
+::-webkit-scrollbar {
+  width: 0px;  /* remove scrollbar space */
+  background: transparent;  /* optional: just make scrollbar invisible */
+}
 .rotate {
 
 /* Safari */
@@ -39,7 +42,19 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 #aboutContent p{
     font-size: 20px;
 }
+#comedy,#edm,#rock{
+  position: absolute;
+}
+#comedy{
+  background-color: #8AC9C8;
+}
+#edm{
+  background-color: #177E43;
+}
+#rock{
+  background-color: #EB232E;
 
+}
 .contact1
 {
 position: absolute;
@@ -180,7 +195,7 @@ color: #505050;
   position: absolute;
   font-size: 20px;
   font-family: cont;
-  bottom:2rem;
+  bottom: 7rem;
 }
 .needle{
   position:absolute;
@@ -469,10 +484,14 @@ body {
 #onepage .github:hover {
   background: rgba(0, 0, 0, 0.8);
 }
+.teaser{
+  margin-top: 10vw;
+}
 
 @media screen and (max-width:1440px) and (min-width:1370px) {
   #homepage {
     background-size: 120% auto;
+    animation-name: vinyl-medium;
   }
   .contact1 {
     position: absolute;
@@ -522,6 +541,9 @@ body {
   font-family: cont;
   color: #505050;
 }
+.teaser{
+  margin-top: 1vw;
+}
 }
 
 @media screen and (max-width:1024px)
@@ -570,6 +592,9 @@ body {
     left: 13%;
     font-size: 16px;
   }
+  .teaser{
+    margin-top: 4vw;
+  }
 }
 
 @media screen and (max-width:768px)
@@ -584,6 +609,9 @@ body {
   }
   .needle2 img {
     height: 460px;
+  }
+  .teaser{
+    margin-top: 8vw;
   }
 
 }
@@ -621,7 +649,7 @@ body {
   }
 
   #homepage {
-    background-size: 200% auto;
+    background-size: 215% auto;
     animation-name: vinyl-small;
     background-position: 50% 40%;
   }
@@ -634,7 +662,7 @@ body {
   .themepara{
     width: 85%;
     font-size: 14px;
-    bottom: 3rem;
+    bottom: 4rem;
   }
   .comingsoon{
     width: 100%;
@@ -684,6 +712,9 @@ body {
     font-size: 50px;
     top: 10%;
     left: 15%;
+  }
+  .teaser{
+    margin-top: 10vw;
   }
 }
 
@@ -745,6 +776,9 @@ body {
   }
   .contacthead{
       left: 10%;
+  }
+  .teaser{
+    margin-top: 10vw;
   }
 }
 
@@ -819,6 +853,15 @@ body {
   }
 
   100% {
+    background-size: 118% auto;
+  }
+}
+@keyframes vinyl-medium {
+  0% {
+    background-size: 10% auto;
+  }
+
+  100% {
     background-size: 120% auto;
   }
 }
@@ -829,7 +872,7 @@ body {
   }
 
   100% {
-    background-size: 200% auto;
+    background-size: 215% auto;
   }
 }
 

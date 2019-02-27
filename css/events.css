@@ -31,7 +31,8 @@
   position: absolute;
   width: 3rem;
   height: auto;
-  right: 6vw;
+  padding-top:0.5rem;
+  left: 15vw;
 }
 .inside-nav{
   height: 50vh;
@@ -115,6 +116,7 @@
 }
 
 .sam-logo {
+
   visibility: visible;
 }
 
@@ -123,9 +125,9 @@
   width: 180px;
   top: 3%;
   left: 1%;
-  z-index: 900;
+  z-index: 1035;
   cursor: pointer;
-  border-radius: 50%;
+  border-radius: 0%;
   visibility: visible;
 }
 
@@ -764,7 +766,7 @@ ul{
 }
 
 .register {
-  padding-top:9px;
+  padding: 5px 5px 5px 5px;
   position: absolute;
   top: 30px;
   left: 50px;
@@ -776,7 +778,7 @@ ul{
   font-size: 25px;
 }
 .register1 {
-  diplay:none;
+  display:none;
   padding-top:9px;
   position: absolute;
   top: 30px;
@@ -789,7 +791,7 @@ ul{
   font-size: 25px;
 }
 .register2 {
-  diplay:none;
+  display:none;
   padding-top:9px;
   position: absolute;
   top: 100px;
@@ -1101,14 +1103,14 @@ i {
     left: 33%;
   }
   .register1 {
-    font-size: 7px;
+    font-size: 9px;
     top: 89%;
-    left: 53%;
+    left: 56%;
   }
   .register2 {
-    font-size: 7px;
+    font-size: 9px;
     top: 89%;
-    left: 20%;
+    left: 35%;
   }
   .de1 img{
     width: 10rem;
@@ -2205,7 +2207,17 @@ i {
     left: -25%;
   }
 }
+/* Events homepage content Aligning for Desktop */
 
+@media (min-width:1200px){
+  #eventsContent{
+    position: absolute;
+    font-size: 20px;
+    font-family: cont;
+    bottom: 5rem;
+    width: 30%;
+  }
+}
 @media (min-width:1400px){
   #eventsContent{
     position: absolute;

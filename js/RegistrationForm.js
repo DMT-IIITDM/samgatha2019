@@ -130,7 +130,7 @@ class RegistrationForm extends Component {
                     <div className='login-form'>
                         <Grid textAlign='center' verticalAlign='bottom'>
                             <Grid.Column style={{ maxWidth: 450 }}>
-                                <Message visible error header='Oh no!' content='It appears that this email ID is already registered!' />
+                                <Message visible error header='Oh no!' content='It appears that this email ID is already registered! Or it might be a network error. Please try again.' />
                             </Grid.Column>
                         </Grid>
                     </div>
