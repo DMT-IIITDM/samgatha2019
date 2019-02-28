@@ -590,7 +590,7 @@ require.register("onepage/index.js", function (exports, require, module) {
             }
             else
             {
-                document.getElementById(String(j+1)).style.color="black";
+                document.getElementById(String(j+1)).style.color="#333333";
             }
         }
 
@@ -693,7 +693,7 @@ require.register("onepage/index.js", function (exports, require, module) {
             }
             else
             {
-                document.getElementById(String(j+1)).style.color="black";
+                document.getElementById(String(j+1)).style.color="#333333";
             }
         }
     };

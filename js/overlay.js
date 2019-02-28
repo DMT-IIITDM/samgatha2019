@@ -15,7 +15,7 @@ function menu() {
             }
             else
             {
-                document.getElementById(String(j+1)).style.color="black";
+                document.getElementById(String(j+1)).style.color="#333333";
             }
         }
     });
@@ -32,7 +32,7 @@ function menu() {
             }
             else
             {
-                document.getElementById(String(j+1)).style.color="black";
+                document.getElementById(String(j+1)).style.color="#333333";
             }
         }
         ham_check=0;

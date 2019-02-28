@@ -68,13 +68,13 @@ for(let i=1;i<=10;i++)
         }
         else
         {
-            document.getElementById(String(j+1)).style.color="black";
+            document.getElementById(String(j+1)).style.color="#333333";
         }
     }
     document.getElementById(String(i)).onclick=function(){
         for(let j=0;j<10;j++)
         {
-            document.getElementById(String(j+1)).style.color="black";
+            document.getElementById(String(j+1)).style.color="#333333";
             list5[j]=0;
         }
         onepage.move(i-1);
@@ -91,7 +91,7 @@ for(let i=1;i<=10;i++)
             }
             else
             {
-                document.getElementById(String(j+1)).style.color="black";
+                document.getElementById(String(j+1)).style.color="#333333";
             }
         }
     };
