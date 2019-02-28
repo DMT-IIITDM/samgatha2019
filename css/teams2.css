@@ -3,6 +3,10 @@
     width:100%;
 }
 
+.details{
+    height:60vh;
+}
+
 .container{
     padding-top:22rem;
 }
@@ -38,6 +42,9 @@
     .member{
         height:80%;
     }
+    .details{
+        height:100%;
+    }
 }
 
 @media (max-width: 375px){
@@ -64,6 +71,9 @@
     }
     .member{
         height:60%;
+    }
+    .details{
+        height:100%;
     }
 }
 
