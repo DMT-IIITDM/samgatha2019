@@ -82,15 +82,23 @@
     </nav>
 
     <!-- heading title -->
-    <!-- <script>
-        var x=window.width>500?"img/teams/TitleCards/Header.png":"img/teams/TitleCards/teammobile.png";
-    </script> -->
+    <script>
+        //console.log(Math.max(document.documentElement.clientWidth, window.innerWidth || 0));
+        var x="img/teams/TitleCards/teammobile.png";
+        if(Math.max(document.documentElement.clientWidth, window.innerWidth || 0) > 425)
+        {
+            x = "img/teams/TitleCards/Header.png"
+        }
+    </script>
     <div class="heading" style="position:absolute;top:0;z-index:0">
-        <img class="title" src="img/teams/TitleCards/Header.png">
+        <img class="title" id="title1">
     </div>
-    <!-- <script>
-    $('.title').attr("src",x);
-    </script> -->
+    <script>
+        var anchor = document.getElementById("title1"); 
+        var att = document.createAttribute("src");     
+        att.value = x;       
+        anchor.setAttributeNode(att); 
+    </script>
 
     <!-- container begin -->
 
