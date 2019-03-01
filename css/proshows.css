@@ -22,6 +22,21 @@
     position: absolute;
 }
 
+#workshops .heading {
+    position: absolute;
+    top:0;
+}
+
+#workshops .heading .font{
+    font-family:mynav;
+    font-size: 18vh;
+}
+
+#workshops{
+    background-image:url('../img/workshops/bg\ workshops.png');
+    background-size: 100% 100%;
+}
+
 #comedy h2 {
     font-family: comedy;
     font-size: 8vw;
