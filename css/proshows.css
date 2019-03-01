@@ -29,7 +29,7 @@
 
 #workshops .heading .font{
     font-family:mynav;
-    font-size: 18vh;
+    font-size: 15vw;
 }
 
 #workshops{
@@ -124,8 +124,8 @@
 
     .c2 img {
     height: 160px;
-    top: -40%;
-    left: -20%;
+    top: 12%;
+    left: 1%;
     }
 
     .c3 img {

@@ -18,11 +18,11 @@ body {
     background-color: #09111b;
 }
 
-#co1 {
+.c2 img {
   transition: transform 0.5s;
 }
 
-#co1:hover {
+.c2 img:hover {
   transform: scale(1.1);
 }
 .sponsor {
